@@ -1,0 +1,53 @@
+{
+  "cpanel_user": {
+    "cpanelUser": "cpanel_user",
+    "defaultMetric": "analog_stats",
+    "domains": {
+      "example.com": {
+        "awstats": true,
+        "webalizer": true,
+        "analog_stats": true
+      },
+      "audit-shared.com": {
+        "awstats": true,
+        "webalizer": true,
+        "analog_stats": true
+      },
+      "example.com.org": {
+        "awstats": true,
+        "webalizer": true,
+        "analog_stats": true
+      }
+    },
+    "accountMetrics": {
+      "webalizer_ftp": true
+    },
+    "version": 79,
+    "createdAt": "2026-09-16T22:50:50.463Z",
+    "updatedAt": "2026-09-16T22:50:50.467Z",
+    "updatedBy": "cpanel_user"
+  },
+  "other_tenant_user": {
+    "cpanelUser": "other_tenant_user",
+    "defaultMetric": "awstats",
+    "domains": {
+      "other_tenant_user.com": {
+        "awstats": true,
+        "webalizer": true,
+        "analog_stats": true
+      },
+      "other_tenant_user.com.org": {
+        "awstats": true,
+        "webalizer": true,
+        "analog_stats": true
+      }
+    },
+    "accountMetrics": {
+      "webalizer_ftp": true
+    },
+    "version": 1,
+    "createdAt": "2026-09-16T21:28:31.505Z",
+    "updatedAt": "2026-09-16T21:28:31.505Z",
+    "updatedBy": "other_tenant_user"
+  }
+}

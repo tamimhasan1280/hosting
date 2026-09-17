@@ -1,0 +1,1110 @@
+[
+  {
+    "id": "act_3bc7813a",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:46:06.402Z",
+    "createdAt": "2026-09-17T16:46:06.402Z"
+  },
+  {
+    "id": "act_355eac2c",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:46:24.664Z",
+    "createdAt": "2026-09-17T16:46:24.664Z"
+  },
+  {
+    "id": "act_1a86338c",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:46:57.388Z",
+    "createdAt": "2026-09-17T16:46:57.389Z"
+  },
+  {
+    "id": "act_14bc04b1",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:48:56.319Z",
+    "createdAt": "2026-09-17T16:48:56.320Z"
+  },
+  {
+    "id": "act_3a41e367",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:49:39.664Z",
+    "createdAt": "2026-09-17T16:49:39.665Z"
+  },
+  {
+    "id": "act_7563a965",
+    "userId": "use_28254bdb",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest"
+    },
+    "timestamp": "2026-09-17T16:53:50.953Z",
+    "createdAt": "2026-09-17T16:53:50.953Z"
+  },
+  {
+    "id": "act_8850665f",
+    "userId": "use_7947c209",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "sqli_1789664031234@example.com",
+      "cpanelUser": "sqli1789"
+    },
+    "timestamp": "2026-09-17T16:53:51.568Z",
+    "createdAt": "2026-09-17T16:53:51.568Z"
+  },
+  {
+    "id": "act_f89fed33",
+    "userId": "use_28254bdb",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest"
+    },
+    "timestamp": "2026-09-17T16:53:52.094Z",
+    "createdAt": "2026-09-17T16:53:52.094Z"
+  },
+  {
+    "id": "act_792f8407",
+    "userId": "use_28254bdb",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest"
+    },
+    "timestamp": "2026-09-17T16:53:52.358Z",
+    "createdAt": "2026-09-17T16:53:52.359Z"
+  },
+  {
+    "id": "act_8dc68208",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T16:53:55.708Z",
+    "createdAt": "2026-09-17T16:53:55.708Z"
+  },
+  {
+    "id": "act_9b18f42c",
+    "userId": "usr_tamim",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:54:00.093Z",
+    "createdAt": "2026-09-17T16:54:00.093Z"
+  },
+  {
+    "id": "act_f99ef22b",
+    "userId": "use_5a8822a8",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6"
+    },
+    "timestamp": "2026-09-17T16:54:00.429Z",
+    "createdAt": "2026-09-17T16:54:00.430Z"
+  },
+  {
+    "id": "act_24ea1ffc",
+    "userId": "use_5a8822a8",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6"
+    },
+    "timestamp": "2026-09-17T16:54:00.693Z",
+    "createdAt": "2026-09-17T16:54:00.694Z"
+  },
+  {
+    "id": "act_0811c60b",
+    "userId": "use_ef726c0f",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "userb_1789664040695@example.com",
+      "cpanelUser": "userb6"
+    },
+    "timestamp": "2026-09-17T16:54:01.031Z",
+    "createdAt": "2026-09-17T16:54:01.032Z"
+  },
+  {
+    "id": "act_c97dc5d5",
+    "userId": "use_ef726c0f",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "userb_1789664040695@example.com",
+      "cpanelUser": "userb6"
+    },
+    "timestamp": "2026-09-17T16:54:01.295Z",
+    "createdAt": "2026-09-17T16:54:01.295Z"
+  },
+  {
+    "id": "act_63cd3ad0",
+    "userId": "use_5a8822a8",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6"
+    },
+    "timestamp": "2026-09-17T16:54:03.023Z",
+    "createdAt": "2026-09-17T16:54:03.024Z"
+  },
+  {
+    "id": "act_1761868f",
+    "userId": "usr_tamim",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:54:53.067Z",
+    "createdAt": "2026-09-17T16:54:53.067Z"
+  },
+  {
+    "id": "act_f6e0f3ca",
+    "userId": "use_a1479bbd",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "client_reg_1789664098231@example.com",
+      "cpanelUser": "clientre"
+    },
+    "timestamp": "2026-09-17T16:54:58.610Z",
+    "createdAt": "2026-09-17T16:54:58.611Z"
+  },
+  {
+    "id": "act_f70ccd3d",
+    "userId": "use_a1479bbd",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "client_reg_1789664098231@example.com",
+      "cpanelUser": "clientre"
+    },
+    "timestamp": "2026-09-17T16:54:58.880Z",
+    "createdAt": "2026-09-17T16:54:58.880Z"
+  },
+  {
+    "id": "act_5ce50a40",
+    "userId": "use_e67fd230",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789664958001@example.com",
+      "cpanelUser": "alpha178"
+    },
+    "timestamp": "2026-09-17T17:09:18.363Z",
+    "createdAt": "2026-09-17T17:09:18.364Z"
+  },
+  {
+    "id": "act_3e8fa169",
+    "userId": "use_e67fd230",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789664958001@example.com",
+      "cpanelUser": "alpha178"
+    },
+    "timestamp": "2026-09-17T17:09:18.632Z",
+    "createdAt": "2026-09-17T17:09:18.633Z"
+  },
+  {
+    "id": "act_20626d15",
+    "userId": "use_0270558b",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789664958001@example.com",
+      "cpanelUser": "beta1789"
+    },
+    "timestamp": "2026-09-17T17:09:18.968Z",
+    "createdAt": "2026-09-17T17:09:18.969Z"
+  },
+  {
+    "id": "act_90712da9",
+    "userId": "use_0270558b",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789664958001@example.com",
+      "cpanelUser": "beta1789"
+    },
+    "timestamp": "2026-09-17T17:09:19.231Z",
+    "createdAt": "2026-09-17T17:09:19.232Z"
+  },
+  {
+    "id": "act_ef04e453",
+    "userId": "use_02ccd12c",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1"
+    },
+    "timestamp": "2026-09-17T17:09:27.486Z",
+    "createdAt": "2026-09-17T17:09:27.487Z"
+  },
+  {
+    "id": "act_d3537fff",
+    "userId": "use_c0c7498f",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "sqli_1789664967759@example.com",
+      "cpanelUser": "sqli11"
+    },
+    "timestamp": "2026-09-17T17:09:28.091Z",
+    "createdAt": "2026-09-17T17:09:28.091Z"
+  },
+  {
+    "id": "act_36ca55a2",
+    "userId": "use_02ccd12c",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1"
+    },
+    "timestamp": "2026-09-17T17:09:28.614Z",
+    "createdAt": "2026-09-17T17:09:28.615Z"
+  },
+  {
+    "id": "act_760c191d",
+    "userId": "use_02ccd12c",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1"
+    },
+    "timestamp": "2026-09-17T17:09:28.877Z",
+    "createdAt": "2026-09-17T17:09:28.878Z"
+  },
+  {
+    "id": "act_ddb4d461",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T17:09:33.100Z",
+    "createdAt": "2026-09-17T17:09:33.100Z"
+  },
+  {
+    "id": "act_5782d4f6",
+    "userId": "usr_tamim",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T17:09:37.312Z",
+    "createdAt": "2026-09-17T17:09:37.313Z"
+  },
+  {
+    "id": "act_a4d1f2f6",
+    "userId": "use_f305f3cf",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7"
+    },
+    "timestamp": "2026-09-17T17:09:37.650Z",
+    "createdAt": "2026-09-17T17:09:37.650Z"
+  },
+  {
+    "id": "act_207016ad",
+    "userId": "use_f305f3cf",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7"
+    },
+    "timestamp": "2026-09-17T17:09:37.912Z",
+    "createdAt": "2026-09-17T17:09:37.913Z"
+  },
+  {
+    "id": "act_3c2ee7dd",
+    "userId": "use_2da2e021",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "userb_1789664977914@example.com",
+      "cpanelUser": "userb7"
+    },
+    "timestamp": "2026-09-17T17:09:38.245Z",
+    "createdAt": "2026-09-17T17:09:38.245Z"
+  },
+  {
+    "id": "act_88f1533a",
+    "userId": "use_2da2e021",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "userb_1789664977914@example.com",
+      "cpanelUser": "userb7"
+    },
+    "timestamp": "2026-09-17T17:09:38.507Z",
+    "createdAt": "2026-09-17T17:09:38.507Z"
+  },
+  {
+    "id": "act_7ad0b492",
+    "userId": "use_f305f3cf",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7"
+    },
+    "timestamp": "2026-09-17T17:09:40.192Z",
+    "createdAt": "2026-09-17T17:09:40.193Z"
+  },
+  {
+    "id": "act_0bdfba5f",
+    "userId": "use_5dd47f86",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789665348512@example.com",
+      "cpanelUser": "alpha1"
+    },
+    "timestamp": "2026-09-17T17:15:48.863Z",
+    "createdAt": "2026-09-17T17:15:48.864Z"
+  },
+  {
+    "id": "act_d0aa0149",
+    "userId": "use_5dd47f86",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789665348512@example.com",
+      "cpanelUser": "alpha1"
+    },
+    "timestamp": "2026-09-17T17:15:49.128Z",
+    "createdAt": "2026-09-17T17:15:49.128Z"
+  },
+  {
+    "id": "act_957afb25",
+    "userId": "use_6599571a",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789665348512@example.com",
+      "cpanelUser": "beta11"
+    },
+    "timestamp": "2026-09-17T17:15:49.462Z",
+    "createdAt": "2026-09-17T17:15:49.462Z"
+  },
+  {
+    "id": "act_63773b15",
+    "userId": "use_6599571a",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789665348512@example.com",
+      "cpanelUser": "beta11"
+    },
+    "timestamp": "2026-09-17T17:15:49.723Z",
+    "createdAt": "2026-09-17T17:15:49.724Z"
+  },
+  {
+    "id": "act_861eff3b",
+    "userId": "use_c578e0c7",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2"
+    },
+    "timestamp": "2026-09-17T17:15:57.402Z",
+    "createdAt": "2026-09-17T17:15:57.402Z"
+  },
+  {
+    "id": "act_694d36f0",
+    "userId": "use_844abfc1",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "sqli_1789665357678@example.com",
+      "cpanelUser": "sqli12"
+    },
+    "timestamp": "2026-09-17T17:15:58.005Z",
+    "createdAt": "2026-09-17T17:15:58.005Z"
+  },
+  {
+    "id": "act_c1705249",
+    "userId": "use_c578e0c7",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2"
+    },
+    "timestamp": "2026-09-17T17:15:58.525Z",
+    "createdAt": "2026-09-17T17:15:58.526Z"
+  },
+  {
+    "id": "act_8f4aed51",
+    "userId": "use_c578e0c7",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2"
+    },
+    "timestamp": "2026-09-17T17:15:58.787Z",
+    "createdAt": "2026-09-17T17:15:58.787Z"
+  },
+  {
+    "id": "act_968e1433",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T17:16:03.013Z",
+    "createdAt": "2026-09-17T17:16:03.013Z"
+  },
+  {
+    "id": "act_303f8743",
+    "userId": "use_2a11e401",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_078244@example.com",
+      "cpanelUser": "user0782"
+    },
+    "timestamp": "2026-09-17T17:27:58.594Z",
+    "createdAt": "2026-09-17T17:27:58.595Z"
+  },
+  {
+    "id": "act_ec41b359",
+    "userId": "use_e1b1793c",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789666103759@example.com",
+      "cpanelUser": "user1789"
+    },
+    "timestamp": "2026-09-17T17:28:24.108Z",
+    "createdAt": "2026-09-17T17:28:24.109Z"
+  },
+  {
+    "id": "act_bb078c36",
+    "userId": "use_e1b1793c",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789666103759@example.com",
+      "cpanelUser": "user1789"
+    },
+    "timestamp": "2026-09-17T17:28:24.393Z",
+    "createdAt": "2026-09-17T17:28:24.394Z"
+  },
+  {
+    "id": "act_90dcee77",
+    "userId": "use_a9ca0017",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789666212834@example.com",
+      "cpanelUser": "user11"
+    },
+    "timestamp": "2026-09-17T17:30:13.181Z",
+    "createdAt": "2026-09-17T17:30:13.181Z"
+  },
+  {
+    "id": "act_cd4f9b96",
+    "userId": "use_a9ca0017",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789666212834@example.com",
+      "cpanelUser": "user11"
+    },
+    "timestamp": "2026-09-17T17:30:13.449Z",
+    "createdAt": "2026-09-17T17:30:13.449Z"
+  },
+  {
+    "id": "act_cac8336d",
+    "userId": "use_0375ea95",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789666263023@example.com",
+      "cpanelUser": "user12"
+    },
+    "timestamp": "2026-09-17T17:31:03.364Z",
+    "createdAt": "2026-09-17T17:31:03.364Z"
+  },
+  {
+    "id": "act_f6eb39df",
+    "userId": "use_0375ea95",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789666263023@example.com",
+      "cpanelUser": "user12"
+    },
+    "timestamp": "2026-09-17T17:31:03.631Z",
+    "createdAt": "2026-09-17T17:31:03.631Z"
+  },
+  {
+    "id": "act_51da7b71",
+    "userId": "use_2d7ea208",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789666332293@example.com",
+      "cpanelUser": "user13"
+    },
+    "timestamp": "2026-09-17T17:32:12.643Z",
+    "createdAt": "2026-09-17T17:32:12.644Z"
+  },
+  {
+    "id": "act_d17316cc",
+    "userId": "use_2d7ea208",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789666332293@example.com",
+      "cpanelUser": "user13"
+    },
+    "timestamp": "2026-09-17T17:32:12.927Z",
+    "createdAt": "2026-09-17T17:32:12.928Z"
+  },
+  {
+    "id": "act_8eaeffc2",
+    "userId": "use_75b88424",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789666343732@example.com",
+      "cpanelUser": "alpha2"
+    },
+    "timestamp": "2026-09-17T17:32:24.077Z",
+    "createdAt": "2026-09-17T17:32:24.078Z"
+  },
+  {
+    "id": "act_bb3d1bf6",
+    "userId": "use_75b88424",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789666343732@example.com",
+      "cpanelUser": "alpha2"
+    },
+    "timestamp": "2026-09-17T17:32:24.376Z",
+    "createdAt": "2026-09-17T17:32:24.376Z"
+  },
+  {
+    "id": "act_d153bcd9",
+    "userId": "use_1d7eaf8a",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789666343732@example.com",
+      "cpanelUser": "beta12"
+    },
+    "timestamp": "2026-09-17T17:32:24.729Z",
+    "createdAt": "2026-09-17T17:32:24.730Z"
+  },
+  {
+    "id": "act_7addfd16",
+    "userId": "use_1d7eaf8a",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789666343732@example.com",
+      "cpanelUser": "beta12"
+    },
+    "timestamp": "2026-09-17T17:32:25.038Z",
+    "createdAt": "2026-09-17T17:32:25.039Z"
+  },
+  {
+    "id": "act_d7bc1906",
+    "userId": "use_356a69a3",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3"
+    },
+    "timestamp": "2026-09-17T17:32:32.893Z",
+    "createdAt": "2026-09-17T17:32:32.894Z"
+  },
+  {
+    "id": "act_4610a79d",
+    "userId": "use_5ae82d91",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "sqli_1789666353164@example.com",
+      "cpanelUser": "sqli13"
+    },
+    "timestamp": "2026-09-17T17:32:33.509Z",
+    "createdAt": "2026-09-17T17:32:33.509Z"
+  },
+  {
+    "id": "act_34a6284c",
+    "userId": "use_356a69a3",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3"
+    },
+    "timestamp": "2026-09-17T17:32:34.054Z",
+    "createdAt": "2026-09-17T17:32:34.054Z"
+  },
+  {
+    "id": "act_e2268980",
+    "userId": "use_356a69a3",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3"
+    },
+    "timestamp": "2026-09-17T17:32:34.331Z",
+    "createdAt": "2026-09-17T17:32:34.331Z"
+  },
+  {
+    "id": "act_863fdeed",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T17:32:36.910Z",
+    "createdAt": "2026-09-17T17:32:36.912Z"
+  },
+  {
+    "id": "act_9f1ebf3d",
+    "userId": "use_0e449f1b",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669069100@example.com",
+      "cpanelUser": "tenant17"
+    },
+    "timestamp": "2026-09-17T18:17:49.475Z",
+    "createdAt": "2026-09-17T18:17:49.475Z"
+  },
+  {
+    "id": "act_68356455",
+    "userId": "use_0e449f1b",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669069100@example.com",
+      "cpanelUser": "tenant17"
+    },
+    "timestamp": "2026-09-17T18:17:49.751Z",
+    "createdAt": "2026-09-17T18:17:49.752Z"
+  },
+  {
+    "id": "act_3a0d9ceb",
+    "userId": "use_253f59d0",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669091319@example.com",
+      "cpanelUser": "tenan1"
+    },
+    "timestamp": "2026-09-17T18:18:11.680Z",
+    "createdAt": "2026-09-17T18:18:11.680Z"
+  },
+  {
+    "id": "act_d88f4c2d",
+    "userId": "use_253f59d0",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669091319@example.com",
+      "cpanelUser": "tenan1"
+    },
+    "timestamp": "2026-09-17T18:18:11.958Z",
+    "createdAt": "2026-09-17T18:18:11.959Z"
+  },
+  {
+    "id": "act_81f26357",
+    "userId": "use_3279bec9",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789669097573@example.com",
+      "cpanelUser": "user14"
+    },
+    "timestamp": "2026-09-17T18:18:17.923Z",
+    "createdAt": "2026-09-17T18:18:17.923Z"
+  },
+  {
+    "id": "act_734e2fe6",
+    "userId": "use_3279bec9",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789669097573@example.com",
+      "cpanelUser": "user14"
+    },
+    "timestamp": "2026-09-17T18:18:18.204Z",
+    "createdAt": "2026-09-17T18:18:18.204Z"
+  },
+  {
+    "id": "act_1a59a67e",
+    "userId": "use_9fc11034",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789669107539@example.com",
+      "cpanelUser": "alpha3"
+    },
+    "timestamp": "2026-09-17T18:18:27.900Z",
+    "createdAt": "2026-09-17T18:18:27.901Z"
+  },
+  {
+    "id": "act_efe7fc6f",
+    "userId": "use_9fc11034",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "alpha_1789669107539@example.com",
+      "cpanelUser": "alpha3"
+    },
+    "timestamp": "2026-09-17T18:18:28.180Z",
+    "createdAt": "2026-09-17T18:18:28.181Z"
+  },
+  {
+    "id": "act_dcefe5ea",
+    "userId": "use_361f8c18",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789669107539@example.com",
+      "cpanelUser": "beta13"
+    },
+    "timestamp": "2026-09-17T18:18:28.536Z",
+    "createdAt": "2026-09-17T18:18:28.537Z"
+  },
+  {
+    "id": "act_c1b5a6fd",
+    "userId": "use_361f8c18",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "beta_1789669107539@example.com",
+      "cpanelUser": "beta13"
+    },
+    "timestamp": "2026-09-17T18:18:28.810Z",
+    "createdAt": "2026-09-17T18:18:28.810Z"
+  },
+  {
+    "id": "act_87d04aff",
+    "userId": "use_3f31cdbd",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4"
+    },
+    "timestamp": "2026-09-17T18:18:37.909Z",
+    "createdAt": "2026-09-17T18:18:37.909Z"
+  },
+  {
+    "id": "act_a7e19d60",
+    "userId": "use_4d9cc2e4",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "sqli_1789669118190@example.com",
+      "cpanelUser": "sqli14"
+    },
+    "timestamp": "2026-09-17T18:18:38.526Z",
+    "createdAt": "2026-09-17T18:18:38.526Z"
+  },
+  {
+    "id": "act_bb95b46c",
+    "userId": "use_3f31cdbd",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4"
+    },
+    "timestamp": "2026-09-17T18:18:39.054Z",
+    "createdAt": "2026-09-17T18:18:39.054Z"
+  },
+  {
+    "id": "act_c703760e",
+    "userId": "use_3f31cdbd",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4"
+    },
+    "timestamp": "2026-09-17T18:18:39.319Z",
+    "createdAt": "2026-09-17T18:18:39.320Z"
+  },
+  {
+    "id": "act_5919a033",
+    "userId": "usr_test_ph2",
+    "type": "info",
+    "action": "USER_LOGIN",
+    "ipAddress": "127.0.0.1",
+    "metadata": {
+      "browser": "Chrome"
+    },
+    "timestamp": "2026-09-17T18:18:42.419Z",
+    "createdAt": "2026-09-17T18:18:42.420Z"
+  },
+  {
+    "id": "act_02720189",
+    "userId": "use_dc73c27c",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669784034@example.com",
+      "cpanelUser": "tenan2"
+    },
+    "timestamp": "2026-09-17T18:29:44.381Z",
+    "createdAt": "2026-09-17T18:29:44.382Z"
+  },
+  {
+    "id": "act_b4208d1c",
+    "userId": "use_dc73c27c",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789669784034@example.com",
+      "cpanelUser": "tenan2"
+    },
+    "timestamp": "2026-09-17T18:29:44.649Z",
+    "createdAt": "2026-09-17T18:29:44.650Z"
+  },
+  {
+    "id": "act_23b41695",
+    "userId": "use_14564ddf",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789669787207@example.com",
+      "cpanelUser": "user15"
+    },
+    "timestamp": "2026-09-17T18:29:47.540Z",
+    "createdAt": "2026-09-17T18:29:47.540Z"
+  },
+  {
+    "id": "act_cb6049fc",
+    "userId": "use_14564ddf",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789669787207@example.com",
+      "cpanelUser": "user15"
+    },
+    "timestamp": "2026-09-17T18:29:47.807Z",
+    "createdAt": "2026-09-17T18:29:47.808Z"
+  },
+  {
+    "id": "act_7b3c70d3",
+    "userId": "use_a2f709be",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789670063571@example.com",
+      "cpanelUser": "user16"
+    },
+    "timestamp": "2026-09-17T18:34:23.908Z",
+    "createdAt": "2026-09-17T18:34:23.909Z"
+  },
+  {
+    "id": "act_6ffe0112",
+    "userId": "use_a2f709be",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789670063571@example.com",
+      "cpanelUser": "user16"
+    },
+    "timestamp": "2026-09-17T18:34:24.184Z",
+    "createdAt": "2026-09-17T18:34:24.185Z"
+  },
+  {
+    "id": "act_96483c5a",
+    "userId": "use_abf46e6c",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789670608666@example.com",
+      "cpanelUser": "tenan3"
+    },
+    "timestamp": "2026-09-17T18:43:29.025Z",
+    "createdAt": "2026-09-17T18:43:29.026Z"
+  },
+  {
+    "id": "act_8650fd3d",
+    "userId": "use_abf46e6c",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "metadata": {
+      "email": "tenant_1789670608666@example.com",
+      "cpanelUser": "tenan3"
+    },
+    "timestamp": "2026-09-17T18:43:29.325Z",
+    "createdAt": "2026-09-17T18:43:29.326Z"
+  },
+  {
+    "id": "act_a74af6cc",
+    "userId": "use_2e5b0ce9",
+    "type": "auth",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "metadata": {
+      "email": "user_1789670615105@example.com",
+      "cpanelUser": "user17"
+    },
+    "timestamp": "2026-09-17T18:43:35.453Z",
+    "createdAt": "2026-09-17T18:43:35.454Z"
+  },
+  {
+    "id": "act_e4072555",
+    "userId": "use_2e5b0ce9",
+    "type": "auth",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "metadata": {
+      "email": "user_1789670615105@example.com",
+      "cpanelUser": "user17"
+    },
+    "timestamp": "2026-09-17T18:43:35.731Z",
+    "createdAt": "2026-09-17T18:43:35.731Z"
+  }
+]

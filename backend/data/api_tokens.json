@@ -1,0 +1,314 @@
+{
+  "tokens": [
+    {
+      "id": "tok_1789596943321_adde180d",
+      "user": "cpanel_user",
+      "name": "Test Deployment Token",
+      "prefix": "cpt_01acd4••••••••",
+      "hash": "49d165336ecdb3438c792636d2d555b7e16d745e568dbaebc1b7c4431b442216",
+      "scopes": [
+        "file_manager:write",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:15:43.321Z",
+      "expiresAt": "2026-10-16T22:15:43.320Z",
+      "lastUsedAt": "2026-09-16T22:15:43.326Z",
+      "revokedAt": "2026-09-16T22:15:43.328Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789596971869_edaca199",
+      "user": "cpanel_user",
+      "name": "Live Endpoint Test",
+      "prefix": "cpt_a81bb7••••••••",
+      "hash": "ea2791f06d22b48d93a7d231bcadf0013c007af55db2b198481e7a503599106e",
+      "scopes": [
+        "file_manager:read"
+      ],
+      "createdAt": "2026-09-16T22:16:11.869Z",
+      "expiresAt": null,
+      "lastUsedAt": "2026-09-16T22:16:11.880Z",
+      "revokedAt": "2026-09-16T22:16:11.889Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597041455_5770e3a1",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_b431fa••••••••",
+      "hash": "21cfcf55632cccd1967c8b34e498b190c797989cce729ad8be1f306b8049986b",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:17:21.455Z",
+      "expiresAt": "2026-10-16T22:17:21.455Z",
+      "lastUsedAt": "2026-09-16T22:17:21.491Z",
+      "revokedAt": "2026-09-16T22:17:21.523Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597041570_a548b0f7",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_9ee9d0••••••••",
+      "hash": "2dcab801d537bba62a44040c697b0a07787c0c30f15f5085365a25bdd80293ab",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:17:21.570Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789597071453_e52cb7e3",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_098cfe••••••••",
+      "hash": "24e1bd39de2674bb38c03aeca321766f5842a27dd0058c5ceabbb2696ff9b746",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:17:51.453Z",
+      "expiresAt": "2026-10-16T22:17:51.453Z",
+      "lastUsedAt": "2026-09-16T22:17:51.477Z",
+      "revokedAt": "2026-09-16T22:17:51.525Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597071572_e0a8bc6e",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_e17ee1••••••••",
+      "hash": "fb429e9ee4533cbb419ab68788146a9beb9a059554dcb9e4a27c9fd3910f517f",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:17:51.572Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789597879852_39f271f3",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_daa80c••••••••",
+      "hash": "d590395641d9c1e14926ce3fe831fc290ca052a4132d4cb22e319bdd32999bc5",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:31:19.852Z",
+      "expiresAt": "2026-10-16T22:31:19.852Z",
+      "lastUsedAt": "2026-09-16T22:31:19.879Z",
+      "revokedAt": "2026-09-16T22:31:19.928Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597879975_68f1adc3",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_878348••••••••",
+      "hash": "6f851d55c51835c5218ad7781350912ab2e056fcf58fa8be6a88647081633e2e",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:31:19.975Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789597921485_443f6a18",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_ccfbd3••••••••",
+      "hash": "930795588e7be9be6721f1a43de529751ddf68707d332c17147dbcefaa976d27",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:32:01.485Z",
+      "expiresAt": "2026-10-16T22:32:01.484Z",
+      "lastUsedAt": "2026-09-16T22:32:01.500Z",
+      "revokedAt": "2026-09-16T22:32:01.534Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597921578_fd2c0d46",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_42ef2f••••••••",
+      "hash": "8165ce6323fc05e11dbb00d5b432c6b8ac71a00b0197f2c86b56ca0e949a4254",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:32:01.578Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789597966316_372743cc",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_255431••••••••",
+      "hash": "fc2133babec0cb2d95e3e03d5efb1d9b864436b117762c0b7220783434b88708",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:32:46.316Z",
+      "expiresAt": "2026-10-16T22:32:46.316Z",
+      "lastUsedAt": "2026-09-16T22:32:46.351Z",
+      "revokedAt": "2026-09-16T22:32:46.369Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789597966415_50b693fd",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_e0021b••••••••",
+      "hash": "27eb2a04a86398e381b6d4c299dfa861201b2e700f60bf088989110dad0a87f1",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:32:46.415Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789598384935_100fb697",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_a4ae57••••••••",
+      "hash": "6ca4e59b9387eb6385a2c25342ebf393d08bf32d0ac911465697b1444cbcf1a4",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:39:44.935Z",
+      "expiresAt": "2026-10-16T22:39:44.935Z",
+      "lastUsedAt": "2026-09-16T22:39:44.971Z",
+      "revokedAt": "2026-09-16T22:39:44.990Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789598385035_fb98d4ff",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_398061••••••••",
+      "hash": "4c10eeae1b94bc1f44cd54e82c02d15a9021403e4501a026739bc3e27acdfb77",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:39:45.035Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789598416318_c13d2081",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_245b80••••••••",
+      "hash": "5e8d82d23b700410444d5da814e933d6cd8247a1e79f5503cc90769ed5e14d59",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:40:16.318Z",
+      "expiresAt": "2026-10-16T22:40:16.318Z",
+      "lastUsedAt": "2026-09-16T22:40:16.345Z",
+      "revokedAt": "2026-09-16T22:40:16.365Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789598416391_e320246f",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_1c4996••••••••",
+      "hash": "2b87b2c42be83b5fc6477d669fec5e947b70060893afd8e9cf0f8bd1ed883024",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:40:16.391Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789598474476_0a7c42b9",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_aaf5d6••••••••",
+      "hash": "0949a79dbb1a4b289f5ee8752f02e8628a09ce92e11c5d1a5aa43500bb5fd524",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:41:14.476Z",
+      "expiresAt": "2026-10-16T22:41:14.476Z",
+      "lastUsedAt": "2026-09-16T22:41:14.505Z",
+      "revokedAt": "2026-09-16T22:41:14.553Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789598474600_cfa9dfc5",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_792799••••••••",
+      "hash": "b0214b66f1b35c172f639eb9420ba192d5f31fdb20169e57c2bee334a68d9831",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:41:14.600Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    },
+    {
+      "id": "tok_1789599056805_6e38ea72",
+      "user": "cpanel_user",
+      "name": "Audit Automation Token",
+      "prefix": "cpt_1f1e58••••••••",
+      "hash": "3968c30f010300037c8e8e3c26fec54615882afd8c7ad13afe0b0e6d5ffd35be",
+      "scopes": [
+        "file_manager:read",
+        "domains:manage"
+      ],
+      "createdAt": "2026-09-16T22:50:56.805Z",
+      "expiresAt": "2026-10-16T22:50:56.805Z",
+      "lastUsedAt": "2026-09-16T22:50:56.839Z",
+      "revokedAt": "2026-09-16T22:50:56.855Z",
+      "status": "Revoked"
+    },
+    {
+      "id": "tok_1789599056900_a08da02d",
+      "user": "user_b",
+      "name": "User B Private Token",
+      "prefix": "cpt_bbeb19••••••••",
+      "hash": "7fd10f7d0df18458c7752f8caa883ba745d320ae250dbc7446e2b7d8d951c724",
+      "scopes": [
+        "full_access"
+      ],
+      "createdAt": "2026-09-16T22:50:56.900Z",
+      "expiresAt": null,
+      "lastUsedAt": null,
+      "revokedAt": null,
+      "status": "Active"
+    }
+  ]
+}

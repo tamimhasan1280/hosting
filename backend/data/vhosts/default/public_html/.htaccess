@@ -1,0 +1,9 @@
+# BEGIN MANAGED REDIRECTS
+RewriteEngine On
+# END MANAGED REDIRECTS
+
+# BEGIN CPANEL MODSECURITY
+<IfModule mod_security2.c>
+  SecRuleEngine On
+</IfModule>
+# END CPANEL MODSECURITY

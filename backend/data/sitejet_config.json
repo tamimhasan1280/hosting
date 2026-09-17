@@ -1,0 +1,48 @@
+{
+  "enabled": true,
+  "partnerId": "cpanel-partner-standard",
+  "partnerName": "cPanel Sitejet Integration",
+  "apiUrl": "https://partner.sitejet.io/api/v1",
+  "ssoUrl": "https://partner.sitejet.io/sso",
+  "mode": "AVAILABLE",
+  "supportedFeatures": [
+    "visual_editor",
+    "responsive_design",
+    "one_click_publish",
+    "template_browser",
+    "ssl_sync",
+    "domain_linking"
+  ],
+  "templates": [
+    {
+      "id": "business_pro",
+      "name": "Business Pro",
+      "category": "Corporate",
+      "description": "Clean modern corporate template with lead capture and services showcase."
+    },
+    {
+      "id": "restaurant_bistro",
+      "name": "Artisan Bistro",
+      "category": "Food & Dining",
+      "description": "Interactive menu, reservation booking widget, and visual gallery."
+    },
+    {
+      "id": "portfolio_creative",
+      "name": "Creative Studio",
+      "category": "Portfolio",
+      "description": "Minimalist designer and agency portfolio with project grids."
+    },
+    {
+      "id": "ecommerce_store",
+      "name": "Modern Storefront",
+      "category": "E-Commerce",
+      "description": "Product grid, shopping cart flow, and conversion-optimized banners."
+    },
+    {
+      "id": "blank_canvas",
+      "name": "Blank Canvas",
+      "category": "Custom",
+      "description": "Start completely from scratch with pure drag-and-drop elements."
+    }
+  ]
+}

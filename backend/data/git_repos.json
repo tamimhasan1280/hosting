@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "my-portfolio",
+    "repoUrl": "https://github.com/example/my-portfolio.git",
+    "relPath": "public_html/portfolio",
+    "branch": "main",
+    "lastCommit": "7fa32e1 Add responsive navigation",
+    "lastUpdated": "2026-09-16T03:56:45.766Z"
+  }
+]

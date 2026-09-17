@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pkg_5gb",
+    "name": "Starter Cloud (5 GB)",
+    "diskSpaceGb": 5,
+    "diskLimitMb": 5120,
+    "bandwidthGb": 50,
+    "bandwidthLimitMb": 51200,
+    "monthlyPrice": 2.99,
+    "yearlyPrice": 29.99,
+    "domainLimit": 1,
+    "databaseLimit": 2,
+    "emailLimit": 5,
+    "ftpLimit": 2,
+    "cronLimit": 5,
+    "features": [
+      "5 GB NVMe SSD",
+      "50 GB Bandwidth",
+      "1 Website Domain",
+      "Free SSL / TLS",
+      "cPanel Access",
+      "24/7 Support"
+    ],
+    "status": "active",
+    "createdAt": "2026-09-17T02:28:37.068Z"
+  },
+  {
+    "id": "pkg_10gb",
+    "name": "Pro Cloud (10 GB)",
+    "diskSpaceGb": 10,
+    "diskLimitMb": 10240,
+    "bandwidthGb": 100,
+    "bandwidthLimitMb": 102400,
+    "monthlyPrice": 5.99,
+    "yearlyPrice": 59.99,
+    "domainLimit": 3,
+    "databaseLimit": 10,
+    "emailLimit": 25,
+    "ftpLimit": 10,
+    "cronLimit": 20,
+    "features": [
+      "10 GB NVMe SSD",
+      "100 GB Bandwidth",
+      "3 Websites / Addon Domains",
+      "Free SSL / TLS",
+      "Full cPanel Control",
+      "Daily Automated Backups"
+    ],
+    "status": "active",
+    "createdAt": "2026-09-17T02:28:37.068Z"
+  },
+  {
+    "id": "pkg_15gb",
+    "name": "Business Cloud (15 GB)",
+    "diskSpaceGb": 15,
+    "diskLimitMb": 15360,
+    "bandwidthGb": 200,
+    "bandwidthLimitMb": 204800,
+    "monthlyPrice": 8.99,
+    "yearlyPrice": 89.99,
+    "domainLimit": 10,
+    "databaseLimit": 50,
+    "emailLimit": 100,
+    "ftpLimit": 25,
+    "cronLimit": 50,
+    "features": [
+      "15 GB NVMe SSD",
+      "200 GB Bandwidth",
+      "10 Addon Domains",
+      "Free SSL & Dedicated IP Support",
+      "LiteSpeed Accelerated",
+      "Priority Support"
+    ],
+    "status": "active",
+    "createdAt": "2026-09-17T02:28:37.068Z"
+  },
+  {
+    "id": "pkg_20gb",
+    "name": "Enterprise Cloud (20 GB)",
+    "diskSpaceGb": 20,
+    "diskLimitMb": 20480,
+    "bandwidthGb": 500,
+    "bandwidthLimitMb": 512000,
+    "monthlyPrice": 11.99,
+    "yearlyPrice": 119.99,
+    "domainLimit": 25,
+    "databaseLimit": 100,
+    "emailLimit": 500,
+    "ftpLimit": 50,
+    "cronLimit": 100,
+    "features": [
+      "20 GB NVMe SSD",
+      "500 GB Bandwidth",
+      "Unlimited Domains Support",
+      "Wildcard SSL Included",
+      "Real-time Malware Protection",
+      "Dedicated Account Manager"
+    ],
+    "status": "active",
+    "createdAt": "2026-09-17T02:28:37.068Z"
+  }
+]

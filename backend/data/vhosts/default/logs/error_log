@@ -1,0 +1,123 @@
+[Wed Sep 16 16:28:37.000000 2026] [core:notice] [pid 1024] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Sep 16 16:28:37.000000 2026] [mpm_event:notice] [pid 1024] AH00489: Apache/2.4.58 (cPanel Pro) OpenSSL/3.0.2 configured -- resuming normal operations
+[Wed Sep 16 17:58:37.000000 2026] [autoindex:warn] [pid 1025] [client 192.0.2.14:51234] mod_autoindex disabled for public_html root, referer: -
+[Wed Sep 16 19:16:37.000000 2026] [core:error] [pid 1026] [client 192.0.2.18:49812] File does not exist: /home/cpanel_user/public_html/favicon.ico, referer: https://example.com/
+[Wed Sep 16 19:43:37.000000 2026] [authz_core:error] [pid 1026] [client 198.51.100.22:50411] AH01630: client denied by server configuration: /home/cpanel_user/public_html/.env, referer: -
+[Wed Sep 16 20:13:37.000000 2026] [php:error] [pid 1027] [client 203.0.113.88:38192] PHP Warning: session_start(): Failed to read session data: files in /home/cpanel_user/public_html/index.php on line 8, referer: https://example.com/login
+[Wed Sep 16 20:28:44.123456 2026] [core:error] [pid 11868] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/nonexistent-file-404-test.html, referer: -
+[Wed Sep 16 20:30:59.123456 2026] [core:error] [pid 11868] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789590659845.html, referer: -
+[Wed Sep 16 20:31:00.123456 2026] [authz_core:error] [pid 11868] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 20:31:39.123456 2026] [core:error] [pid 11868] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789590699047.html, referer: -
+[Wed Sep 16 20:31:39.123456 2026] [authz_core:error] [pid 11868] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 20:32:06.123456 2026] [core:error] [pid 11868] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4k429c, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 20:39:50.123456 2026] [core:error] [pid 17392] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789591190571.html, referer: -
+[Wed Sep 16 20:39:50.123456 2026] [authz_core:error] [pid 17392] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 20:39:55.123456 2026] [core:error] [pid 17392] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4ke3si, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 20:50:51.123456 2026] [core:error] [pid 10300] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789591851447.html, referer: -
+[Wed Sep 16 20:50:51.123456 2026] [authz_core:error] [pid 10300] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 20:50:57.123456 2026] [core:error] [pid 10300] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4ksafs, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 20:57:44.123456 2026] [core:error] [pid 11908] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789592264141.html, referer: -
+[Wed Sep 16 20:58:14.123456 2026] [core:error] [pid 11908] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789592294389.html, referer: -
+[Wed Sep 16 20:58:14.123456 2026] [authz_core:error] [pid 11908] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 20:58:22.123456 2026] [core:error] [pid 11908] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4l1tt0, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:07:22.123456 2026] [core:error] [pid 16100] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789592842140.html, referer: -
+[Wed Sep 16 21:09:21.123456 2026] [core:error] [pid 12004] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789592961336.html, referer: -
+[Wed Sep 16 21:09:42.123456 2026] [core:error] [pid 11516] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789592982682.html, referer: -
+[Wed Sep 16 21:10:10.123456 2026] [core:error] [pid 6180] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789593010951.html, referer: -
+[Wed Sep 16 21:10:28.123456 2026] [core:error] [pid 10940] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789593028450.html, referer: -
+[Wed Sep 16 21:11:21.123456 2026] [core:error] [pid 10940] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789593081116.html, referer: -
+[Wed Sep 16 21:11:24.123456 2026] [core:error] [pid 10940] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789593084371.html, referer: -
+[Wed Sep 16 21:11:33.123456 2026] [core:error] [pid 10940] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789593093500.html, referer: -
+[Wed Sep 16 21:11:33.123456 2026] [authz_core:error] [pid 10940] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:11:39.123456 2026] [core:error] [pid 10940] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4lix3l, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:15:39.123456 2026] [core:error] [pid 9312] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789593339514.html, referer: -
+[Wed Sep 16 21:15:53.123456 2026] [core:error] [pid 9312] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789593353872.html, referer: -
+[Wed Sep 16 21:15:56.123456 2026] [core:error] [pid 9312] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789593356326.html, referer: -
+[Wed Sep 16 21:16:07.123456 2026] [core:error] [pid 9312] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789593367038.html, referer: -
+[Wed Sep 16 21:16:07.123456 2026] [authz_core:error] [pid 9312] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:16:12.123456 2026] [core:error] [pid 9312] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4lorsv, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:22:24.123456 2026] [core:error] [pid 10916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789593744568.html, referer: -
+[Wed Sep 16 21:22:26.123456 2026] [core:error] [pid 10916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789593746683.html, referer: -
+[Wed Sep 16 21:22:30.123456 2026] [core:error] [pid 10916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789593750046.html, referer: -
+[Wed Sep 16 21:22:38.123456 2026] [core:error] [pid 10916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789593758489.html, referer: -
+[Wed Sep 16 21:22:38.123456 2026] [authz_core:error] [pid 10916] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:22:43.123456 2026] [core:error] [pid 10916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4lx5qt, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:28:51.123456 2026] [core:error] [pid 10728] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789594131875.html, referer: -
+[Wed Sep 16 21:28:54.123456 2026] [core:error] [pid 10728] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789594134268.html, referer: -
+[Wed Sep 16 21:28:58.123456 2026] [core:error] [pid 10728] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789594138201.html, referer: -
+[Wed Sep 16 21:29:08.123456 2026] [core:error] [pid 10728] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789594148227.html, referer: -
+[Wed Sep 16 21:29:08.123456 2026] [authz_core:error] [pid 10728] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:29:14.123456 2026] [core:error] [pid 10728] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4m5itw, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:38:15.123456 2026] [core:error] [pid 7756] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4mh4vt, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:38:16.123456 2026] [core:error] [pid 7756] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789594696686.html, referer: -
+[Wed Sep 16 21:38:17.123456 2026] [authz_core:error] [pid 7756] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:38:19.123456 2026] [core:error] [pid 7756] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789594699304.html, referer: -
+[Wed Sep 16 21:38:19.123456 2026] [core:error] [pid 7756] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789594699419.html, referer: -
+[Wed Sep 16 21:38:19.123456 2026] [core:error] [pid 7756] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789594699547.html, referer: -
+[Wed Sep 16 21:48:42.123456 2026] [core:error] [pid 6652] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4mujyi, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:48:42.123456 2026] [core:error] [pid 6652] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789595322762.html, referer: -
+[Wed Sep 16 21:48:43.123456 2026] [authz_core:error] [pid 6652] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:48:45.123456 2026] [core:error] [pid 6652] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789595325322.html, referer: -
+[Wed Sep 16 21:48:45.123456 2026] [core:error] [pid 6652] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789595325434.html, referer: -
+[Wed Sep 16 21:48:45.123456 2026] [core:error] [pid 6652] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789595325553.html, referer: -
+[Wed Sep 16 21:57:01.123456 2026] [core:error] [pid 7700] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4n59q1, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 21:57:02.123456 2026] [core:error] [pid 7700] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789595822876.html, referer: -
+[Wed Sep 16 21:57:03.123456 2026] [authz_core:error] [pid 7700] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 21:57:05.123456 2026] [core:error] [pid 7700] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789595825675.html, referer: -
+[Wed Sep 16 21:57:05.123456 2026] [core:error] [pid 7700] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789595825804.html, referer: -
+[Wed Sep 16 21:57:05.123456 2026] [core:error] [pid 7700] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789595825942.html, referer: -
+[Wed Sep 16 22:12:43.123456 2026] [core:error] [pid 6152] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4npgh0, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:12:44.123456 2026] [core:error] [pid 6152] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789596764520.html, referer: -
+[Wed Sep 16 22:12:44.123456 2026] [authz_core:error] [pid 6152] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:12:47.123456 2026] [core:error] [pid 6152] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789596767132.html, referer: -
+[Wed Sep 16 22:12:47.123456 2026] [core:error] [pid 6152] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789596767246.html, referer: -
+[Wed Sep 16 22:12:47.123456 2026] [core:error] [pid 6152] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789596767371.html, referer: -
+[Wed Sep 16 22:17:41.123456 2026] [core:error] [pid 8916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4nvtvw, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:17:41.123456 2026] [core:error] [pid 8916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789597061933.html, referer: -
+[Wed Sep 16 22:17:42.123456 2026] [authz_core:error] [pid 8916] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:17:44.123456 2026] [core:error] [pid 8916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789597064529.html, referer: -
+[Wed Sep 16 22:17:44.123456 2026] [core:error] [pid 8916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789597064645.html, referer: -
+[Wed Sep 16 22:17:44.123456 2026] [core:error] [pid 8916] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789597064771.html, referer: -
+[Wed Sep 16 22:31:09.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4od5t3, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:31:10.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789597870479.html, referer: -
+[Wed Sep 16 22:31:10.123456 2026] [authz_core:error] [pid 11612] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:31:13.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789597873126.html, referer: -
+[Wed Sep 16 22:31:13.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789597873244.html, referer: -
+[Wed Sep 16 22:31:13.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789597873378.html, referer: -
+[Wed Sep 16 22:31:51.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4oe23b, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:31:52.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789597912293.html, referer: -
+[Wed Sep 16 22:31:52.123456 2026] [authz_core:error] [pid 11612] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:31:54.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789597914879.html, referer: -
+[Wed Sep 16 22:31:54.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789597914989.html, referer: -
+[Wed Sep 16 22:31:55.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789597915105.html, referer: -
+[Wed Sep 16 22:32:36.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4of0ou, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:32:37.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789597957130.html, referer: -
+[Wed Sep 16 22:32:37.123456 2026] [authz_core:error] [pid 11612] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:32:39.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789597959656.html, referer: -
+[Wed Sep 16 22:32:39.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789597959765.html, referer: -
+[Wed Sep 16 22:32:39.123456 2026] [core:error] [pid 11612] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789597959881.html, referer: -
+[Wed Sep 16 22:39:35.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4onzrk, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:39:35.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789598375848.html, referer: -
+[Wed Sep 16 22:39:36.123456 2026] [authz_core:error] [pid 2200] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:39:38.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789598378411.html, referer: -
+[Wed Sep 16 22:39:38.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789598378522.html, referer: -
+[Wed Sep 16 22:39:38.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789598378645.html, referer: -
+[Wed Sep 16 22:40:06.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4oono1, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:40:06.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789598406798.html, referer: -
+[Wed Sep 16 22:40:07.123456 2026] [authz_core:error] [pid 2200] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:40:09.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789598409385.html, referer: -
+[Wed Sep 16 22:40:09.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789598409498.html, referer: -
+[Wed Sep 16 22:40:09.123456 2026] [core:error] [pid 2200] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789598409619.html, referer: -
+[Wed Sep 16 22:41:04.123456 2026] [core:error] [pid 16712] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4opwkc, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:41:05.123456 2026] [core:error] [pid 16712] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789598465001.html, referer: -
+[Wed Sep 16 22:41:05.123456 2026] [authz_core:error] [pid 16712] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:41:07.123456 2026] [core:error] [pid 16712] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789598467636.html, referer: -
+[Wed Sep 16 22:41:07.123456 2026] [core:error] [pid 16712] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789598467753.html, referer: -
+[Wed Sep 16 22:41:07.123456 2026] [core:error] [pid 16712] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789598467885.html, referer: -
+[Wed Sep 16 22:50:46.123456 2026] [core:error] [pid 5128] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-test-page-mu4p2dtg, referer: https://google.com/search?q=cpanel
+[Wed Sep 16 22:50:47.123456 2026] [core:error] [pid 5128] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/audit-404-file-1789599047253.html, referer: -
+[Wed Sep 16 22:50:47.123456 2026] [authz_core:error] [pid 5128] [client 198.51.100.99:54321] AH01627: Authentication failure for "/protected-vault": user not authorized, referer: https://example.com/login
+[Wed Sep 16 22:50:49.123456 2026] [core:error] [pid 5128] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/awstats-audit-test-1789599049857.html, referer: -
+[Wed Sep 16 22:50:49.123456 2026] [core:error] [pid 5128] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/analog-audit-test-1789599049972.html, referer: -
+[Wed Sep 16 22:50:50.123456 2026] [core:error] [pid 5128] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/webalizer-audit-test-1789599050106.html, referer: -
+[Wed Sep 16 23:12:55.123456 2026] [core:error] [pid 10428] [client 127.0.0.1:54321] File does not exist: /home/cpanel_user/public_html/site/wordpress/, referer: -

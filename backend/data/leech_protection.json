@@ -1,0 +1,19 @@
+{
+  "configs": {
+    "cpanel_user": {
+      "public_html/leech-test-dir": {
+        "enabled": false,
+        "threshold": 3,
+        "timeWindowMinutes": 60,
+        "emailAlert": "secops@example.com",
+        "redirectUrl": "https://example.com/leech-warning.html",
+        "disableCompromisedAccounts": true,
+        "blockDurationMinutes": 60,
+        "whitelist": [
+          "10.0.0.1"
+        ],
+        "updatedAt": "2026-09-16T22:50:57.426Z"
+      }
+    }
+  }
+}

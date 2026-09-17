@@ -1,0 +1,126 @@
+[
+  {
+    "id": "cpn_welcome20",
+    "code": "WELCOME20",
+    "discountType": "percentage",
+    "discountValue": 20,
+    "maxUses": 100,
+    "usedCount": 0,
+    "expiryDate": "2026-12-31T23:59:59.000Z",
+    "isActive": true,
+    "description": "20% off your initial hosting order",
+    "createdAt": "2026-09-17T16:43:43.294Z"
+  },
+  {
+    "id": "cpn_vip50",
+    "code": "VIP50",
+    "discountType": "percentage",
+    "discountValue": 50,
+    "maxUses": 25,
+    "usedCount": 1,
+    "expiryDate": "2026-12-31T23:59:59.000Z",
+    "isActive": true,
+    "description": "VIP 50% discount for enterprise yearly hosting",
+    "createdAt": "2026-09-17T16:43:43.294Z"
+  },
+  {
+    "id": "cou_e4d8ffb0",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:46:06.385Z"
+  },
+  {
+    "id": "cou_ba257713",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:46:24.647Z"
+  },
+  {
+    "id": "cou_9f2c176b",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:46:57.370Z"
+  },
+  {
+    "id": "cou_c91edf86",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:48:56.300Z"
+  },
+  {
+    "id": "cou_2198e986",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:49:39.646Z"
+  },
+  {
+    "id": "cou_e7adebee",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T16:53:55.689Z"
+  },
+  {
+    "id": "cou_9f76459b",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T17:09:33.081Z"
+  },
+  {
+    "id": "cou_91f8027e",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T17:16:02.995Z"
+  },
+  {
+    "id": "cou_a5a0992e",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T17:32:36.898Z"
+  },
+  {
+    "id": "cou_6b9b23fa",
+    "code": "TESTPH2_30",
+    "discountType": "percentage",
+    "discountValue": 30,
+    "maxUses": 50,
+    "usedCount": 0,
+    "isActive": true,
+    "createdAt": "2026-09-17T18:18:42.404Z"
+  }
+]

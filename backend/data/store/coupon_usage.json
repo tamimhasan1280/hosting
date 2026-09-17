@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cou_2ed80856",
+    "couponId": "cou_e4d8ffb0",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:46:06.386Z"
+  },
+  {
+    "id": "cou_4d61bcae",
+    "couponId": "cou_ba257713",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:46:24.649Z"
+  },
+  {
+    "id": "cou_2a34a40b",
+    "couponId": "cou_9f2c176b",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:46:57.371Z"
+  },
+  {
+    "id": "cou_85cc6c46",
+    "couponId": "cou_c91edf86",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:48:56.301Z"
+  },
+  {
+    "id": "cou_b370ed03",
+    "couponId": "cou_2198e986",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:49:39.647Z"
+  },
+  {
+    "id": "cou_970542b4",
+    "couponId": "cou_e7adebee",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T16:53:55.691Z"
+  },
+  {
+    "id": "cou_bc515954",
+    "couponId": "cou_9f76459b",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T17:09:33.082Z"
+  },
+  {
+    "id": "cou_76c6bc3a",
+    "couponId": "cou_91f8027e",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T17:16:02.997Z"
+  },
+  {
+    "id": "cou_3d2ebf71",
+    "couponId": "cou_a5a0992e",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T17:32:36.899Z"
+  },
+  {
+    "id": "cou_765a1bd1",
+    "couponId": "cou_6b9b23fa",
+    "userId": "usr_test_ph2",
+    "orderId": "ord_sample_ph2",
+    "discountAmount": 15,
+    "createdAt": "2026-09-17T18:18:42.406Z"
+  }
+]

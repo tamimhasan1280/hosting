@@ -1,0 +1,6 @@
+[Wed Sep 16 16:31:00.000000 2026] [core:notice] [pid 1024] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Sep 16 16:31:00.000000 2026] [mpm_event:notice] [pid 1024] AH00489: Apache/2.4.58 (cPanel Pro) OpenSSL/3.0.2 configured -- resuming normal operations
+[Wed Sep 16 18:01:00.000000 2026] [autoindex:warn] [pid 1025] [client 192.0.2.14:51234] mod_autoindex disabled for public_html root, referer: -
+[Wed Sep 16 19:19:00.000000 2026] [core:error] [pid 1026] [client 192.0.2.18:49812] File does not exist: /home/other_user/public_html/favicon.ico, referer: https://example.com/
+[Wed Sep 16 19:46:00.000000 2026] [authz_core:error] [pid 1026] [client 198.51.100.22:50411] AH01630: client denied by server configuration: /home/other_user/public_html/.env, referer: -
+[Wed Sep 16 20:16:00.000000 2026] [php:error] [pid 1027] [client 203.0.113.88:38192] PHP Warning: session_start(): Failed to read session data: files in /home/other_user/public_html/index.php on line 8, referer: https://example.com/login

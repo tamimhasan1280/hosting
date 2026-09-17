@@ -1,0 +1,29 @@
+{
+  "accounts": {
+    "cpanel_user": {
+      "enabled": false,
+      "allowedExtensions": "jpg,png,webp",
+      "allowedUrls": [
+        "default.com"
+      ],
+      "allowEmptyReferer": false,
+      "redirectUrl": "https://default.com/no-hotlinking.png",
+      "updatedAt": "2026-09-16T22:50:57.150Z"
+    },
+    "tenant_beta": {
+      "enabled": false,
+      "allowedExtensions": "jpg,jpeg,gif,png,bmp,webp,svg,avif,mp4,webm,mp3,pdf",
+      "allowedUrls": [
+        "tenant_beta.com",
+        "www.tenant_beta.com",
+        "blog.tenant_beta.com",
+        "www.blog.tenant_beta.com",
+        "app.tenant_beta.com",
+        "www.app.tenant_beta.com"
+      ],
+      "allowEmptyReferer": true,
+      "redirectUrl": "",
+      "updatedAt": "2026-09-16T22:29:48.796Z"
+    }
+  }
+}

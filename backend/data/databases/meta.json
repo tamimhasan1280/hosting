@@ -1,0 +1,1329 @@
+{
+  "databases": [
+    {
+      "name": "cpanel_default",
+      "user": "cpanel_user",
+      "size": "1.2 MB",
+      "sizeBytes": 1258291,
+      "tablesCount": 4,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "cpanel_admin"
+      ],
+      "created": "2026-09-16T15:55:50.061Z"
+    },
+    {
+      "name": "cp_autotest",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:02:02.188Z"
+    },
+    {
+      "name": "cp_db3150",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:10:43.151Z"
+    },
+    {
+      "name": "cp_db3505",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:10:53.506Z"
+    },
+    {
+      "name": "cp_audit_db_1896",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:15:41.897Z"
+    },
+    {
+      "name": "cp_audit_db_6535",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:17:26.537Z"
+    },
+    {
+      "name": "cp_audit_db_2824",
+      "size": "0.00 MB",
+      "tablesCount": 1,
+      "users": [],
+      "created": "2026-09-16T04:29:02.826Z"
+    },
+    {
+      "name": "alpha_3516_shop",
+      "user": "alpha_3516",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:36:53.603Z"
+    },
+    {
+      "name": "beta_3516_portal",
+      "user": "beta_3516",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:36:53.654Z"
+    },
+    {
+      "name": "cpanel_user_audit_db_6330",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:37:06.331Z"
+    },
+    {
+      "name": "alpha_3335_shop",
+      "user": "alpha_3335",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:42:53.408Z"
+    },
+    {
+      "name": "beta_3335_portal",
+      "user": "beta_3335",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:42:53.468Z"
+    },
+    {
+      "name": "alpha_5640_shop",
+      "user": "alpha_5640",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:46:55.710Z"
+    },
+    {
+      "name": "beta_5640_portal",
+      "user": "beta_5640",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:46:55.744Z"
+    },
+    {
+      "name": "alpha_4291_shop",
+      "user": "alpha_4291",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:54:04.371Z"
+    },
+    {
+      "name": "beta_4291_portal",
+      "user": "beta_4291",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T04:54:04.419Z"
+    },
+    {
+      "name": "alpha_5154_shop",
+      "user": "alpha_5154",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:00:55.243Z"
+    },
+    {
+      "name": "beta_5155_portal",
+      "user": "beta_5155",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:00:55.294Z"
+    },
+    {
+      "name": "alpha_0590_shop",
+      "user": "alpha_0590",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:08:30.661Z"
+    },
+    {
+      "name": "beta_0590_portal",
+      "user": "beta_0590",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:08:30.702Z"
+    },
+    {
+      "name": "alpha_2652_shop",
+      "user": "alpha_2652",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:18:32.725Z"
+    },
+    {
+      "name": "beta_2652_portal",
+      "user": "beta_2652",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:18:32.753Z"
+    },
+    {
+      "name": "alpha_9267_shop",
+      "user": "alpha_9267",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:25:09.334Z"
+    },
+    {
+      "name": "beta_9267_portal",
+      "user": "beta_9267",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:25:09.381Z"
+    },
+    {
+      "name": "alpha_8699_shop",
+      "user": "alpha_8699",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:39:08.780Z"
+    },
+    {
+      "name": "beta_8699_portal",
+      "user": "beta_8699",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T05:39:08.825Z"
+    },
+    {
+      "name": "alpha_3521_shop",
+      "user": "alpha_3521",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T13:48:13.593Z"
+    },
+    {
+      "name": "beta_3521_portal",
+      "user": "beta_3521",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T13:48:13.638Z"
+    },
+    {
+      "name": "cpanel_user_wordpress_9589",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T13:52:09.590Z"
+    },
+    {
+      "name": "cpanel_user_cp_audit_db_1896",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.153Z"
+    },
+    {
+      "name": "cpanel_user_cp_audit_db_2824",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.155Z"
+    },
+    {
+      "name": "cpanel_user_cp_audit_db_6535",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.156Z"
+    },
+    {
+      "name": "cpanel_user_cp_autotest",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.157Z"
+    },
+    {
+      "name": "cpanel_user_cp_db3150",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.158Z"
+    },
+    {
+      "name": "cpanel_user_cp_db3505",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.159Z"
+    },
+    {
+      "name": "cpanel_user_cp_wordpress_0690",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.160Z"
+    },
+    {
+      "name": "cpanel_user_cp_wordpress_2199",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.161Z"
+    },
+    {
+      "name": "cpanel_user_cp_wordpress_3166",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.163Z"
+    },
+    {
+      "name": "cpanel_user_cp_wordpress_3518",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.164Z"
+    },
+    {
+      "name": "cpanel_user_cpanel_default",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:02:19.165Z"
+    },
+    {
+      "name": "alpha_7110_shop",
+      "user": "alpha_7110",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:35:07.208Z"
+    },
+    {
+      "name": "beta_7110_portal",
+      "user": "beta_7110",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:35:07.242Z"
+    },
+    {
+      "name": "alpha_0795_shop",
+      "user": "alpha_0795",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:54:40.886Z"
+    },
+    {
+      "name": "beta_0795_portal",
+      "user": "beta_0795",
+      "size": "0.00 MB",
+      "tablesCount": 0,
+      "users": [],
+      "created": "2026-09-16T14:54:40.915Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_0536",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-16T16:05:20.558Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_5976",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-16T16:06:16.017Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_6259",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_6259"
+      ],
+      "created": "2026-09-16T16:06:46.297Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_1921",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_1921"
+      ],
+      "created": "2026-09-16T16:12:41.943Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_2469",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_2469"
+      ],
+      "created": "2026-09-16T16:20:02.506Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_6149",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_6149"
+      ],
+      "created": "2026-09-16T16:25:26.172Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_8427",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_8427"
+      ],
+      "created": "2026-09-16T16:32:18.452Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_8307",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_8307"
+      ],
+      "created": "2026-09-16T17:29:38.329Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_1829",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_1829"
+      ],
+      "created": "2026-09-16T18:14:41.853Z"
+    },
+    {
+      "name": "cpanel_user_opencart_8558",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-16T18:40:18.559Z"
+    },
+    {
+      "name": "testwizarduser_wizapp_6091",
+      "user": "testwizarduser",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [
+        "testwizarduser_wizusr_6091"
+      ],
+      "created": "2026-09-16T19:00:36.119Z"
+    },
+    {
+      "name": "cpanel_user_wordpress_3609",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-16T23:12:53.610Z"
+    },
+    {
+      "name": "cpanel_user_testshop",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T16:12:45.360Z"
+    },
+    {
+      "name": "cpanel_user_shop6155",
+      "user": "cpanel_user",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T16:15:26.159Z"
+    },
+    {
+      "name": "user11_appdb1",
+      "user": "user11",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:30:16.211Z"
+    },
+    {
+      "name": "user11_appdb2",
+      "user": "user11",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:30:16.215Z"
+    },
+    {
+      "name": "user12_appdb1",
+      "user": "user12",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:31:06.390Z"
+    },
+    {
+      "name": "user12_appdb2",
+      "user": "user12",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:31:06.394Z"
+    },
+    {
+      "name": "user13_db_2293_1",
+      "user": "user13",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:32:15.698Z"
+    },
+    {
+      "name": "user13_db_2293_2",
+      "user": "user13",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T17:32:15.701Z"
+    },
+    {
+      "name": "user14_db_7573_1",
+      "user": "user14",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:18:21.018Z"
+    },
+    {
+      "name": "user14_db_7573_2",
+      "user": "user14",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:18:21.022Z"
+    },
+    {
+      "name": "user15_db_7207_1",
+      "user": "user15",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:29:50.554Z"
+    },
+    {
+      "name": "user15_db_7207_2",
+      "user": "user15",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:29:50.560Z"
+    },
+    {
+      "name": "user16_db_3571_1",
+      "user": "user16",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:34:27.321Z"
+    },
+    {
+      "name": "user16_db_3571_2",
+      "user": "user16",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:34:27.326Z"
+    },
+    {
+      "name": "user17_db_5105_1",
+      "user": "user17",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:43:38.534Z"
+    },
+    {
+      "name": "user17_db_5105_2",
+      "user": "user17",
+      "size": "0.00 MB",
+      "sizeBytes": 0,
+      "tablesCount": 0,
+      "charset": "utf8mb4",
+      "collation": "utf8mb4_unicode_ci",
+      "users": [],
+      "created": "2026-09-17T18:43:38.539Z"
+    }
+  ],
+  "users": [
+    {
+      "username": "cpanel_admin",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T03:56:45.017Z"
+    },
+    {
+      "username": "cp_u_audit_db_1896",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:15:41.899Z"
+    },
+    {
+      "username": "cp_u_audit_db_6535",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:17:26.538Z"
+    },
+    {
+      "username": "cp_u_audit_db_2824",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:29:02.828Z"
+    },
+    {
+      "username": "alpha_3516_shopadmin",
+      "user": "alpha_3516",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:36:53.618Z"
+    },
+    {
+      "username": "beta_3516_portalusr",
+      "user": "beta_3516",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:36:53.664Z"
+    },
+    {
+      "username": "cpanel_user_u_audit_db_6330",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:37:06.333Z"
+    },
+    {
+      "username": "alpha_3335_shopadmin",
+      "user": "alpha_3335",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:42:53.423Z"
+    },
+    {
+      "username": "beta_3335_portalusr",
+      "user": "beta_3335",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:42:53.484Z"
+    },
+    {
+      "username": "alpha_5640_shopadmin",
+      "user": "alpha_5640",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:46:55.726Z"
+    },
+    {
+      "username": "beta_5640_portalusr",
+      "user": "beta_5640",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:46:55.751Z"
+    },
+    {
+      "username": "alpha_4291_shopadmin",
+      "user": "alpha_4291",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:54:04.387Z"
+    },
+    {
+      "username": "beta_4291_portalusr",
+      "user": "beta_4291",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T04:54:04.432Z"
+    },
+    {
+      "username": "alpha_5154_shopadmin",
+      "user": "alpha_5154",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:00:55.260Z"
+    },
+    {
+      "username": "beta_5155_portalusr",
+      "user": "beta_5155",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:00:55.306Z"
+    },
+    {
+      "username": "alpha_0590_shopadmin",
+      "user": "alpha_0590",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:08:30.676Z"
+    },
+    {
+      "username": "beta_0590_portalusr",
+      "user": "beta_0590",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:08:30.707Z"
+    },
+    {
+      "username": "alpha_2652_shopadmin",
+      "user": "alpha_2652",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:18:32.731Z"
+    },
+    {
+      "username": "beta_2652_portalusr",
+      "user": "beta_2652",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:18:32.770Z"
+    },
+    {
+      "username": "alpha_9267_shopadmin",
+      "user": "alpha_9267",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:25:09.350Z"
+    },
+    {
+      "username": "beta_9267_portalusr",
+      "user": "beta_9267",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:25:09.396Z"
+    },
+    {
+      "username": "alpha_8699_shopadmin",
+      "user": "alpha_8699",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:39:08.795Z"
+    },
+    {
+      "username": "beta_8699_portalusr",
+      "user": "beta_8699",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T05:39:08.841Z"
+    },
+    {
+      "username": "alpha_3521_shopadmin",
+      "user": "alpha_3521",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T13:48:13.608Z"
+    },
+    {
+      "username": "beta_3521_portalusr",
+      "user": "beta_3521",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T13:48:13.654Z"
+    },
+    {
+      "username": "alpha_7110_shopadmin",
+      "user": "alpha_7110",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T14:35:07.219Z"
+    },
+    {
+      "username": "beta_7110_portalusr",
+      "user": "beta_7110",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T14:35:07.248Z"
+    },
+    {
+      "username": "alpha_0795_shopadmin",
+      "user": "alpha_0795",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T14:54:40.892Z"
+    },
+    {
+      "username": "beta_0795_portalusr",
+      "user": "beta_0795",
+      "databases": [],
+      "privileges": [
+        "ALL PRIVILEGES"
+      ],
+      "created": "2026-09-16T14:54:40.921Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_5976",
+      "user": "testwizarduser",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-16T16:06:16.023Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_6259",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_6259"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_6259": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T16:06:46.303Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_1921",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_1921"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_1921": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T16:12:41.950Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_2469",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_2469"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_2469": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T16:20:02.514Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_6149",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_6149"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_6149": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T16:25:26.178Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_8427",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_8427"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_8427": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T16:32:18.458Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_8307",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_8307"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_8307": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T17:29:38.335Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_1829",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_1829"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_1829": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T18:14:41.858Z"
+    },
+    {
+      "username": "testwizarduser_wizusr_6091",
+      "user": "testwizarduser",
+      "databases": [
+        "testwizarduser_wizapp_6091"
+      ],
+      "privileges": {
+        "testwizarduser_wizapp_6091": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE",
+          "CREATE",
+          "DROP",
+          "INDEX",
+          "ALTER"
+        ]
+      },
+      "created": "2026-09-16T19:00:36.126Z"
+    },
+    {
+      "username": "cpanel_user_shopusr",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:15:06.402Z",
+      "updated": "2026-09-17T16:15:06.421Z"
+    },
+    {
+      "username": "cpanel_user_usr6155",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:15:26.164Z",
+      "updated": "2026-09-17T16:15:26.198Z"
+    },
+    {
+      "username": "cpanel_user_usr3069",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:15:53.098Z",
+      "updated": "2026-09-17T16:15:53.129Z"
+    },
+    {
+      "username": "cpanel_user_usr4146",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:16:54.174Z",
+      "updated": "2026-09-17T16:16:54.191Z"
+    },
+    {
+      "username": "cpanel_user_usr7364",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:26:47.393Z",
+      "updated": "2026-09-17T16:26:47.424Z"
+    },
+    {
+      "username": "cpanel_user_usr1349",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:37:51.363Z",
+      "updated": "2026-09-17T16:37:51.395Z"
+    },
+    {
+      "username": "cpanel_user_usr5713",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:47:15.741Z",
+      "updated": "2026-09-17T16:47:15.760Z"
+    },
+    {
+      "username": "cpanel_user_usr7216",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:49:57.246Z",
+      "updated": "2026-09-17T16:49:57.276Z"
+    },
+    {
+      "username": "cpanel_user_usr6094",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T16:54:26.122Z",
+      "updated": "2026-09-17T16:54:26.153Z"
+    },
+    {
+      "username": "cpanel_user_usr2785",
+      "user": "cpanel_user",
+      "databases": [],
+      "privileges": {},
+      "created": "2026-09-17T17:09:52.814Z",
+      "updated": "2026-09-17T17:09:52.845Z"
+    }
+  ],
+  "tables": {
+    "cp_autotest": [
+      {
+        "name": "members",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "cp_db3150": [
+      {
+        "name": "members",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "cp_db3505": [
+      {
+        "name": "members",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "cp_audit_db_1896": [
+      {
+        "name": "audit_logs",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "cp_audit_db_6535": [
+      {
+        "name": "audit_logs",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "cp_audit_db_2824": [
+      {
+        "name": "audit_logs",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "alpha_3516_shop": [],
+    "beta_3516_portal": [],
+    "cpanel_user_audit_db_6330": [],
+    "cp_audit_db_6330": [
+      {
+        "name": "audit_logs",
+        "rows": 0,
+        "size": "16 KB"
+      }
+    ],
+    "alpha_3335_shop": [],
+    "beta_3335_portal": [],
+    "alpha_5640_shop": [],
+    "beta_5640_portal": [],
+    "alpha_4291_shop": [],
+    "beta_4291_portal": [],
+    "alpha_5154_shop": [],
+    "beta_5155_portal": [],
+    "alpha_0590_shop": [],
+    "beta_0590_portal": [],
+    "alpha_2652_shop": [],
+    "beta_2652_portal": [],
+    "alpha_9267_shop": [],
+    "beta_9267_portal": [],
+    "alpha_8699_shop": [],
+    "beta_8699_portal": [],
+    "alpha_3521_shop": [],
+    "beta_3521_portal": [],
+    "cpanel_user_wordpress_9589": [],
+    "cpanel_user_cp_audit_db_1896": [],
+    "cpanel_user_cp_audit_db_2824": [],
+    "cpanel_user_cp_audit_db_6535": [],
+    "cpanel_user_cp_autotest": [],
+    "cpanel_user_cp_db3150": [],
+    "cpanel_user_cp_db3505": [],
+    "cpanel_user_cp_wordpress_0690": [],
+    "cpanel_user_cp_wordpress_2199": [],
+    "cpanel_user_cp_wordpress_3166": [],
+    "cpanel_user_cp_wordpress_3518": [],
+    "cpanel_user_cpanel_default": [],
+    "alpha_7110_shop": [],
+    "beta_7110_portal": [],
+    "alpha_0795_shop": [],
+    "beta_0795_portal": [],
+    "cpanel_default": [
+      {
+        "name": "wp_posts",
+        "rows": 4,
+        "size": "24 KB",
+        "sizeBytes": 24576
+      },
+      {
+        "name": "wp_users",
+        "rows": 1,
+        "size": "8 KB",
+        "sizeBytes": 8192
+      },
+      {
+        "name": "wp_options",
+        "rows": 120,
+        "size": "64 KB",
+        "sizeBytes": 65536
+      },
+      {
+        "name": "IF",
+        "rows": 0,
+        "size": "16 KB",
+        "sizeBytes": 16384,
+        "engine": "InnoDB"
+      }
+    ],
+    "testwizarduser_wizapp_0536": [],
+    "testwizarduser_wizapp_5976": [],
+    "testwizarduser_wizapp_6259": [],
+    "testwizarduser_wizapp_1921": [],
+    "testwizarduser_wizapp_2469": [],
+    "testwizarduser_wizapp_6149": [],
+    "testwizarduser_wizapp_8427": [],
+    "testwizarduser_wizapp_8307": [],
+    "testwizarduser_wizapp_1829": [],
+    "cpanel_user_opencart_8558": [],
+    "testwizarduser_wizapp_6091": [],
+    "cpanel_user_wordpress_3609": [],
+    "cpanel_user_testshop": [],
+    "cpanel_user_shop6155": [],
+    "user11_appdb1": [],
+    "user11_appdb2": [],
+    "user12_appdb1": [],
+    "user12_appdb2": [],
+    "user13_db_2293_1": [],
+    "user13_db_2293_2": [],
+    "user14_db_7573_1": [],
+    "user14_db_7573_2": [],
+    "user15_db_7207_1": [],
+    "user15_db_7207_2": [],
+    "user16_db_3571_1": [],
+    "user16_db_3571_2": [],
+    "user17_db_5105_1": [],
+    "user17_db_5105_2": []
+  },
+  "remoteHosts": []
+}

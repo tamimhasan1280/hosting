@@ -1,0 +1,3950 @@
+[
+  {
+    "id": "aud_c39cc878",
+    "userId": "use_57c0583c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "test1789612358171@example.com",
+      "cpanelUser": "test1789",
+      "phone": "01700000000"
+    },
+    "timestamp": "2026-09-17T02:32:38.332Z",
+    "createdAt": "2026-09-17T02:32:38.332Z"
+  },
+  {
+    "id": "aud_6e448198",
+    "userId": "use_ead020e0",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "client1789612537640@example.com",
+      "cpanelUser": "client17",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T02:35:37.968Z",
+    "createdAt": "2026-09-17T02:35:37.969Z"
+  },
+  {
+    "id": "aud_0230fbd4",
+    "userId": "use_ead020e0",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "client1789612537640@example.com",
+      "cpanelUser": "client17"
+    },
+    "timestamp": "2026-09-17T02:35:38.233Z",
+    "createdAt": "2026-09-17T02:35:38.233Z"
+  },
+  {
+    "id": "aud_25179407",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T02:36:44.593Z",
+    "createdAt": "2026-09-17T02:36:44.594Z"
+  },
+  {
+    "id": "aud_2e6026eb",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T02:38:21.066Z",
+    "createdAt": "2026-09-17T02:38:21.067Z"
+  },
+  {
+    "id": "aud_cc6361e1",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T02:41:31.137Z",
+    "createdAt": "2026-09-17T02:41:31.138Z"
+  },
+  {
+    "id": "aud_199d3f17",
+    "userId": "use_3ba4307c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "portalclient1789612970018@example.com",
+      "cpanelUser": "portalcl",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T02:42:50.363Z",
+    "createdAt": "2026-09-17T02:42:50.364Z"
+  },
+  {
+    "id": "aud_6cdbffd3",
+    "userId": "use_3ba4307c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "portalclient1789612970018@example.com",
+      "cpanelUser": "portalcl"
+    },
+    "timestamp": "2026-09-17T02:42:50.631Z",
+    "createdAt": "2026-09-17T02:42:50.631Z"
+  },
+  {
+    "id": "aud_c993d1b1",
+    "userId": "use_3ba4307c",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_83cfb8cc",
+      "invoiceId": "inv_e2fd6ef1",
+      "invoiceNumber": "INV-383440",
+      "domain": "alham.com",
+      "totalAmount": 29.99
+    },
+    "timestamp": "2026-09-17T02:42:50.648Z",
+    "createdAt": "2026-09-17T02:42:50.649Z"
+  },
+  {
+    "id": "aud_58758d82",
+    "userId": "usr_tamim",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_c6c622ef",
+      "invoiceId": "inv_d5aadb72",
+      "invoiceNumber": "INV-140681",
+      "domain": "alham.com",
+      "totalAmount": 29.99
+    },
+    "timestamp": "2026-09-17T02:47:46.106Z",
+    "createdAt": "2026-09-17T02:47:46.106Z"
+  },
+  {
+    "id": "aud_463c6027",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGE",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T02:47:54.240Z",
+    "createdAt": "2026-09-17T02:47:54.241Z"
+  },
+  {
+    "id": "aud_07c87e6d",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGE",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T02:47:54.252Z",
+    "createdAt": "2026-09-17T02:47:54.253Z"
+  },
+  {
+    "id": "aud_7bc7d21d",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_c63c49d9",
+      "invoiceId": "inv_de5fe69a",
+      "invoiceNumber": "INV-349385",
+      "domain": "e2eadmintenant1789613274255.com",
+      "totalAmount": 44.99
+    },
+    "timestamp": "2026-09-17T02:47:54.269Z",
+    "createdAt": "2026-09-17T02:47:54.270Z"
+  },
+  {
+    "id": "aud_36cc1f0e",
+    "userId": "use_3ba4307c",
+    "action": "ADMIN_USER_STATUS_CHANGE",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T02:47:59.587Z",
+    "createdAt": "2026-09-17T02:47:59.587Z"
+  },
+  {
+    "id": "aud_b3daee4d",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T02:49:28.772Z",
+    "createdAt": "2026-09-17T02:49:28.774Z"
+  },
+  {
+    "id": "aud_73a27ab1",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T02:49:28.785Z",
+    "createdAt": "2026-09-17T02:49:28.786Z"
+  },
+  {
+    "id": "aud_80156ea6",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_2073d9cb",
+      "invoiceId": "inv_d3621623",
+      "invoiceNumber": "INV-728380",
+      "domain": "e2eadmintenant1789613368789.com",
+      "totalAmount": 44.99
+    },
+    "timestamp": "2026-09-17T02:49:28.805Z",
+    "createdAt": "2026-09-17T02:49:28.806Z"
+  },
+  {
+    "id": "aud_5747ef77",
+    "userId": "usr_tamim",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_c7ea8430",
+      "invoiceId": "inv_9871310f",
+      "invoiceNumber": "INV-789148",
+      "domain": "testdomain123.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T02:49:37.943Z",
+    "createdAt": "2026-09-17T02:49:37.944Z"
+  },
+  {
+    "id": "aud_98acbdf3",
+    "userId": "usr_tamim",
+    "action": "ORDER_REJECTED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_c6c622ef",
+      "reason": "no"
+    },
+    "timestamp": "2026-09-17T02:49:54.727Z",
+    "createdAt": "2026-09-17T02:49:54.728Z"
+  },
+  {
+    "id": "aud_27fb5045",
+    "userId": "use_3ba4307c",
+    "action": "ORDER_REJECTED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_83cfb8cc",
+      "reason": "Order rejected by administrator"
+    },
+    "timestamp": "2026-09-17T02:50:22.063Z",
+    "createdAt": "2026-09-17T02:50:22.063Z"
+  },
+  {
+    "id": "aud_0180e831",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:01:36.010Z",
+    "createdAt": "2026-09-17T16:01:36.012Z"
+  },
+  {
+    "id": "aud_02f157e2",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:01:36.032Z",
+    "createdAt": "2026-09-17T16:01:36.033Z"
+  },
+  {
+    "id": "aud_ca773e28",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_8acb6be7",
+      "invoiceId": "inv_245cdb44",
+      "invoiceNumber": "INV-127991",
+      "domain": "e2eadmintenant1789660896035.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:01:36.051Z",
+    "createdAt": "2026-09-17T16:01:36.051Z"
+  },
+  {
+    "id": "aud_5dd42ec5",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_8acb6be7",
+      "domain": "e2eadmintenant1789660896035.com"
+    },
+    "timestamp": "2026-09-17T16:01:36.070Z",
+    "createdAt": "2026-09-17T16:01:36.070Z"
+  },
+  {
+    "id": "aud_9363ebbd",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:01:45.830Z",
+    "createdAt": "2026-09-17T16:01:45.830Z"
+  },
+  {
+    "id": "aud_da85a818",
+    "userId": "use_4d415cc4",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "prince.tamim1281@gmail.com",
+      "cpanelUser": "princeta",
+      "phone": "016184112290"
+    },
+    "timestamp": "2026-09-17T16:01:57.296Z",
+    "createdAt": "2026-09-17T16:01:57.297Z"
+  },
+  {
+    "id": "aud_73cdd3bd",
+    "userId": "use_4d415cc4",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "prince.tamim1281@gmail.com",
+      "cpanelUser": "princeta"
+    },
+    "timestamp": "2026-09-17T16:02:01.531Z",
+    "createdAt": "2026-09-17T16:02:01.532Z"
+  },
+  {
+    "id": "aud_df56e8c8",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:02:26.273Z",
+    "createdAt": "2026-09-17T16:02:26.274Z"
+  },
+  {
+    "id": "aud_5495caac",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:02:26.288Z",
+    "createdAt": "2026-09-17T16:02:26.288Z"
+  },
+  {
+    "id": "aud_c94a832b",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_9db93a3e",
+      "invoiceId": "inv_4c449fd8",
+      "invoiceNumber": "INV-768528",
+      "domain": "e2eadmintenant1789660946291.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:02:26.304Z",
+    "createdAt": "2026-09-17T16:02:26.305Z"
+  },
+  {
+    "id": "aud_6ed3423f",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_9db93a3e",
+      "domain": "e2eadmintenant1789660946291.com"
+    },
+    "timestamp": "2026-09-17T16:02:26.324Z",
+    "createdAt": "2026-09-17T16:02:26.325Z"
+  },
+  {
+    "id": "aud_bd2af681",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:02:30.435Z",
+    "createdAt": "2026-09-17T16:02:30.436Z"
+  },
+  {
+    "id": "aud_780e738c",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:16:58.771Z",
+    "createdAt": "2026-09-17T16:16:58.772Z"
+  },
+  {
+    "id": "aud_a550f987",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:16:58.779Z",
+    "createdAt": "2026-09-17T16:16:58.779Z"
+  },
+  {
+    "id": "aud_aa1db284",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_5044bb0d",
+      "invoiceId": "inv_beeef320",
+      "invoiceNumber": "INV-253266",
+      "domain": "e2eadmintenant1789661818782.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:16:58.800Z",
+    "createdAt": "2026-09-17T16:16:58.800Z"
+  },
+  {
+    "id": "aud_b5437d5b",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_5044bb0d",
+      "domain": "e2eadmintenant1789661818782.com"
+    },
+    "timestamp": "2026-09-17T16:16:58.812Z",
+    "createdAt": "2026-09-17T16:16:58.813Z"
+  },
+  {
+    "id": "aud_9de3b29d",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:17:02.531Z",
+    "createdAt": "2026-09-17T16:17:02.531Z"
+  },
+  {
+    "id": "aud_2b5f8e99",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:26:51.971Z",
+    "createdAt": "2026-09-17T16:26:51.972Z"
+  },
+  {
+    "id": "aud_58f14a36",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:26:51.985Z",
+    "createdAt": "2026-09-17T16:26:51.986Z"
+  },
+  {
+    "id": "aud_2bba9148",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_037d7035",
+      "invoiceId": "inv_599ba73a",
+      "invoiceNumber": "INV-801735",
+      "domain": "e2eadmintenant1789662411988.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:26:52.003Z",
+    "createdAt": "2026-09-17T16:26:52.004Z"
+  },
+  {
+    "id": "aud_039ba4d7",
+    "userId": "usr_ikrahsho",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_037d7035",
+      "domain": "e2eadmintenant1789662411988.com"
+    },
+    "timestamp": "2026-09-17T16:26:52.019Z",
+    "createdAt": "2026-09-17T16:26:52.019Z"
+  },
+  {
+    "id": "aud_9c8066e9",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:26:56.976Z",
+    "createdAt": "2026-09-17T16:26:56.976Z"
+  },
+  {
+    "id": "aud_e3544118",
+    "userId": "use_3ba4307c",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "portalclient1789612970018@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:02.390Z",
+    "createdAt": "2026-09-17T16:36:02.392Z"
+  },
+  {
+    "id": "aud_992ce2aa",
+    "userId": "use_ead020e0",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "client1789612537640@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:04.773Z",
+    "createdAt": "2026-09-17T16:36:04.774Z"
+  },
+  {
+    "id": "aud_a88642ec",
+    "userId": "use_0a210eb4",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789662980023@example.com",
+      "cpanelUser": "usera178",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:36:20.356Z",
+    "createdAt": "2026-09-17T16:36:20.356Z"
+  },
+  {
+    "id": "aud_3df53357",
+    "userId": "use_0a210eb4",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789662980023@example.com",
+      "cpanelUser": "usera178"
+    },
+    "timestamp": "2026-09-17T16:36:20.625Z",
+    "createdAt": "2026-09-17T16:36:20.625Z"
+  },
+  {
+    "id": "aud_f1b48ddc",
+    "userId": "use_5cd65194",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789662980627@example.com",
+      "cpanelUser": "userb178",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:36:20.962Z",
+    "createdAt": "2026-09-17T16:36:20.963Z"
+  },
+  {
+    "id": "aud_70f4dfa3",
+    "userId": "use_5cd65194",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789662980627@example.com",
+      "cpanelUser": "userb178"
+    },
+    "timestamp": "2026-09-17T16:36:21.229Z",
+    "createdAt": "2026-09-17T16:36:21.230Z"
+  },
+  {
+    "id": "aud_fd3af6ce",
+    "userId": "usr_ikrahsho",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "admin@ikrah.shop"
+    },
+    "timestamp": "2026-09-17T16:36:30.606Z",
+    "createdAt": "2026-09-17T16:36:30.606Z"
+  },
+  {
+    "id": "aud_775f4b31",
+    "userId": "usr_turkyhub",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "admin@turkyhub.com"
+    },
+    "timestamp": "2026-09-17T16:36:32.629Z",
+    "createdAt": "2026-09-17T16:36:32.630Z"
+  },
+  {
+    "id": "aud_ef184a32",
+    "userId": "usr_whm_test_0570",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "whm_test_0570@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:34.845Z",
+    "createdAt": "2026-09-17T16:36:34.846Z"
+  },
+  {
+    "id": "aud_84b07c0a",
+    "userId": "usr_tamimsho",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "admin@tamim1280.shop"
+    },
+    "timestamp": "2026-09-17T16:36:37.326Z",
+    "createdAt": "2026-09-17T16:36:37.326Z"
+  },
+  {
+    "id": "aud_f808647b",
+    "userId": "usr_whm_test_8165",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "whm_test_8165@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:39.340Z",
+    "createdAt": "2026-09-17T16:36:39.341Z"
+  },
+  {
+    "id": "aud_16d03272",
+    "userId": "use_57c0583c",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "test1789612358171@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:43.405Z",
+    "createdAt": "2026-09-17T16:36:43.405Z"
+  },
+  {
+    "id": "aud_928f3f32",
+    "userId": "use_5cd65194",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "userb_1789662980627@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:50.701Z",
+    "createdAt": "2026-09-17T16:36:50.702Z"
+  },
+  {
+    "id": "aud_1a7c5801",
+    "userId": "use_0a210eb4",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789662980023@example.com"
+    },
+    "timestamp": "2026-09-17T16:36:53.364Z",
+    "createdAt": "2026-09-17T16:36:53.365Z"
+  },
+  {
+    "id": "aud_a7ea43d3",
+    "userId": "use_4d415cc4",
+    "action": "ADMIN_USER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "prince.tamim1281@gmail.com"
+    },
+    "timestamp": "2026-09-17T16:36:58.389Z",
+    "createdAt": "2026-09-17T16:36:58.390Z"
+  },
+  {
+    "id": "aud_d6690bd0",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:36:58.506Z",
+    "createdAt": "2026-09-17T16:36:58.507Z"
+  },
+  {
+    "id": "aud_f0dd3019",
+    "userId": "use_ec0b0451",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663018510@example.com",
+      "cpanelUser": "usera178",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:36:58.851Z",
+    "createdAt": "2026-09-17T16:36:58.852Z"
+  },
+  {
+    "id": "aud_bcf4cbc7",
+    "userId": "use_ec0b0451",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663018510@example.com",
+      "cpanelUser": "usera178"
+    },
+    "timestamp": "2026-09-17T16:36:59.119Z",
+    "createdAt": "2026-09-17T16:36:59.120Z"
+  },
+  {
+    "id": "aud_ae0ac33e",
+    "userId": "use_b80b89cd",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663019121@example.com",
+      "cpanelUser": "userb178",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:36:59.457Z",
+    "createdAt": "2026-09-17T16:36:59.458Z"
+  },
+  {
+    "id": "aud_c076b576",
+    "userId": "use_b80b89cd",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663019121@example.com",
+      "cpanelUser": "userb178"
+    },
+    "timestamp": "2026-09-17T16:36:59.720Z",
+    "createdAt": "2026-09-17T16:36:59.721Z"
+  },
+  {
+    "id": "aud_b18cf73e",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_c684f4b4",
+      "invoiceId": "inv_ad1342fa",
+      "invoiceNumber": "INV-163094",
+      "domain": "alice-1789663019723.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:36:59.729Z",
+    "createdAt": "2026-09-17T16:36:59.730Z"
+  },
+  {
+    "id": "aud_b18bc454",
+    "userId": "use_b80b89cd",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_2417c261",
+      "invoiceId": "inv_7f472a04",
+      "invoiceNumber": "INV-764898",
+      "domain": "bob-1789663019730.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:36:59.737Z",
+    "createdAt": "2026-09-17T16:36:59.737Z"
+  },
+  {
+    "id": "aud_022cfc36",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_c684f4b4",
+      "domain": "alice-1789663019723.com"
+    },
+    "timestamp": "2026-09-17T16:36:59.751Z",
+    "createdAt": "2026-09-17T16:36:59.752Z"
+  },
+  {
+    "id": "aud_4f6edb01",
+    "userId": "use_b80b89cd",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_2417c261",
+      "domain": "bob-1789663019730.com"
+    },
+    "timestamp": "2026-09-17T16:36:59.764Z",
+    "createdAt": "2026-09-17T16:36:59.765Z"
+  },
+  {
+    "id": "aud_f28ea105",
+    "userId": "use_ec0b0451",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_b08e28ed",
+      "domain": "alice-1789663019723.com"
+    },
+    "timestamp": "2026-09-17T16:37:01.207Z",
+    "createdAt": "2026-09-17T16:37:01.208Z"
+  },
+  {
+    "id": "aud_b31e748f",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T16:37:01.229Z"
+      }
+    },
+    "timestamp": "2026-09-17T16:37:01.230Z",
+    "createdAt": "2026-09-17T16:37:01.231Z"
+  },
+  {
+    "id": "aud_c0137507",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789663018510@example.com"
+    },
+    "timestamp": "2026-09-17T16:37:01.310Z",
+    "createdAt": "2026-09-17T16:37:01.311Z"
+  },
+  {
+    "id": "aud_89578a56",
+    "userId": "use_ec0b0451",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663018510@example.com",
+      "cpanelUser": "usera178"
+    },
+    "timestamp": "2026-09-17T16:37:01.380Z",
+    "createdAt": "2026-09-17T16:37:01.381Z"
+  },
+  {
+    "id": "aud_6fcccca0",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_b08e28ed",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T16:37:01.391Z",
+    "createdAt": "2026-09-17T16:37:01.392Z"
+  },
+  {
+    "id": "aud_146bab64",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_b08e28ed",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T16:37:01.397Z",
+    "createdAt": "2026-09-17T16:37:01.397Z"
+  },
+  {
+    "id": "aud_f43fcc61",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:37:36.807Z",
+    "createdAt": "2026-09-17T16:37:36.808Z"
+  },
+  {
+    "id": "aud_fd55eb79",
+    "userId": "use_7072c165",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663056813@example.com",
+      "cpanelUser": "usera1",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:37:37.151Z",
+    "createdAt": "2026-09-17T16:37:37.152Z"
+  },
+  {
+    "id": "aud_ee6ae65e",
+    "userId": "use_7072c165",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663056813@example.com",
+      "cpanelUser": "usera1"
+    },
+    "timestamp": "2026-09-17T16:37:37.415Z",
+    "createdAt": "2026-09-17T16:37:37.416Z"
+  },
+  {
+    "id": "aud_be263f2c",
+    "userId": "use_a752b911",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663057417@example.com",
+      "cpanelUser": "userb1",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:37:37.750Z",
+    "createdAt": "2026-09-17T16:37:37.751Z"
+  },
+  {
+    "id": "aud_b18adacb",
+    "userId": "use_a752b911",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663057417@example.com",
+      "cpanelUser": "userb1"
+    },
+    "timestamp": "2026-09-17T16:37:38.013Z",
+    "createdAt": "2026-09-17T16:37:38.014Z"
+  },
+  {
+    "id": "aud_6768487a",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_1e73fb36",
+      "invoiceId": "inv_c16a41cf",
+      "invoiceNumber": "INV-489345",
+      "domain": "alice-1789663058018.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:37:38.024Z",
+    "createdAt": "2026-09-17T16:37:38.024Z"
+  },
+  {
+    "id": "aud_285ccafc",
+    "userId": "use_a752b911",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_d9a07d07",
+      "invoiceId": "inv_0e562549",
+      "invoiceNumber": "INV-270873",
+      "domain": "bob-1789663058026.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:37:38.031Z",
+    "createdAt": "2026-09-17T16:37:38.032Z"
+  },
+  {
+    "id": "aud_3ab26c4b",
+    "userId": "use_7072c165",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_1e73fb36",
+      "domain": "alice-1789663058018.com"
+    },
+    "timestamp": "2026-09-17T16:37:38.045Z",
+    "createdAt": "2026-09-17T16:37:38.045Z"
+  },
+  {
+    "id": "aud_f5942de0",
+    "userId": "use_a752b911",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_d9a07d07",
+      "domain": "bob-1789663058026.com"
+    },
+    "timestamp": "2026-09-17T16:37:38.059Z",
+    "createdAt": "2026-09-17T16:37:38.060Z"
+  },
+  {
+    "id": "aud_6efd85d2",
+    "userId": "use_7072c165",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_c2360fbb",
+      "domain": "alice-1789663058018.com"
+    },
+    "timestamp": "2026-09-17T16:37:39.521Z",
+    "createdAt": "2026-09-17T16:37:39.522Z"
+  },
+  {
+    "id": "aud_286d74dc",
+    "userId": "use_7072c165",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "firstName": "Alice",
+        "lastName": "SecurityUpdated",
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T16:37:39.540Z"
+      }
+    },
+    "timestamp": "2026-09-17T16:37:39.542Z",
+    "createdAt": "2026-09-17T16:37:39.542Z"
+  },
+  {
+    "id": "aud_2cc7ed76",
+    "userId": "use_7072c165",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789663056813@example.com"
+    },
+    "timestamp": "2026-09-17T16:37:39.621Z",
+    "createdAt": "2026-09-17T16:37:39.621Z"
+  },
+  {
+    "id": "aud_bb5fc638",
+    "userId": "use_7072c165",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663056813@example.com",
+      "cpanelUser": "usera1"
+    },
+    "timestamp": "2026-09-17T16:37:39.690Z",
+    "createdAt": "2026-09-17T16:37:39.691Z"
+  },
+  {
+    "id": "aud_4928d910",
+    "userId": "use_7072c165",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_c2360fbb",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T16:37:39.700Z",
+    "createdAt": "2026-09-17T16:37:39.700Z"
+  },
+  {
+    "id": "aud_02aefb5f",
+    "userId": "use_7072c165",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_c2360fbb",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T16:37:39.705Z",
+    "createdAt": "2026-09-17T16:37:39.706Z"
+  },
+  {
+    "id": "aud_b3488bce",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:37:44.763Z",
+    "createdAt": "2026-09-17T16:37:44.764Z"
+  },
+  {
+    "id": "aud_fa52ed18",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:37:44.778Z",
+    "createdAt": "2026-09-17T16:37:44.778Z"
+  },
+  {
+    "id": "aud_9526af3d",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_1965bc63",
+      "invoiceId": "inv_83b10d7b",
+      "invoiceNumber": "INV-676851",
+      "domain": "e2eadmintenant1789663064780.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:37:44.794Z",
+    "createdAt": "2026-09-17T16:37:44.795Z"
+  },
+  {
+    "id": "aud_04dcab92",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_1965bc63",
+      "domain": "e2eadmintenant1789663064780.com"
+    },
+    "timestamp": "2026-09-17T16:37:44.809Z",
+    "createdAt": "2026-09-17T16:37:44.809Z"
+  },
+  {
+    "id": "aud_baf73fe5",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:37:48.139Z",
+    "createdAt": "2026-09-17T16:37:48.140Z"
+  },
+  {
+    "id": "aud_5247d332",
+    "userId": "use_cccfaa84",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663588261@example.com",
+      "cpanelUser": "usera2",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:46:28.591Z",
+    "createdAt": "2026-09-17T16:46:28.592Z"
+  },
+  {
+    "id": "aud_5ec5559e",
+    "userId": "use_cccfaa84",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663588261@example.com",
+      "cpanelUser": "usera2"
+    },
+    "timestamp": "2026-09-17T16:46:28.854Z",
+    "createdAt": "2026-09-17T16:46:28.855Z"
+  },
+  {
+    "id": "aud_438c6d25",
+    "userId": "use_3adcded3",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663588857@example.com",
+      "cpanelUser": "userb2",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:46:29.184Z",
+    "createdAt": "2026-09-17T16:46:29.185Z"
+  },
+  {
+    "id": "aud_19cf881b",
+    "userId": "use_3adcded3",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663588857@example.com",
+      "cpanelUser": "userb2"
+    },
+    "timestamp": "2026-09-17T16:46:29.446Z",
+    "createdAt": "2026-09-17T16:46:29.446Z"
+  },
+  {
+    "id": "aud_5cf99e6f",
+    "userId": "use_cccfaa84",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_fea8e479",
+      "invoiceId": "inv_6db23d14",
+      "invoiceNumber": "INV-552971",
+      "domain": "alice-1789663589451.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:46:29.456Z",
+    "createdAt": "2026-09-17T16:46:29.457Z"
+  },
+  {
+    "id": "aud_99a515db",
+    "userId": "use_3adcded3",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_24bc4f14",
+      "invoiceId": "inv_8b25147c",
+      "invoiceNumber": "INV-882858",
+      "domain": "bob-1789663589458.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:46:29.465Z",
+    "createdAt": "2026-09-17T16:46:29.466Z"
+  },
+  {
+    "id": "aud_ae9d20ac",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:47:01.548Z",
+    "createdAt": "2026-09-17T16:47:01.549Z"
+  },
+  {
+    "id": "aud_34507dee",
+    "userId": "use_541fa3b8",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663621554@example.com",
+      "cpanelUser": "usera3",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:47:01.888Z",
+    "createdAt": "2026-09-17T16:47:01.889Z"
+  },
+  {
+    "id": "aud_55df785f",
+    "userId": "use_541fa3b8",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663621554@example.com",
+      "cpanelUser": "usera3"
+    },
+    "timestamp": "2026-09-17T16:47:02.156Z",
+    "createdAt": "2026-09-17T16:47:02.157Z"
+  },
+  {
+    "id": "aud_a2acc373",
+    "userId": "use_20714a98",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663622160@example.com",
+      "cpanelUser": "userb3",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:47:02.489Z",
+    "createdAt": "2026-09-17T16:47:02.489Z"
+  },
+  {
+    "id": "aud_3bfeeb80",
+    "userId": "use_20714a98",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663622160@example.com",
+      "cpanelUser": "userb3"
+    },
+    "timestamp": "2026-09-17T16:47:02.751Z",
+    "createdAt": "2026-09-17T16:47:02.752Z"
+  },
+  {
+    "id": "aud_8dc4843a",
+    "userId": "use_541fa3b8",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_bc0b5faf",
+      "invoiceId": "inv_51992080",
+      "invoiceNumber": "INV-260667",
+      "domain": "alice-1789663622757.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:47:02.763Z",
+    "createdAt": "2026-09-17T16:47:02.763Z"
+  },
+  {
+    "id": "aud_88627a77",
+    "userId": "use_20714a98",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_33c59730",
+      "invoiceId": "inv_69d1960e",
+      "invoiceNumber": "INV-324626",
+      "domain": "bob-1789663622765.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:47:02.771Z",
+    "createdAt": "2026-09-17T16:47:02.771Z"
+  },
+  {
+    "id": "aud_5326e060",
+    "userId": "use_541fa3b8",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_bc0b5faf",
+      "domain": "alice-1789663622757.com"
+    },
+    "timestamp": "2026-09-17T16:47:02.785Z",
+    "createdAt": "2026-09-17T16:47:02.786Z"
+  },
+  {
+    "id": "aud_f6317eac",
+    "userId": "use_20714a98",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_33c59730",
+      "domain": "bob-1789663622765.com"
+    },
+    "timestamp": "2026-09-17T16:47:02.802Z",
+    "createdAt": "2026-09-17T16:47:02.802Z"
+  },
+  {
+    "id": "aud_4a0245b4",
+    "userId": "use_541fa3b8",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a3fbcd5c",
+      "domain": "alice-1789663622757.com"
+    },
+    "timestamp": "2026-09-17T16:47:04.261Z",
+    "createdAt": "2026-09-17T16:47:04.262Z"
+  },
+  {
+    "id": "aud_73f1b33c",
+    "userId": "use_541fa3b8",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "firstName": "Alice",
+        "lastName": "SecurityUpdated",
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T16:47:04.283Z"
+      }
+    },
+    "timestamp": "2026-09-17T16:47:04.284Z",
+    "createdAt": "2026-09-17T16:47:04.285Z"
+  },
+  {
+    "id": "aud_8a001ee3",
+    "userId": "use_541fa3b8",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789663621554@example.com"
+    },
+    "timestamp": "2026-09-17T16:47:04.362Z",
+    "createdAt": "2026-09-17T16:47:04.362Z"
+  },
+  {
+    "id": "aud_0cffe08f",
+    "userId": "use_541fa3b8",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663621554@example.com",
+      "cpanelUser": "usera3"
+    },
+    "timestamp": "2026-09-17T16:47:04.430Z",
+    "createdAt": "2026-09-17T16:47:04.431Z"
+  },
+  {
+    "id": "aud_cc3653f4",
+    "userId": "use_541fa3b8",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_a3fbcd5c",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T16:47:04.440Z",
+    "createdAt": "2026-09-17T16:47:04.441Z"
+  },
+  {
+    "id": "aud_ea6aa277",
+    "userId": "use_541fa3b8",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_a3fbcd5c",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T16:47:04.446Z",
+    "createdAt": "2026-09-17T16:47:04.447Z"
+  },
+  {
+    "id": "aud_5204f80a",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:47:07.840Z",
+    "createdAt": "2026-09-17T16:47:07.841Z"
+  },
+  {
+    "id": "aud_df4ba6d7",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:47:07.855Z",
+    "createdAt": "2026-09-17T16:47:07.855Z"
+  },
+  {
+    "id": "aud_8801cec1",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_e5f18f09",
+      "invoiceId": "inv_af74106f",
+      "invoiceNumber": "INV-990957",
+      "domain": "e2eadmintenant1789663627858.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:47:07.871Z",
+    "createdAt": "2026-09-17T16:47:07.872Z"
+  },
+  {
+    "id": "aud_5c0545b0",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_e5f18f09",
+      "domain": "e2eadmintenant1789663627858.com"
+    },
+    "timestamp": "2026-09-17T16:47:07.887Z",
+    "createdAt": "2026-09-17T16:47:07.887Z"
+  },
+  {
+    "id": "aud_ebda1709",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:47:11.557Z",
+    "createdAt": "2026-09-17T16:47:11.558Z"
+  },
+  {
+    "id": "aud_73898f7b",
+    "userId": "use_11cf5c21",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663740646@example.com",
+      "cpanelUser": "usera4",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:49:00.982Z",
+    "createdAt": "2026-09-17T16:49:00.983Z"
+  },
+  {
+    "id": "aud_93d0c51c",
+    "userId": "use_11cf5c21",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663740646@example.com",
+      "cpanelUser": "usera4"
+    },
+    "timestamp": "2026-09-17T16:49:01.252Z",
+    "createdAt": "2026-09-17T16:49:01.252Z"
+  },
+  {
+    "id": "aud_f75506e0",
+    "userId": "use_bd7fc44c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663741254@example.com",
+      "cpanelUser": "userb4",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:49:01.587Z",
+    "createdAt": "2026-09-17T16:49:01.588Z"
+  },
+  {
+    "id": "aud_d8ea9959",
+    "userId": "use_bd7fc44c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663741254@example.com",
+      "cpanelUser": "userb4"
+    },
+    "timestamp": "2026-09-17T16:49:01.849Z",
+    "createdAt": "2026-09-17T16:49:01.850Z"
+  },
+  {
+    "id": "aud_6b78a282",
+    "userId": "use_11cf5c21",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_70f4e7a9",
+      "invoiceId": "inv_cf64e8a0",
+      "invoiceNumber": "INV-498739",
+      "domain": "alice-1789663741853.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:49:01.858Z",
+    "createdAt": "2026-09-17T16:49:01.858Z"
+  },
+  {
+    "id": "aud_9f35b4eb",
+    "userId": "use_bd7fc44c",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_49b15b2e",
+      "invoiceId": "inv_30366942",
+      "invoiceNumber": "INV-687054",
+      "domain": "bob-1789663741860.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:49:01.865Z",
+    "createdAt": "2026-09-17T16:49:01.866Z"
+  },
+  {
+    "id": "aud_0d927ce2",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:49:43.187Z",
+    "createdAt": "2026-09-17T16:49:43.189Z"
+  },
+  {
+    "id": "aud_b13b5bb6",
+    "userId": "use_2e838a26",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663783195@example.com",
+      "cpanelUser": "usera5",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:49:43.528Z",
+    "createdAt": "2026-09-17T16:49:43.528Z"
+  },
+  {
+    "id": "aud_3f041939",
+    "userId": "use_2e838a26",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663783195@example.com",
+      "cpanelUser": "usera5"
+    },
+    "timestamp": "2026-09-17T16:49:43.790Z",
+    "createdAt": "2026-09-17T16:49:43.791Z"
+  },
+  {
+    "id": "aud_2de7a79a",
+    "userId": "use_277a10b7",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663783793@example.com",
+      "cpanelUser": "userb5",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:49:44.126Z",
+    "createdAt": "2026-09-17T16:49:44.127Z"
+  },
+  {
+    "id": "aud_7613a9df",
+    "userId": "use_277a10b7",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789663783793@example.com",
+      "cpanelUser": "userb5"
+    },
+    "timestamp": "2026-09-17T16:49:44.389Z",
+    "createdAt": "2026-09-17T16:49:44.390Z"
+  },
+  {
+    "id": "aud_f536055a",
+    "userId": "use_2e838a26",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_ec679bd8",
+      "invoiceId": "inv_cdead002",
+      "invoiceNumber": "INV-386091",
+      "domain": "alice-1789663784395.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:49:44.401Z",
+    "createdAt": "2026-09-17T16:49:44.402Z"
+  },
+  {
+    "id": "aud_f47915c6",
+    "userId": "use_277a10b7",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_87e49136",
+      "invoiceId": "inv_567bf9d0",
+      "invoiceNumber": "INV-551924",
+      "domain": "bob-1789663784403.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:49:44.409Z",
+    "createdAt": "2026-09-17T16:49:44.409Z"
+  },
+  {
+    "id": "aud_4d92cd95",
+    "userId": "use_2e838a26",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_ec679bd8",
+      "domain": "alice-1789663784395.com"
+    },
+    "timestamp": "2026-09-17T16:49:44.423Z",
+    "createdAt": "2026-09-17T16:49:44.424Z"
+  },
+  {
+    "id": "aud_6d6170d3",
+    "userId": "use_277a10b7",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_87e49136",
+      "domain": "bob-1789663784403.com"
+    },
+    "timestamp": "2026-09-17T16:49:44.438Z",
+    "createdAt": "2026-09-17T16:49:44.439Z"
+  },
+  {
+    "id": "aud_2798ee21",
+    "userId": "use_2e838a26",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_dffaffff",
+      "domain": "alice-1789663784395.com"
+    },
+    "timestamp": "2026-09-17T16:49:45.941Z",
+    "createdAt": "2026-09-17T16:49:45.941Z"
+  },
+  {
+    "id": "aud_78422627",
+    "userId": "use_2e838a26",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "firstName": "Alice",
+        "lastName": "SecurityUpdated",
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T16:49:45.961Z"
+      }
+    },
+    "timestamp": "2026-09-17T16:49:45.963Z",
+    "createdAt": "2026-09-17T16:49:45.963Z"
+  },
+  {
+    "id": "aud_a90b6337",
+    "userId": "use_2e838a26",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789663783195@example.com"
+    },
+    "timestamp": "2026-09-17T16:49:46.040Z",
+    "createdAt": "2026-09-17T16:49:46.040Z"
+  },
+  {
+    "id": "aud_767cdb52",
+    "userId": "use_2e838a26",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789663783195@example.com",
+      "cpanelUser": "usera5"
+    },
+    "timestamp": "2026-09-17T16:49:46.122Z",
+    "createdAt": "2026-09-17T16:49:46.136Z"
+  },
+  {
+    "id": "aud_b68efe18",
+    "userId": "use_2e838a26",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_dffaffff",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T16:49:46.146Z",
+    "createdAt": "2026-09-17T16:49:46.147Z"
+  },
+  {
+    "id": "aud_a97cc210",
+    "userId": "use_2e838a26",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_dffaffff",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T16:49:46.153Z",
+    "createdAt": "2026-09-17T16:49:46.154Z"
+  },
+  {
+    "id": "aud_6b19e948",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:49:49.908Z",
+    "createdAt": "2026-09-17T16:49:49.909Z"
+  },
+  {
+    "id": "aud_bdef9bed",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:49:53.054Z",
+    "createdAt": "2026-09-17T16:49:53.055Z"
+  },
+  {
+    "id": "aud_10084740",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:49:53.068Z",
+    "createdAt": "2026-09-17T16:49:53.069Z"
+  },
+  {
+    "id": "aud_53008a8c",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_0a09bdbd",
+      "invoiceId": "inv_5f48d6aa",
+      "invoiceNumber": "INV-913349",
+      "domain": "e2eadmintenant1789663793071.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:49:53.083Z",
+    "createdAt": "2026-09-17T16:49:53.084Z"
+  },
+  {
+    "id": "aud_fdd3f12b",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_0a09bdbd",
+      "domain": "e2eadmintenant1789663793071.com"
+    },
+    "timestamp": "2026-09-17T16:49:53.098Z",
+    "createdAt": "2026-09-17T16:49:53.099Z"
+  },
+  {
+    "id": "aud_3a3162e4",
+    "userId": "use_28254bdb",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T16:53:50.951Z",
+    "createdAt": "2026-09-17T16:53:50.952Z"
+  },
+  {
+    "id": "aud_1ee5cff0",
+    "userId": "use_7947c209",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "sqli_1789664031234@example.com",
+      "cpanelUser": "sqli1789",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T16:53:51.566Z",
+    "createdAt": "2026-09-17T16:53:51.567Z"
+  },
+  {
+    "id": "aud_154b15c7",
+    "userId": "use_28254bdb",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest"
+    },
+    "timestamp": "2026-09-17T16:53:52.091Z",
+    "createdAt": "2026-09-17T16:53:52.092Z"
+  },
+  {
+    "id": "aud_ae3ae7eb",
+    "userId": "use_28254bdb",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664030620@example.com",
+      "cpanelUser": "authtest"
+    },
+    "timestamp": "2026-09-17T16:53:52.356Z",
+    "createdAt": "2026-09-17T16:53:52.356Z"
+  },
+  {
+    "id": "aud_711d4cfe",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:54:00.090Z",
+    "createdAt": "2026-09-17T16:54:00.091Z"
+  },
+  {
+    "id": "aud_4b65d91f",
+    "userId": "use_5a8822a8",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T16:54:00.428Z",
+    "createdAt": "2026-09-17T16:54:00.428Z"
+  },
+  {
+    "id": "aud_719fe9e1",
+    "userId": "use_5a8822a8",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6"
+    },
+    "timestamp": "2026-09-17T16:54:00.691Z",
+    "createdAt": "2026-09-17T16:54:00.692Z"
+  },
+  {
+    "id": "aud_5b7d222d",
+    "userId": "use_ef726c0f",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789664040695@example.com",
+      "cpanelUser": "userb6",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T16:54:01.030Z",
+    "createdAt": "2026-09-17T16:54:01.031Z"
+  },
+  {
+    "id": "aud_70a9b191",
+    "userId": "use_ef726c0f",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789664040695@example.com",
+      "cpanelUser": "userb6"
+    },
+    "timestamp": "2026-09-17T16:54:01.293Z",
+    "createdAt": "2026-09-17T16:54:01.294Z"
+  },
+  {
+    "id": "aud_b2f473b4",
+    "userId": "use_5a8822a8",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_52ef66af",
+      "invoiceId": "inv_8995f36a",
+      "invoiceNumber": "INV-758487",
+      "domain": "alice-1789664041298.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:54:01.305Z",
+    "createdAt": "2026-09-17T16:54:01.305Z"
+  },
+  {
+    "id": "aud_769d35c0",
+    "userId": "use_ef726c0f",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_2c3dc049",
+      "invoiceId": "inv_321c9554",
+      "invoiceNumber": "INV-641134",
+      "domain": "bob-1789664041307.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T16:54:01.313Z",
+    "createdAt": "2026-09-17T16:54:01.314Z"
+  },
+  {
+    "id": "aud_a8df5c35",
+    "userId": "use_5a8822a8",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_52ef66af",
+      "domain": "alice-1789664041298.com"
+    },
+    "timestamp": "2026-09-17T16:54:01.338Z",
+    "createdAt": "2026-09-17T16:54:01.339Z"
+  },
+  {
+    "id": "aud_a3047283",
+    "userId": "use_ef726c0f",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_2c3dc049",
+      "domain": "bob-1789664041307.com"
+    },
+    "timestamp": "2026-09-17T16:54:01.354Z",
+    "createdAt": "2026-09-17T16:54:01.354Z"
+  },
+  {
+    "id": "aud_bc50a651",
+    "userId": "use_5a8822a8",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_978e7e6e",
+      "domain": "alice-1789664041298.com"
+    },
+    "timestamp": "2026-09-17T16:54:02.851Z",
+    "createdAt": "2026-09-17T16:54:02.851Z"
+  },
+  {
+    "id": "aud_821fe05d",
+    "userId": "use_5a8822a8",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "firstName": "Alice",
+        "lastName": "SecurityUpdated",
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T16:54:02.873Z"
+      }
+    },
+    "timestamp": "2026-09-17T16:54:02.875Z",
+    "createdAt": "2026-09-17T16:54:02.875Z"
+  },
+  {
+    "id": "aud_d2346109",
+    "userId": "use_5a8822a8",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789664040097@example.com"
+    },
+    "timestamp": "2026-09-17T16:54:02.952Z",
+    "createdAt": "2026-09-17T16:54:02.953Z"
+  },
+  {
+    "id": "aud_b3880be6",
+    "userId": "use_5a8822a8",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664040097@example.com",
+      "cpanelUser": "usera6"
+    },
+    "timestamp": "2026-09-17T16:54:03.021Z",
+    "createdAt": "2026-09-17T16:54:03.022Z"
+  },
+  {
+    "id": "aud_5abb731d",
+    "userId": "use_5a8822a8",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_978e7e6e",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T16:54:03.033Z",
+    "createdAt": "2026-09-17T16:54:03.034Z"
+  },
+  {
+    "id": "aud_d26c129c",
+    "userId": "use_5a8822a8",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_978e7e6e",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T16:54:03.038Z",
+    "createdAt": "2026-09-17T16:54:03.039Z"
+  },
+  {
+    "id": "aud_0314b72f",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T16:54:05.896Z",
+    "createdAt": "2026-09-17T16:54:05.896Z"
+  },
+  {
+    "id": "aud_aaa49126",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T16:54:12.365Z",
+    "createdAt": "2026-09-17T16:54:12.366Z"
+  },
+  {
+    "id": "aud_0966889d",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T16:54:12.378Z",
+    "createdAt": "2026-09-17T16:54:12.379Z"
+  },
+  {
+    "id": "aud_0394eda0",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_620bec0a",
+      "invoiceId": "inv_9d59060b",
+      "invoiceNumber": "INV-540198",
+      "domain": "e2eadmintenant1789664052381.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T16:54:12.394Z",
+    "createdAt": "2026-09-17T16:54:12.395Z"
+  },
+  {
+    "id": "aud_4b5e15e4",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_620bec0a",
+      "domain": "e2eadmintenant1789664052381.com"
+    },
+    "timestamp": "2026-09-17T16:54:12.408Z",
+    "createdAt": "2026-09-17T16:54:12.408Z"
+  },
+  {
+    "id": "aud_76b97cac",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T16:54:53.065Z",
+    "createdAt": "2026-09-17T16:54:53.066Z"
+  },
+  {
+    "id": "aud_10b7e57d",
+    "userId": "use_a1479bbd",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "client_reg_1789664098231@example.com",
+      "cpanelUser": "clientre",
+      "phone": "01712349999"
+    },
+    "timestamp": "2026-09-17T16:54:58.609Z",
+    "createdAt": "2026-09-17T16:54:58.610Z"
+  },
+  {
+    "id": "aud_b105735f",
+    "userId": "use_a1479bbd",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "client_reg_1789664098231@example.com",
+      "cpanelUser": "clientre"
+    },
+    "timestamp": "2026-09-17T16:54:58.878Z",
+    "createdAt": "2026-09-17T16:54:58.879Z"
+  },
+  {
+    "id": "aud_5936a7b6",
+    "userId": "use_e67fd230",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789664958001@example.com",
+      "cpanelUser": "alpha178",
+      "phone": "01711223344"
+    },
+    "timestamp": "2026-09-17T17:09:18.361Z",
+    "createdAt": "2026-09-17T17:09:18.362Z"
+  },
+  {
+    "id": "aud_7c813106",
+    "userId": "use_e67fd230",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789664958001@example.com",
+      "cpanelUser": "alpha178"
+    },
+    "timestamp": "2026-09-17T17:09:18.630Z",
+    "createdAt": "2026-09-17T17:09:18.631Z"
+  },
+  {
+    "id": "aud_33f73cdd",
+    "userId": "use_0270558b",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789664958001@example.com",
+      "cpanelUser": "beta1789",
+      "phone": "01799887766"
+    },
+    "timestamp": "2026-09-17T17:09:18.966Z",
+    "createdAt": "2026-09-17T17:09:18.967Z"
+  },
+  {
+    "id": "aud_faad67a3",
+    "userId": "use_0270558b",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789664958001@example.com",
+      "cpanelUser": "beta1789"
+    },
+    "timestamp": "2026-09-17T17:09:19.229Z",
+    "createdAt": "2026-09-17T17:09:19.230Z"
+  },
+  {
+    "id": "aud_43a839d0",
+    "userId": "use_e67fd230",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_e9abb878",
+      "domain": "alpha-active-1789664958001.com"
+    },
+    "timestamp": "2026-09-17T17:09:23.383Z",
+    "createdAt": "2026-09-17T17:09:23.383Z"
+  },
+  {
+    "id": "aud_1fc258a2",
+    "userId": "use_02ccd12c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T17:09:27.484Z",
+    "createdAt": "2026-09-17T17:09:27.485Z"
+  },
+  {
+    "id": "aud_5575903b",
+    "userId": "use_c0c7498f",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "sqli_1789664967759@example.com",
+      "cpanelUser": "sqli11",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T17:09:28.089Z",
+    "createdAt": "2026-09-17T17:09:28.090Z"
+  },
+  {
+    "id": "aud_42d63714",
+    "userId": "use_02ccd12c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1"
+    },
+    "timestamp": "2026-09-17T17:09:28.612Z",
+    "createdAt": "2026-09-17T17:09:28.613Z"
+  },
+  {
+    "id": "aud_11ad4b0f",
+    "userId": "use_02ccd12c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789664967131@example.com",
+      "cpanelUser": "autht1"
+    },
+    "timestamp": "2026-09-17T17:09:28.875Z",
+    "createdAt": "2026-09-17T17:09:28.876Z"
+  },
+  {
+    "id": "aud_51f48989",
+    "userId": "usr_tamim",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tamimhasan1281@gmail.com",
+      "cpanelUser": "tamimhasan1281"
+    },
+    "timestamp": "2026-09-17T17:09:37.311Z",
+    "createdAt": "2026-09-17T17:09:37.311Z"
+  },
+  {
+    "id": "aud_6d496b4e",
+    "userId": "use_f305f3cf",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7",
+      "phone": "01711111111"
+    },
+    "timestamp": "2026-09-17T17:09:37.648Z",
+    "createdAt": "2026-09-17T17:09:37.649Z"
+  },
+  {
+    "id": "aud_09c424b8",
+    "userId": "use_f305f3cf",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7"
+    },
+    "timestamp": "2026-09-17T17:09:37.911Z",
+    "createdAt": "2026-09-17T17:09:37.911Z"
+  },
+  {
+    "id": "aud_01ba0bf1",
+    "userId": "use_2da2e021",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789664977914@example.com",
+      "cpanelUser": "userb7",
+      "phone": "01722222222"
+    },
+    "timestamp": "2026-09-17T17:09:38.243Z",
+    "createdAt": "2026-09-17T17:09:38.244Z"
+  },
+  {
+    "id": "aud_519f41dd",
+    "userId": "use_2da2e021",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "userb_1789664977914@example.com",
+      "cpanelUser": "userb7"
+    },
+    "timestamp": "2026-09-17T17:09:38.505Z",
+    "createdAt": "2026-09-17T17:09:38.506Z"
+  },
+  {
+    "id": "aud_ccf6dd3b",
+    "userId": "use_f305f3cf",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_3880894e",
+      "invoiceId": "inv_cb900689",
+      "invoiceNumber": "INV-918930",
+      "domain": "alice-1789664978511.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:09:38.516Z",
+    "createdAt": "2026-09-17T17:09:38.517Z"
+  },
+  {
+    "id": "aud_d8affb60",
+    "userId": "use_2da2e021",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_0e6e1c60",
+      "invoiceId": "inv_ddc417b5",
+      "invoiceNumber": "INV-139814",
+      "domain": "bob-1789664978518.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:09:38.524Z",
+    "createdAt": "2026-09-17T17:09:38.525Z"
+  },
+  {
+    "id": "aud_43a40a51",
+    "userId": "use_f305f3cf",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_3880894e",
+      "domain": "alice-1789664978511.com"
+    },
+    "timestamp": "2026-09-17T17:09:38.538Z",
+    "createdAt": "2026-09-17T17:09:38.539Z"
+  },
+  {
+    "id": "aud_a89125cc",
+    "userId": "use_2da2e021",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_0e6e1c60",
+      "domain": "bob-1789664978518.com"
+    },
+    "timestamp": "2026-09-17T17:09:38.552Z",
+    "createdAt": "2026-09-17T17:09:38.553Z"
+  },
+  {
+    "id": "aud_0e0e0615",
+    "userId": "use_f305f3cf",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_371da450",
+      "domain": "alice-1789664978511.com"
+    },
+    "timestamp": "2026-09-17T17:09:40.020Z",
+    "createdAt": "2026-09-17T17:09:40.020Z"
+  },
+  {
+    "id": "aud_e2c82081",
+    "userId": "use_f305f3cf",
+    "action": "ADMIN_USER_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "updates": {
+        "firstName": "Alice",
+        "lastName": "SecurityUpdated",
+        "phone": "01799999999",
+        "role": "client",
+        "status": "active",
+        "updatedAt": "2026-09-17T17:09:40.041Z"
+      }
+    },
+    "timestamp": "2026-09-17T17:09:40.043Z",
+    "createdAt": "2026-09-17T17:09:40.044Z"
+  },
+  {
+    "id": "aud_fbd5e77e",
+    "userId": "use_f305f3cf",
+    "action": "ADMIN_RESET_PASSWORD",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "email": "usera_1789664977317@example.com"
+    },
+    "timestamp": "2026-09-17T17:09:40.120Z",
+    "createdAt": "2026-09-17T17:09:40.121Z"
+  },
+  {
+    "id": "aud_437d5d72",
+    "userId": "use_f305f3cf",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "usera_1789664977317@example.com",
+      "cpanelUser": "usera7"
+    },
+    "timestamp": "2026-09-17T17:09:40.189Z",
+    "createdAt": "2026-09-17T17:09:40.191Z"
+  },
+  {
+    "id": "aud_9086bd68",
+    "userId": "use_f305f3cf",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_371da450",
+      "status": "suspended"
+    },
+    "timestamp": "2026-09-17T17:09:40.202Z",
+    "createdAt": "2026-09-17T17:09:40.204Z"
+  },
+  {
+    "id": "aud_d3d895dd",
+    "userId": "use_f305f3cf",
+    "action": "ADMIN_SERVICE_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "serviceId": "ser_371da450",
+      "status": "active"
+    },
+    "timestamp": "2026-09-17T17:09:40.208Z",
+    "createdAt": "2026-09-17T17:09:40.209Z"
+  },
+  {
+    "id": "aud_ca0a4c47",
+    "userId": "usr_tamim",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_a79cfb3b",
+      "domain": "testdomain123.com"
+    },
+    "timestamp": "2026-09-17T17:09:43.507Z",
+    "createdAt": "2026-09-17T17:09:43.508Z"
+  },
+  {
+    "id": "aud_b564a90a",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T17:09:48.378Z",
+    "createdAt": "2026-09-17T17:09:48.380Z"
+  },
+  {
+    "id": "aud_c3a765e4",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T17:09:48.395Z",
+    "createdAt": "2026-09-17T17:09:48.396Z"
+  },
+  {
+    "id": "aud_464dadb4",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_08c2b39f",
+      "invoiceId": "inv_8e3395e6",
+      "invoiceNumber": "INV-863023",
+      "domain": "e2eadmintenant1789664988399.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T17:09:48.410Z",
+    "createdAt": "2026-09-17T17:09:48.411Z"
+  },
+  {
+    "id": "aud_69acd7ef",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_08c2b39f",
+      "domain": "e2eadmintenant1789664988399.com"
+    },
+    "timestamp": "2026-09-17T17:09:48.426Z",
+    "createdAt": "2026-09-17T17:09:48.427Z"
+  },
+  {
+    "id": "aud_a6b02bfa",
+    "userId": "use_5dd47f86",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789665348512@example.com",
+      "cpanelUser": "alpha1",
+      "phone": "01711223344"
+    },
+    "timestamp": "2026-09-17T17:15:48.861Z",
+    "createdAt": "2026-09-17T17:15:48.862Z"
+  },
+  {
+    "id": "aud_46367fbe",
+    "userId": "use_5dd47f86",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789665348512@example.com",
+      "cpanelUser": "alpha1"
+    },
+    "timestamp": "2026-09-17T17:15:49.126Z",
+    "createdAt": "2026-09-17T17:15:49.127Z"
+  },
+  {
+    "id": "aud_dcd53f4a",
+    "userId": "use_6599571a",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789665348512@example.com",
+      "cpanelUser": "beta11",
+      "phone": "01799887766"
+    },
+    "timestamp": "2026-09-17T17:15:49.460Z",
+    "createdAt": "2026-09-17T17:15:49.461Z"
+  },
+  {
+    "id": "aud_a7e9f023",
+    "userId": "use_6599571a",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789665348512@example.com",
+      "cpanelUser": "beta11"
+    },
+    "timestamp": "2026-09-17T17:15:49.721Z",
+    "createdAt": "2026-09-17T17:15:49.722Z"
+  },
+  {
+    "id": "aud_f2e9f65e",
+    "userId": "use_5dd47f86",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_8721126c",
+      "domain": "alpha-active-1789665348512.com"
+    },
+    "timestamp": "2026-09-17T17:15:53.891Z",
+    "createdAt": "2026-09-17T17:15:53.892Z"
+  },
+  {
+    "id": "aud_fb241009",
+    "userId": "use_c578e0c7",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T17:15:57.400Z",
+    "createdAt": "2026-09-17T17:15:57.401Z"
+  },
+  {
+    "id": "aud_ba370a32",
+    "userId": "use_844abfc1",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "sqli_1789665357678@example.com",
+      "cpanelUser": "sqli12",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T17:15:58.003Z",
+    "createdAt": "2026-09-17T17:15:58.004Z"
+  },
+  {
+    "id": "aud_8784369f",
+    "userId": "use_c578e0c7",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2"
+    },
+    "timestamp": "2026-09-17T17:15:58.523Z",
+    "createdAt": "2026-09-17T17:15:58.524Z"
+  },
+  {
+    "id": "aud_d0ca89b8",
+    "userId": "use_c578e0c7",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789665357072@example.com",
+      "cpanelUser": "autht2"
+    },
+    "timestamp": "2026-09-17T17:15:58.785Z",
+    "createdAt": "2026-09-17T17:15:58.786Z"
+  },
+  {
+    "id": "aud_25c39016",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T17:16:05.764Z",
+    "createdAt": "2026-09-17T17:16:05.765Z"
+  },
+  {
+    "id": "aud_b9c2db87",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T17:16:05.777Z",
+    "createdAt": "2026-09-17T17:16:05.778Z"
+  },
+  {
+    "id": "aud_c5df57d1",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_fd137129",
+      "invoiceId": "inv_2d7de84c",
+      "invoiceNumber": "INV-647268",
+      "domain": "e2eadmintenant1789665365780.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T17:16:05.795Z",
+    "createdAt": "2026-09-17T17:16:05.796Z"
+  },
+  {
+    "id": "aud_d893ddef",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_fd137129",
+      "domain": "e2eadmintenant1789665365780.com"
+    },
+    "timestamp": "2026-09-17T17:16:05.814Z",
+    "createdAt": "2026-09-17T17:16:05.814Z"
+  },
+  {
+    "id": "aud_63b196af",
+    "userId": "use_2a11e401",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_078244@example.com",
+      "cpanelUser": "user0782",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T17:27:58.593Z",
+    "createdAt": "2026-09-17T17:27:58.593Z"
+  },
+  {
+    "id": "aud_c3207c67",
+    "userId": "use_e1b1793c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789666103759@example.com",
+      "cpanelUser": "user1789",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T17:28:24.106Z",
+    "createdAt": "2026-09-17T17:28:24.107Z"
+  },
+  {
+    "id": "aud_06a616bd",
+    "userId": "use_e1b1793c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789666103759@example.com",
+      "cpanelUser": "user1789"
+    },
+    "timestamp": "2026-09-17T17:28:24.390Z",
+    "createdAt": "2026-09-17T17:28:24.391Z"
+  },
+  {
+    "id": "aud_ea2f48e9",
+    "userId": "use_e1b1793c",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_23c17b7f",
+      "invoiceId": "inv_680e4453",
+      "invoiceNumber": "INV-487371",
+      "domain": "testdomain103759.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:28:25.925Z",
+    "createdAt": "2026-09-17T17:28:25.926Z"
+  },
+  {
+    "id": "aud_a4529f89",
+    "userId": "use_e1b1793c",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_23c17b7f",
+      "domain": "testdomain103759.com"
+    },
+    "timestamp": "2026-09-17T17:28:27.310Z",
+    "createdAt": "2026-09-17T17:28:27.311Z"
+  },
+  {
+    "id": "aud_924d05e8",
+    "userId": "use_a9ca0017",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789666212834@example.com",
+      "cpanelUser": "user11",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T17:30:13.179Z",
+    "createdAt": "2026-09-17T17:30:13.180Z"
+  },
+  {
+    "id": "aud_16ea9a8c",
+    "userId": "use_a9ca0017",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789666212834@example.com",
+      "cpanelUser": "user11"
+    },
+    "timestamp": "2026-09-17T17:30:13.446Z",
+    "createdAt": "2026-09-17T17:30:13.448Z"
+  },
+  {
+    "id": "aud_b6861103",
+    "userId": "use_a9ca0017",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_51173daa",
+      "invoiceId": "inv_bb74e440",
+      "invoiceNumber": "INV-984714",
+      "domain": "testdomain212834.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:30:14.836Z",
+    "createdAt": "2026-09-17T17:30:14.837Z"
+  },
+  {
+    "id": "aud_0bdd2040",
+    "userId": "use_a9ca0017",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_51173daa",
+      "domain": "testdomain212834.com"
+    },
+    "timestamp": "2026-09-17T17:30:14.850Z",
+    "createdAt": "2026-09-17T17:30:14.851Z"
+  },
+  {
+    "id": "aud_ad4c77d1",
+    "userId": "use_0375ea95",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789666263023@example.com",
+      "cpanelUser": "user12",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T17:31:03.362Z",
+    "createdAt": "2026-09-17T17:31:03.363Z"
+  },
+  {
+    "id": "aud_0fadd97a",
+    "userId": "use_0375ea95",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789666263023@example.com",
+      "cpanelUser": "user12"
+    },
+    "timestamp": "2026-09-17T17:31:03.629Z",
+    "createdAt": "2026-09-17T17:31:03.629Z"
+  },
+  {
+    "id": "aud_f7a97e94",
+    "userId": "use_0375ea95",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_217c1985",
+      "invoiceId": "inv_05f82784",
+      "invoiceNumber": "INV-674350",
+      "domain": "testdomain263023.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:31:05.008Z",
+    "createdAt": "2026-09-17T17:31:05.009Z"
+  },
+  {
+    "id": "aud_fcacaed3",
+    "userId": "use_0375ea95",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_217c1985",
+      "domain": "testdomain263023.com"
+    },
+    "timestamp": "2026-09-17T17:31:05.021Z",
+    "createdAt": "2026-09-17T17:31:05.022Z"
+  },
+  {
+    "id": "aud_9f525aee",
+    "userId": "use_2d7ea208",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789666332293@example.com",
+      "cpanelUser": "user13",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T17:32:12.642Z",
+    "createdAt": "2026-09-17T17:32:12.642Z"
+  },
+  {
+    "id": "aud_7c11e6f2",
+    "userId": "use_2d7ea208",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789666332293@example.com",
+      "cpanelUser": "user13"
+    },
+    "timestamp": "2026-09-17T17:32:12.925Z",
+    "createdAt": "2026-09-17T17:32:12.926Z"
+  },
+  {
+    "id": "aud_cb6ca0eb",
+    "userId": "use_2d7ea208",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_9b423869",
+      "invoiceId": "inv_0f53639c",
+      "invoiceNumber": "INV-298492",
+      "domain": "testdomain332293.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T17:32:14.306Z",
+    "createdAt": "2026-09-17T17:32:14.307Z"
+  },
+  {
+    "id": "aud_59c29d07",
+    "userId": "use_2d7ea208",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_9b423869",
+      "domain": "testdomain332293.com"
+    },
+    "timestamp": "2026-09-17T17:32:14.320Z",
+    "createdAt": "2026-09-17T17:32:14.321Z"
+  },
+  {
+    "id": "aud_e0c5d9f6",
+    "userId": "use_75b88424",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789666343732@example.com",
+      "cpanelUser": "alpha2",
+      "phone": "01711223344"
+    },
+    "timestamp": "2026-09-17T17:32:24.075Z",
+    "createdAt": "2026-09-17T17:32:24.076Z"
+  },
+  {
+    "id": "aud_1940bbac",
+    "userId": "use_75b88424",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789666343732@example.com",
+      "cpanelUser": "alpha2"
+    },
+    "timestamp": "2026-09-17T17:32:24.374Z",
+    "createdAt": "2026-09-17T17:32:24.375Z"
+  },
+  {
+    "id": "aud_7de93d2d",
+    "userId": "use_1d7eaf8a",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789666343732@example.com",
+      "cpanelUser": "beta12",
+      "phone": "01799887766"
+    },
+    "timestamp": "2026-09-17T17:32:24.727Z",
+    "createdAt": "2026-09-17T17:32:24.728Z"
+  },
+  {
+    "id": "aud_5cfaf8b2",
+    "userId": "use_1d7eaf8a",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789666343732@example.com",
+      "cpanelUser": "beta12"
+    },
+    "timestamp": "2026-09-17T17:32:25.036Z",
+    "createdAt": "2026-09-17T17:32:25.037Z"
+  },
+  {
+    "id": "aud_7d074328",
+    "userId": "use_75b88424",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_15552921",
+      "domain": "alpha-active-1789666343732.com"
+    },
+    "timestamp": "2026-09-17T17:32:29.273Z",
+    "createdAt": "2026-09-17T17:32:29.274Z"
+  },
+  {
+    "id": "aud_692e9329",
+    "userId": "use_356a69a3",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T17:32:32.891Z",
+    "createdAt": "2026-09-17T17:32:32.892Z"
+  },
+  {
+    "id": "aud_df5a1c00",
+    "userId": "use_5ae82d91",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "sqli_1789666353164@example.com",
+      "cpanelUser": "sqli13",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T17:32:33.507Z",
+    "createdAt": "2026-09-17T17:32:33.507Z"
+  },
+  {
+    "id": "aud_44236253",
+    "userId": "use_356a69a3",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3"
+    },
+    "timestamp": "2026-09-17T17:32:34.051Z",
+    "createdAt": "2026-09-17T17:32:34.052Z"
+  },
+  {
+    "id": "aud_bb5fcbd3",
+    "userId": "use_356a69a3",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789666352559@example.com",
+      "cpanelUser": "autht3"
+    },
+    "timestamp": "2026-09-17T17:32:34.328Z",
+    "createdAt": "2026-09-17T17:32:34.330Z"
+  },
+  {
+    "id": "aud_72ca343e",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T17:32:39.794Z",
+    "createdAt": "2026-09-17T17:32:39.795Z"
+  },
+  {
+    "id": "aud_6d8d327b",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T17:32:39.807Z",
+    "createdAt": "2026-09-17T17:32:39.807Z"
+  },
+  {
+    "id": "aud_32acd699",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_0f216db7",
+      "invoiceId": "inv_8f4f28f4",
+      "invoiceNumber": "INV-634818",
+      "domain": "e2eadmintenant1789666359809.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T17:32:39.825Z",
+    "createdAt": "2026-09-17T17:32:39.826Z"
+  },
+  {
+    "id": "aud_e4668064",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_0f216db7",
+      "domain": "e2eadmintenant1789666359809.com"
+    },
+    "timestamp": "2026-09-17T17:32:39.843Z",
+    "createdAt": "2026-09-17T17:32:39.844Z"
+  },
+  {
+    "id": "aud_0a4da234",
+    "userId": "usr_tamim",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_77c252c6",
+      "invoiceId": "inv_c473b819",
+      "invoiceNumber": "INV-101660",
+      "domain": "tamim1280.shop",
+      "totalAmount": 29.99
+    },
+    "timestamp": "2026-09-17T17:51:06.102Z",
+    "createdAt": "2026-09-17T17:51:06.103Z"
+  },
+  {
+    "id": "aud_fe1baa16",
+    "userId": "use_0e449f1b",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669069100@example.com",
+      "cpanelUser": "tenant17",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:17:49.474Z",
+    "createdAt": "2026-09-17T18:17:49.474Z"
+  },
+  {
+    "id": "aud_189635ff",
+    "userId": "use_0e449f1b",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669069100@example.com",
+      "cpanelUser": "tenant17"
+    },
+    "timestamp": "2026-09-17T18:17:49.749Z",
+    "createdAt": "2026-09-17T18:17:49.750Z"
+  },
+  {
+    "id": "aud_6f307c8f",
+    "userId": "use_253f59d0",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669091319@example.com",
+      "cpanelUser": "tenan1",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:18:11.678Z",
+    "createdAt": "2026-09-17T18:18:11.679Z"
+  },
+  {
+    "id": "aud_ccc85325",
+    "userId": "use_253f59d0",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669091319@example.com",
+      "cpanelUser": "tenan1"
+    },
+    "timestamp": "2026-09-17T18:18:11.955Z",
+    "createdAt": "2026-09-17T18:18:11.956Z"
+  },
+  {
+    "id": "aud_bde0e503",
+    "userId": "use_253f59d0",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_6a0ccff5",
+      "invoiceId": "inv_bb1ca53f",
+      "invoiceNumber": "INV-271648",
+      "domain": "tenantdomain091319.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:18:11.968Z",
+    "createdAt": "2026-09-17T18:18:11.969Z"
+  },
+  {
+    "id": "aud_9bb35611",
+    "userId": "use_253f59d0",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_6a0ccff5",
+      "domain": "tenantdomain091319.com"
+    },
+    "timestamp": "2026-09-17T18:18:11.988Z",
+    "createdAt": "2026-09-17T18:18:11.989Z"
+  },
+  {
+    "id": "aud_58050b01",
+    "userId": "use_3279bec9",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789669097573@example.com",
+      "cpanelUser": "user14",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:18:17.921Z",
+    "createdAt": "2026-09-17T18:18:17.922Z"
+  },
+  {
+    "id": "aud_cdfb69ca",
+    "userId": "use_3279bec9",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789669097573@example.com",
+      "cpanelUser": "user14"
+    },
+    "timestamp": "2026-09-17T18:18:18.201Z",
+    "createdAt": "2026-09-17T18:18:18.202Z"
+  },
+  {
+    "id": "aud_ee7a0058",
+    "userId": "use_3279bec9",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_940f1c08",
+      "invoiceId": "inv_8109c42a",
+      "invoiceNumber": "INV-280491",
+      "domain": "testdomain097573.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:18:19.632Z",
+    "createdAt": "2026-09-17T18:18:19.634Z"
+  },
+  {
+    "id": "aud_ad12ecd3",
+    "userId": "use_3279bec9",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_940f1c08",
+      "domain": "testdomain097573.com"
+    },
+    "timestamp": "2026-09-17T18:18:19.646Z",
+    "createdAt": "2026-09-17T18:18:19.647Z"
+  },
+  {
+    "id": "aud_15c89493",
+    "userId": "use_9fc11034",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789669107539@example.com",
+      "cpanelUser": "alpha3",
+      "phone": "01711223344"
+    },
+    "timestamp": "2026-09-17T18:18:27.898Z",
+    "createdAt": "2026-09-17T18:18:27.899Z"
+  },
+  {
+    "id": "aud_3d06decc",
+    "userId": "use_9fc11034",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "alpha_1789669107539@example.com",
+      "cpanelUser": "alpha3"
+    },
+    "timestamp": "2026-09-17T18:18:28.178Z",
+    "createdAt": "2026-09-17T18:18:28.179Z"
+  },
+  {
+    "id": "aud_d785829a",
+    "userId": "use_361f8c18",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789669107539@example.com",
+      "cpanelUser": "beta13",
+      "phone": "01799887766"
+    },
+    "timestamp": "2026-09-17T18:18:28.534Z",
+    "createdAt": "2026-09-17T18:18:28.535Z"
+  },
+  {
+    "id": "aud_7f89204b",
+    "userId": "use_361f8c18",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "beta_1789669107539@example.com",
+      "cpanelUser": "beta13"
+    },
+    "timestamp": "2026-09-17T18:18:28.808Z",
+    "createdAt": "2026-09-17T18:18:28.809Z"
+  },
+  {
+    "id": "aud_aaba993b",
+    "userId": "use_9fc11034",
+    "action": "SERVICE_CPANEL_PASSWORD_CHANGED",
+    "ipAddress": "::1",
+    "details": {
+      "serviceId": "ser_f703ea6e",
+      "domain": "alpha-active-1789669107539.com"
+    },
+    "timestamp": "2026-09-17T18:18:32.995Z",
+    "createdAt": "2026-09-17T18:18:32.996Z"
+  },
+  {
+    "id": "aud_32c40abe",
+    "userId": "use_3f31cdbd",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4",
+      "phone": "+8801712345678"
+    },
+    "timestamp": "2026-09-17T18:18:37.906Z",
+    "createdAt": "2026-09-17T18:18:37.908Z"
+  },
+  {
+    "id": "aud_9f9c8b31",
+    "userId": "use_4d9cc2e4",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "sqli_1789669118190@example.com",
+      "cpanelUser": "sqli14",
+      "phone": "01712345678"
+    },
+    "timestamp": "2026-09-17T18:18:38.524Z",
+    "createdAt": "2026-09-17T18:18:38.524Z"
+  },
+  {
+    "id": "aud_7e410770",
+    "userId": "use_3f31cdbd",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4"
+    },
+    "timestamp": "2026-09-17T18:18:39.052Z",
+    "createdAt": "2026-09-17T18:18:39.053Z"
+  },
+  {
+    "id": "aud_5679a0b7",
+    "userId": "use_3f31cdbd",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "auth_test_1789669117567@example.com",
+      "cpanelUser": "autht4"
+    },
+    "timestamp": "2026-09-17T18:18:39.317Z",
+    "createdAt": "2026-09-17T18:18:39.318Z"
+  },
+  {
+    "id": "aud_f99dc280",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "active",
+      "new": "suspended"
+    },
+    "timestamp": "2026-09-17T18:18:46.122Z",
+    "createdAt": "2026-09-17T18:18:46.123Z"
+  },
+  {
+    "id": "aud_0397fb85",
+    "userId": "use_ec0b0451",
+    "action": "ADMIN_USER_STATUS_CHANGED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "previous": "suspended",
+      "new": "active"
+    },
+    "timestamp": "2026-09-17T18:18:46.136Z",
+    "createdAt": "2026-09-17T18:18:46.137Z"
+  },
+  {
+    "id": "aud_40e63771",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_624221f1",
+      "invoiceId": "inv_3296923e",
+      "invoiceNumber": "INV-103485",
+      "domain": "e2eadmintenant1789669126139.com",
+      "totalAmount": 89.99
+    },
+    "timestamp": "2026-09-17T18:18:46.152Z",
+    "createdAt": "2026-09-17T18:18:46.153Z"
+  },
+  {
+    "id": "aud_de43e874",
+    "userId": "use_ec0b0451",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_624221f1",
+      "domain": "e2eadmintenant1789669126139.com"
+    },
+    "timestamp": "2026-09-17T18:18:46.166Z",
+    "createdAt": "2026-09-17T18:18:46.167Z"
+  },
+  {
+    "id": "aud_3c10daa9",
+    "userId": "use_dc73c27c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669784034@example.com",
+      "cpanelUser": "tenan2",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:29:44.379Z",
+    "createdAt": "2026-09-17T18:29:44.380Z"
+  },
+  {
+    "id": "aud_4016e149",
+    "userId": "use_dc73c27c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789669784034@example.com",
+      "cpanelUser": "tenan2"
+    },
+    "timestamp": "2026-09-17T18:29:44.647Z",
+    "createdAt": "2026-09-17T18:29:44.648Z"
+  },
+  {
+    "id": "aud_4b9bcd86",
+    "userId": "use_dc73c27c",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_f24fe2bf",
+      "invoiceId": "inv_58f23a1e",
+      "invoiceNumber": "INV-792184",
+      "domain": "tenantdomain784034.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:29:44.660Z",
+    "createdAt": "2026-09-17T18:29:44.661Z"
+  },
+  {
+    "id": "aud_462fb991",
+    "userId": "use_dc73c27c",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_f24fe2bf",
+      "domain": "tenantdomain784034.com"
+    },
+    "timestamp": "2026-09-17T18:29:44.682Z",
+    "createdAt": "2026-09-17T18:29:44.683Z"
+  },
+  {
+    "id": "aud_5f280d01",
+    "userId": "use_14564ddf",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789669787207@example.com",
+      "cpanelUser": "user15",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:29:47.538Z",
+    "createdAt": "2026-09-17T18:29:47.539Z"
+  },
+  {
+    "id": "aud_55eed2f2",
+    "userId": "use_14564ddf",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789669787207@example.com",
+      "cpanelUser": "user15"
+    },
+    "timestamp": "2026-09-17T18:29:47.805Z",
+    "createdAt": "2026-09-17T18:29:47.806Z"
+  },
+  {
+    "id": "aud_37b7cefb",
+    "userId": "use_14564ddf",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_08b1d151",
+      "invoiceId": "inv_4317cfc5",
+      "invoiceNumber": "INV-333576",
+      "domain": "testdomain787207.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:29:49.173Z",
+    "createdAt": "2026-09-17T18:29:49.174Z"
+  },
+  {
+    "id": "aud_8ae60417",
+    "userId": "use_14564ddf",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_08b1d151",
+      "domain": "testdomain787207.com"
+    },
+    "timestamp": "2026-09-17T18:29:49.186Z",
+    "createdAt": "2026-09-17T18:29:49.187Z"
+  },
+  {
+    "id": "aud_40e74161",
+    "userId": "use_a2f709be",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789670063571@example.com",
+      "cpanelUser": "user16",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:34:23.906Z",
+    "createdAt": "2026-09-17T18:34:23.907Z"
+  },
+  {
+    "id": "aud_004cc2e8",
+    "userId": "use_a2f709be",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789670063571@example.com",
+      "cpanelUser": "user16"
+    },
+    "timestamp": "2026-09-17T18:34:24.182Z",
+    "createdAt": "2026-09-17T18:34:24.183Z"
+  },
+  {
+    "id": "aud_c3f6002e",
+    "userId": "use_a2f709be",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_ae6d0706",
+      "invoiceId": "inv_92d7cf34",
+      "invoiceNumber": "INV-914608",
+      "domain": "testdomain063571.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:34:25.920Z",
+    "createdAt": "2026-09-17T18:34:25.922Z"
+  },
+  {
+    "id": "aud_c249c30b",
+    "userId": "use_a2f709be",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_ae6d0706",
+      "domain": "testdomain063571.com"
+    },
+    "timestamp": "2026-09-17T18:34:25.936Z",
+    "createdAt": "2026-09-17T18:34:25.938Z"
+  },
+  {
+    "id": "aud_fbeb2270",
+    "userId": "usr_tamim",
+    "action": "ADMIN_MAX_UPLOAD_LIMIT_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "maxUploadSizeMb": 3072,
+      "maxUploadSizeGb": "3.00"
+    },
+    "timestamp": "2026-09-17T18:43:25.698Z",
+    "createdAt": "2026-09-17T18:43:25.699Z"
+  },
+  {
+    "id": "aud_53ba0e72",
+    "userId": "usr_tamim",
+    "action": "ADMIN_MAX_UPLOAD_LIMIT_UPDATED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "maxUploadSizeMb": 2048,
+      "maxUploadSizeGb": "2.00"
+    },
+    "timestamp": "2026-09-17T18:43:25.714Z",
+    "createdAt": "2026-09-17T18:43:25.715Z"
+  },
+  {
+    "id": "aud_d662a123",
+    "userId": "use_abf46e6c",
+    "action": "USER_REGISTERED",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789670608666@example.com",
+      "cpanelUser": "tenan3",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:43:29.022Z",
+    "createdAt": "2026-09-17T18:43:29.023Z"
+  },
+  {
+    "id": "aud_5eeb2280",
+    "userId": "use_abf46e6c",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::1",
+    "details": {
+      "email": "tenant_1789670608666@example.com",
+      "cpanelUser": "tenan3"
+    },
+    "timestamp": "2026-09-17T18:43:29.322Z",
+    "createdAt": "2026-09-17T18:43:29.323Z"
+  },
+  {
+    "id": "aud_6242a1a2",
+    "userId": "use_abf46e6c",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_abce55ed",
+      "invoiceId": "inv_795b9b98",
+      "invoiceNumber": "INV-580464",
+      "domain": "tenantdomain608666.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:43:29.337Z",
+    "createdAt": "2026-09-17T18:43:29.338Z"
+  },
+  {
+    "id": "aud_4c548360",
+    "userId": "use_abf46e6c",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_abce55ed",
+      "domain": "tenantdomain608666.com"
+    },
+    "timestamp": "2026-09-17T18:43:29.362Z",
+    "createdAt": "2026-09-17T18:43:29.363Z"
+  },
+  {
+    "id": "aud_e9714271",
+    "userId": "use_2e5b0ce9",
+    "action": "USER_REGISTERED",
+    "ipAddress": "test-runner-ip",
+    "details": {
+      "email": "user_1789670615105@example.com",
+      "cpanelUser": "user17",
+      "phone": "+8801700000000"
+    },
+    "timestamp": "2026-09-17T18:43:35.451Z",
+    "createdAt": "2026-09-17T18:43:35.452Z"
+  },
+  {
+    "id": "aud_4d4ec890",
+    "userId": "use_2e5b0ce9",
+    "action": "USER_LOGIN_SUCCESS",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "email": "user_1789670615105@example.com",
+      "cpanelUser": "user17"
+    },
+    "timestamp": "2026-09-17T18:43:35.728Z",
+    "createdAt": "2026-09-17T18:43:35.730Z"
+  },
+  {
+    "id": "aud_1e4f864a",
+    "userId": "use_2e5b0ce9",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::ffff:127.0.0.1",
+    "details": {
+      "orderId": "ord_8df88f7f",
+      "invoiceId": "inv_9ff8f2b8",
+      "invoiceNumber": "INV-792097",
+      "domain": "testdomain615105.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:43:37.119Z",
+    "createdAt": "2026-09-17T18:43:37.121Z"
+  },
+  {
+    "id": "aud_f9a190eb",
+    "userId": "use_2e5b0ce9",
+    "action": "ORDER_APPROVED_AND_PROVISIONED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_8df88f7f",
+      "domain": "testdomain615105.com"
+    },
+    "timestamp": "2026-09-17T18:43:37.135Z",
+    "createdAt": "2026-09-17T18:43:37.136Z"
+  },
+  {
+    "id": "aud_939c8a86",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_a672c9d5",
+      "invoiceId": "inv_7f201488",
+      "invoiceNumber": "INV-714871",
+      "domain": "test-del-1-1789671252416.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:12.430Z",
+    "createdAt": "2026-09-17T18:54:12.432Z"
+  },
+  {
+    "id": "aud_bb061985",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_170019dd",
+      "invoiceId": "inv_1f28ea5c",
+      "invoiceNumber": "INV-994149",
+      "domain": "test-del-2-1789671252416.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:12.443Z",
+    "createdAt": "2026-09-17T18:54:12.444Z"
+  },
+  {
+    "id": "aud_16b7dc29",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_c37890d0",
+      "invoiceId": "inv_62b17a1f",
+      "invoiceNumber": "INV-631708",
+      "domain": "test-del-3-1789671252416.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:12.457Z",
+    "createdAt": "2026-09-17T18:54:12.458Z"
+  },
+  {
+    "id": "aud_d7b4270c",
+    "userId": "usr_tamim",
+    "action": "ADMIN_ORDER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_a672c9d5",
+      "domain": "test-del-1-1789671252416.com"
+    },
+    "timestamp": "2026-09-17T18:54:12.468Z",
+    "createdAt": "2026-09-17T18:54:12.470Z"
+  },
+  {
+    "id": "aud_1de92650",
+    "userId": "usr_tamim",
+    "action": "ADMIN_ORDERS_BULK_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "count": 2,
+      "orderIds": [
+        "ord_170019dd",
+        "ord_c37890d0"
+      ]
+    },
+    "timestamp": "2026-09-17T18:54:12.481Z",
+    "createdAt": "2026-09-17T18:54:12.483Z"
+  },
+  {
+    "id": "aud_d9e54d76",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_54dcefb3",
+      "invoiceId": "inv_b3edf176",
+      "invoiceNumber": "INV-429277",
+      "domain": "test-del-1-1789671262199.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:22.211Z",
+    "createdAt": "2026-09-17T18:54:22.212Z"
+  },
+  {
+    "id": "aud_911df528",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_a92d261c",
+      "invoiceId": "inv_2891bfe2",
+      "invoiceNumber": "INV-689324",
+      "domain": "test-del-2-1789671262199.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:22.227Z",
+    "createdAt": "2026-09-17T18:54:22.228Z"
+  },
+  {
+    "id": "aud_862a5caa",
+    "userId": "use_7072c165",
+    "action": "ORDER_CREATED",
+    "ipAddress": "::1",
+    "details": {
+      "orderId": "ord_91897f17",
+      "invoiceId": "inv_8b5866dd",
+      "invoiceNumber": "INV-934077",
+      "domain": "test-del-3-1789671262199.com",
+      "totalAmount": 2.99
+    },
+    "timestamp": "2026-09-17T18:54:22.242Z",
+    "createdAt": "2026-09-17T18:54:22.244Z"
+  },
+  {
+    "id": "aud_b4295a7c",
+    "userId": "usr_tamim",
+    "action": "ADMIN_ORDER_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "orderId": "ord_54dcefb3",
+      "domain": "test-del-1-1789671262199.com"
+    },
+    "timestamp": "2026-09-17T18:54:22.255Z",
+    "createdAt": "2026-09-17T18:54:22.256Z"
+  },
+  {
+    "id": "aud_53bac77e",
+    "userId": "usr_tamim",
+    "action": "ADMIN_ORDERS_BULK_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "count": 2,
+      "orderIds": [
+        "ord_a92d261c",
+        "ord_91897f17"
+      ]
+    },
+    "timestamp": "2026-09-17T18:54:22.272Z",
+    "createdAt": "2026-09-17T18:54:22.273Z"
+  },
+  {
+    "id": "aud_f1e30345",
+    "userId": "usr_tamim",
+    "action": "ADMIN_INVOICE_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "invoiceId": "inv_e2fd6ef1",
+      "invoiceNumber": "INV-383440"
+    },
+    "timestamp": "2026-09-17T18:54:22.298Z",
+    "createdAt": "2026-09-17T18:54:22.299Z"
+  },
+  {
+    "id": "aud_e806e735",
+    "userId": "usr_tamim",
+    "action": "ADMIN_INVOICES_BULK_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "count": 50,
+      "invoiceIds": [
+        "inv_8b5866dd",
+        "inv_2891bfe2",
+        "inv_b3edf176",
+        "inv_62b17a1f",
+        "inv_1f28ea5c",
+        "inv_7f201488",
+        "inv_9ff8f2b8",
+        "inv_795b9b98",
+        "inv_92d7cf34",
+        "inv_4317cfc5",
+        "inv_58f23a1e",
+        "inv_3296923e",
+        "inv_8109c42a",
+        "inv_bb1ca53f",
+        "inv_c473b819",
+        "inv_8f4f28f4",
+        "inv_0f53639c",
+        "inv_05f82784",
+        "inv_bb74e440",
+        "inv_680e4453",
+        "inv_2d7de84c",
+        "inv_8e3395e6",
+        "inv_ddc417b5",
+        "inv_cb900689",
+        "inv_9d59060b",
+        "inv_321c9554",
+        "inv_8995f36a",
+        "inv_5f48d6aa",
+        "inv_567bf9d0",
+        "inv_cdead002",
+        "inv_30366942",
+        "inv_cf64e8a0",
+        "inv_af74106f",
+        "inv_69d1960e",
+        "inv_51992080",
+        "inv_8b25147c",
+        "inv_6db23d14",
+        "inv_83b10d7b",
+        "inv_0e562549",
+        "inv_c16a41cf",
+        "inv_7f472a04",
+        "inv_ad1342fa",
+        "inv_599ba73a",
+        "inv_beeef320",
+        "inv_4c449fd8",
+        "inv_245cdb44",
+        "inv_9871310f",
+        "inv_d3621623",
+        "inv_de5fe69a",
+        "inv_d5aadb72"
+      ]
+    },
+    "timestamp": "2026-09-17T19:20:26.164Z",
+    "createdAt": "2026-09-17T19:20:26.166Z"
+  },
+  {
+    "id": "aud_bf2c1820",
+    "userId": "usr_tamim",
+    "action": "ADMIN_ORDERS_BULK_DELETED",
+    "ipAddress": "127.0.0.1",
+    "details": {
+      "count": 45,
+      "orderIds": [
+        "ord_8df88f7f",
+        "ord_abce55ed",
+        "ord_ae6d0706",
+        "ord_08b1d151",
+        "ord_f24fe2bf",
+        "ord_624221f1",
+        "ord_940f1c08",
+        "ord_6a0ccff5",
+        "ord_77c252c6",
+        "ord_0f216db7",
+        "ord_9b423869",
+        "ord_217c1985",
+        "ord_51173daa",
+        "ord_23c17b7f",
+        "ord_fd137129",
+        "ord_08c2b39f",
+        "ord_0e6e1c60",
+        "ord_3880894e",
+        "ord_620bec0a",
+        "ord_2c3dc049",
+        "ord_52ef66af",
+        "ord_0a09bdbd",
+        "ord_87e49136",
+        "ord_ec679bd8",
+        "ord_49b15b2e",
+        "ord_70f4e7a9",
+        "ord_e5f18f09",
+        "ord_33c59730",
+        "ord_bc0b5faf",
+        "ord_24bc4f14",
+        "ord_fea8e479",
+        "ord_1965bc63",
+        "ord_d9a07d07",
+        "ord_1e73fb36",
+        "ord_2417c261",
+        "ord_c684f4b4",
+        "ord_037d7035",
+        "ord_5044bb0d",
+        "ord_9db93a3e",
+        "ord_8acb6be7",
+        "ord_c7ea8430",
+        "ord_2073d9cb",
+        "ord_c63c49d9",
+        "ord_c6c622ef",
+        "ord_83cfb8cc"
+      ]
+    },
+    "timestamp": "2026-09-17T19:20:39.415Z",
+    "createdAt": "2026-09-17T19:20:39.416Z"
+  }
+]

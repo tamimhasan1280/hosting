@@ -1,0 +1,238 @@
+{
+  "autoSslProvider": "Let's Encrypt",
+  "forceHttps": true,
+  "certificates": [
+    {
+      "domain": "example.com",
+      "sans": [
+        "www.example.com",
+        "mail.example.com",
+        "webmail.example.com"
+      ],
+      "issuer": "Let's Encrypt Authority X3",
+      "status": "Active (Valid)",
+      "expires": "2026-12-15",
+      "keySize": "RSA 2048-bit",
+      "autoRenew": true
+    },
+    {
+      "domain": "blog.example.com",
+      "sans": [
+        "blog.example.com"
+      ],
+      "issuer": "Let's Encrypt Authority X3",
+      "status": "Active (Valid)",
+      "expires": "2026-12-15",
+      "keySize": "RSA 2048-bit",
+      "autoRenew": true
+    }
+  ],
+  "logs": [
+    {
+      "timestamp": "2026-09-17T17:09:57.001Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:54:35.401Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:50:01.803Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:47:20.717Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:37:55.049Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:26:42.341Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:23:35.403Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-17T16:22:37.149Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:50:56.576Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:50:56.536Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:41:14.244Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:41:14.165Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:40:16.095Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:40:16.026Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:39:44.710Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:39:44.647Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:32:46.105Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:32:45.944Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:32:01.256Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:32:01.212Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:31:19.632Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:31:19.569Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:17:51.211Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:17:51.174Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:12:53.883Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:12:53.773Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:12:20.755Z",
+      "message": "Certificate renewed for \"example.com\" (expires in 90 days)."
+    },
+    {
+      "timestamp": "2026-09-16T22:12:20.685Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T22:10:20.926Z",
+      "message": "AutoSSL check completed: 5 domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T17:49:18.976Z",
+      "message": "AutoSSL run finished at 23:49:18. All domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T04:37:06.354Z",
+      "message": "AutoSSL run finished at 10:37:06. All domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T04:29:02.847Z",
+      "message": "AutoSSL run finished at 10:29:02. All domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T04:17:26.558Z",
+      "message": "AutoSSL run finished at 10:17:26. All domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T04:15:41.919Z",
+      "message": "AutoSSL run finished at 10:15:41. All domains secured with Let's Encrypt."
+    },
+    {
+      "timestamp": "2026-09-16T03:56:45.021Z",
+      "message": "AutoSSL check completed: 2 certificates valid."
+    }
+  ],
+  "accounts": {
+    "cpanel_user": {
+      "certificates": [
+        {
+          "id": "cert_example_com_1789664996846",
+          "domain": "example.com",
+          "sans": [
+            "example.com",
+            "www.example.com"
+          ],
+          "certFile": "cert_example_com_1789664996846.crt",
+          "keyFile": "cert_example_com_1789664996846.key",
+          "autoRenew": true,
+          "installedAt": "2026-09-17T17:09:56.847Z"
+        },
+        {
+          "id": "cert_blog_example_com_1789664996924",
+          "domain": "blog.example.com",
+          "sans": [
+            "blog.example.com",
+            "www.blog.example.com"
+          ],
+          "certFile": "cert_blog_example_com_1789664996924.crt",
+          "keyFile": "cert_blog_example_com_1789664996924.key",
+          "autoRenew": true,
+          "installedAt": "2026-09-17T17:09:56.925Z"
+        },
+        {
+          "id": "cert_audit_shared_com_1789664996869",
+          "domain": "audit-shared.com",
+          "sans": [
+            "audit-shared.com",
+            "www.audit-shared.com"
+          ],
+          "certFile": "cert_audit_shared_com_1789664996869.crt",
+          "keyFile": "cert_audit_shared_com_1789664996869.key",
+          "autoRenew": true,
+          "installedAt": "2026-09-17T17:09:56.869Z"
+        },
+        {
+          "id": "cert_app_example_com_1789664996969",
+          "domain": "app.example.com",
+          "sans": [
+            "app.example.com",
+            "www.app.example.com"
+          ],
+          "certFile": "cert_app_example_com_1789664996969.crt",
+          "keyFile": "cert_app_example_com_1789664996969.key",
+          "autoRenew": true,
+          "installedAt": "2026-09-17T17:09:56.970Z"
+        },
+        {
+          "id": "cert_example_com_org_1789664997000",
+          "domain": "example.com.org",
+          "sans": [
+            "example.com.org",
+            "www.example.com.org"
+          ],
+          "certFile": "cert_example_com_org_1789664997000.crt",
+          "keyFile": "cert_example_com_org_1789664997000.key",
+          "autoRenew": true,
+          "installedAt": "2026-09-17T17:09:57.001Z"
+        }
+      ]
+    }
+  }
+}

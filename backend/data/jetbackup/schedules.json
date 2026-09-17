@@ -1,0 +1,41 @@
+[
+  {
+    "id": "sched_daily_homedir",
+    "name": "Daily Account Snapshot (Home Directory)",
+    "type": "homedir",
+    "frequency": "daily",
+    "time": "02:00 UTC",
+    "retention": 7,
+    "destinationId": "dest_local_default",
+    "enabled": true,
+    "lastRun": "2026-09-16T19:01:40.648Z",
+    "nextRun": "2026-09-16T21:14:00.202Z",
+    "lastStatus": "in_progress"
+  },
+  {
+    "id": "sched_weekly_full",
+    "name": "Weekly Full Disaster Recovery Archive",
+    "type": "full",
+    "frequency": "weekly",
+    "time": "Sunday 03:00 UTC",
+    "retention": 4,
+    "destinationId": "dest_local_default",
+    "enabled": true,
+    "lastRun": "2026-09-11T15:14:00.202Z",
+    "nextRun": "2026-09-18T15:14:00.202Z",
+    "lastStatus": "completed"
+  },
+  {
+    "id": "sched_monthly_offsite",
+    "name": "Monthly Cold Storage Archive",
+    "type": "full",
+    "frequency": "monthly",
+    "time": "1st of month 04:00 UTC",
+    "retention": 3,
+    "destinationId": "dest_remote_ftp",
+    "enabled": true,
+    "lastRun": "2026-09-01T15:14:00.202Z",
+    "nextRun": "2026-10-01T15:14:00.202Z",
+    "lastStatus": "completed"
+  }
+]

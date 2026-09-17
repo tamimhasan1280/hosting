@@ -1,0 +1,143 @@
+[
+  {
+    "id": "dbu_main_user",
+    "userId": "usr_tamim",
+    "serviceId": "srv_tamimhasan1281",
+    "dbUser": "cpanel_dbuser",
+    "dbName": "cpanel_mainapp",
+    "privileges": [
+      "ALL PRIVILEGES"
+    ],
+    "createdAt": "2026-09-17T16:43:43.299Z"
+  },
+  {
+    "id": "dat_d3fdeec7",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:46:06.393Z"
+  },
+  {
+    "id": "dat_b4dfa4ba",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:46:24.655Z"
+  },
+  {
+    "id": "dat_389250b1",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:46:57.379Z"
+  },
+  {
+    "id": "dat_76ed555a",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:48:56.308Z"
+  },
+  {
+    "id": "dat_1e02fe7e",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:49:39.654Z"
+  },
+  {
+    "id": "dat_3f0c8d60",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T16:53:55.699Z"
+  },
+  {
+    "id": "dat_f7a2ec24",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T17:09:33.089Z"
+  },
+  {
+    "id": "dat_c9960837",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T17:16:03.004Z"
+  },
+  {
+    "id": "dat_2d013855",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T17:32:36.904Z"
+  },
+  {
+    "id": "dat_47e84800",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "dbUser": "testph2_usr",
+    "dbName": "testph2_app",
+    "privileges": [
+      "SELECT",
+      "INSERT",
+      "UPDATE"
+    ],
+    "createdAt": "2026-09-17T18:18:42.411Z"
+  }
+]

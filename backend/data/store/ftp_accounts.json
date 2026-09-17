@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ftp_deploy",
+    "userId": "usr_tamim",
+    "serviceId": "srv_tamimhasan1281",
+    "username": "deploy@example.com",
+    "directory": "/home/tamimhasan1281/public_html",
+    "quotaMb": 5120,
+    "status": "active",
+    "createdAt": "2026-09-17T16:43:43.300Z"
+  },
+  {
+    "id": "ftp_4d060424",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:06.394Z"
+  },
+  {
+    "id": "ftp_97300e35",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:24.657Z"
+  },
+  {
+    "id": "ftp_1f4060ca",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:57.381Z"
+  },
+  {
+    "id": "ftp_271d681e",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:48:56.310Z"
+  },
+  {
+    "id": "ftp_db7081b5",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:49:39.655Z"
+  },
+  {
+    "id": "ftp_c2e04908",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T16:53:55.701Z"
+  },
+  {
+    "id": "ftp_cef740b3",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T17:09:33.092Z"
+  },
+  {
+    "id": "ftp_93d69077",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T17:16:03.006Z"
+  },
+  {
+    "id": "ftp_3f95d64a",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T17:32:36.905Z"
+  },
+  {
+    "id": "ftp_3845ab5e",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "username": "ftp_user@testph2.com",
+    "directory": "/home/testph2/public_html",
+    "quotaMb": 5000,
+    "status": "active",
+    "createdAt": "2026-09-17T18:18:42.413Z"
+  }
+]

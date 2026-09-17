@@ -1,0 +1,17 @@
+{
+  "siteName": "TAMIM HOSTING",
+  "tagline": "High Performance cPanel Cloud Hosting",
+  "currency": "USD",
+  "currencySymbol": "$",
+  "bdtRate": 120,
+  "contactEmail": "admin@tamimhosting.com",
+  "supportPhone": "+8801700000000",
+  "nameservers": [
+    "ns1.tamimhosting.com",
+    "ns2.tamimhosting.com"
+  ],
+  "autoProvisionOnPayment": true,
+  "maintenanceMode": false,
+  "maxUploadSizeMb": 2048,
+  "updatedAt": "2026-09-17T18:43:25.713Z"
+}

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "dom_example",
+    "domain": "example.com",
+    "user": "tamimhasan1281",
+    "serviceId": "srv_tamimhasan1281",
+    "type": "primary",
+    "documentRoot": "/public_html",
+    "sslStatus": "active",
+    "status": "active",
+    "createdAt": "2026-09-17T02:28:37.070Z"
+  },
+  {
+    "id": "dom_1debd908",
+    "userId": "usr_ikrahsho",
+    "domain": "e2eadmintenant1789660896035.com",
+    "serviceId": "ser_4ae8062d",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:01:36.067Z"
+  },
+  {
+    "id": "dom_b1622a1c",
+    "userId": "usr_ikrahsho",
+    "domain": "e2eadmintenant1789660946291.com",
+    "serviceId": "ser_17b291ff",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:02:26.323Z"
+  },
+  {
+    "id": "dom_dfa3a998",
+    "userId": "usr_ikrahsho",
+    "domain": "e2eadmintenant1789661818782.com",
+    "serviceId": "ser_b1e83fa4",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:16:58.810Z"
+  },
+  {
+    "id": "dom_27616f37",
+    "userId": "usr_ikrahsho",
+    "domain": "e2eadmintenant1789662411988.com",
+    "serviceId": "ser_fdbeb9bd",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:26:52.017Z"
+  },
+  {
+    "id": "dom_045e469a",
+    "userId": "use_ec0b0451",
+    "domain": "alice-1789663019723.com",
+    "serviceId": "ser_b08e28ed",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:36:59.749Z"
+  },
+  {
+    "id": "dom_8b0e5fe8",
+    "userId": "use_b80b89cd",
+    "domain": "bob-1789663019730.com",
+    "serviceId": "ser_cf99ae1d",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:36:59.762Z"
+  },
+  {
+    "id": "dom_9ce4d3a3",
+    "userId": "use_7072c165",
+    "domain": "alice-1789663058018.com",
+    "serviceId": "ser_c2360fbb",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:37:38.042Z"
+  },
+  {
+    "id": "dom_1062de1c",
+    "userId": "use_a752b911",
+    "domain": "bob-1789663058026.com",
+    "serviceId": "ser_1e290533",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:37:38.057Z"
+  },
+  {
+    "id": "dom_d10d3676",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789663064780.com",
+    "serviceId": "ser_3e229d05",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:37:44.807Z"
+  },
+  {
+    "id": "dom_5642cb3b",
+    "userId": "use_541fa3b8",
+    "domain": "alice-1789663622757.com",
+    "serviceId": "ser_a3fbcd5c",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:47:02.783Z"
+  },
+  {
+    "id": "dom_948fcc8a",
+    "userId": "use_20714a98",
+    "domain": "bob-1789663622765.com",
+    "serviceId": "ser_f946568d",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:47:02.799Z"
+  },
+  {
+    "id": "dom_75c94228",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789663627858.com",
+    "serviceId": "ser_cdc50793",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:47:07.885Z"
+  },
+  {
+    "id": "dom_4d3e608b",
+    "userId": "use_2e838a26",
+    "domain": "alice-1789663784395.com",
+    "serviceId": "ser_dffaffff",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:49:44.421Z"
+  },
+  {
+    "id": "dom_03fed3ee",
+    "userId": "use_277a10b7",
+    "domain": "bob-1789663784403.com",
+    "serviceId": "ser_3ff8e9d3",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:49:44.436Z"
+  },
+  {
+    "id": "dom_67cc2397",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789663793071.com",
+    "serviceId": "ser_df43f376",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:49:53.097Z"
+  },
+  {
+    "id": "dom_4eb84120",
+    "userId": "use_5a8822a8",
+    "domain": "alice-1789664041298.com",
+    "serviceId": "ser_978e7e6e",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:54:01.326Z"
+  },
+  {
+    "id": "dom_8194f3bd",
+    "userId": "use_ef726c0f",
+    "domain": "bob-1789664041307.com",
+    "serviceId": "ser_1bd0bf11",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:54:01.352Z"
+  },
+  {
+    "id": "dom_e4e9159e",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789664052381.com",
+    "serviceId": "ser_b4d7552f",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T16:54:12.406Z"
+  },
+  {
+    "id": "dom_c1ae2eb3",
+    "userId": "use_e67fd230",
+    "serviceId": "ser_e9abb878",
+    "domain": "alpha-active-1789664958001.com",
+    "type": "primary",
+    "status": "active",
+    "nameservers": [
+      "ns1.tamimhosting.com",
+      "ns2.tamimhosting.com"
+    ],
+    "createdAt": "2026-09-17T17:09:19.241Z"
+  },
+  {
+    "id": "dom_ccbc49dd",
+    "userId": "use_f305f3cf",
+    "domain": "alice-1789664978511.com",
+    "serviceId": "ser_371da450",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:09:38.536Z"
+  },
+  {
+    "id": "dom_50e2b2f5",
+    "userId": "use_2da2e021",
+    "domain": "bob-1789664978518.com",
+    "serviceId": "ser_7e977e4f",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:09:38.550Z"
+  },
+  {
+    "id": "dom_8bdbd1c4",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789664988399.com",
+    "serviceId": "ser_db4c6c76",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:09:48.423Z"
+  },
+  {
+    "id": "dom_c0b1f6fb",
+    "userId": "use_5dd47f86",
+    "serviceId": "ser_8721126c",
+    "domain": "alpha-active-1789665348512.com",
+    "type": "primary",
+    "status": "active",
+    "nameservers": [
+      "ns1.tamimhosting.com",
+      "ns2.tamimhosting.com"
+    ],
+    "createdAt": "2026-09-17T17:15:49.735Z"
+  },
+  {
+    "id": "dom_226a2589",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789665365780.com",
+    "serviceId": "ser_d27893b5",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:16:05.812Z"
+  },
+  {
+    "id": "dom_06d9df49",
+    "userId": "use_e1b1793c",
+    "domain": "testdomain103759.com",
+    "serviceId": "ser_bb189268",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:28:27.308Z"
+  },
+  {
+    "id": "dom_fad15365",
+    "userId": "use_a9ca0017",
+    "domain": "testdomain212834.com",
+    "serviceId": "ser_704f0c90",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:30:14.847Z"
+  },
+  {
+    "id": "dom_a412fcc8",
+    "userId": "use_0375ea95",
+    "domain": "testdomain263023.com",
+    "serviceId": "ser_81cf966b",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:31:05.019Z"
+  },
+  {
+    "id": "dom_32749318",
+    "userId": "use_2d7ea208",
+    "domain": "testdomain332293.com",
+    "serviceId": "ser_1dd7afca",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:32:14.318Z"
+  },
+  {
+    "id": "dom_a18842f4",
+    "userId": "use_75b88424",
+    "serviceId": "ser_15552921",
+    "domain": "alpha-active-1789666343732.com",
+    "type": "primary",
+    "status": "active",
+    "nameservers": [
+      "ns1.tamimhosting.com",
+      "ns2.tamimhosting.com"
+    ],
+    "createdAt": "2026-09-17T17:32:25.051Z"
+  },
+  {
+    "id": "dom_65629a55",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789666359809.com",
+    "serviceId": "ser_0e51c9d1",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T17:32:39.842Z"
+  },
+  {
+    "id": "dom_37032a29",
+    "userId": "use_253f59d0",
+    "domain": "tenantdomain091319.com",
+    "serviceId": "ser_4aa39210",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:18:11.987Z"
+  },
+  {
+    "id": "dom_72990f74",
+    "userId": "use_3279bec9",
+    "domain": "testdomain097573.com",
+    "serviceId": "ser_5f65e388",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:18:19.644Z"
+  },
+  {
+    "id": "dom_783eb49e",
+    "userId": "use_9fc11034",
+    "serviceId": "ser_f703ea6e",
+    "domain": "alpha-active-1789669107539.com",
+    "type": "primary",
+    "status": "active",
+    "nameservers": [
+      "ns1.tamimhosting.com",
+      "ns2.tamimhosting.com"
+    ],
+    "createdAt": "2026-09-17T18:18:28.820Z"
+  },
+  {
+    "id": "dom_243994e9",
+    "userId": "use_ec0b0451",
+    "domain": "e2eadmintenant1789669126139.com",
+    "serviceId": "ser_705d42bb",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:18:46.165Z"
+  },
+  {
+    "id": "dom_bf42acd8",
+    "userId": "use_dc73c27c",
+    "domain": "tenantdomain784034.com",
+    "serviceId": "ser_7b169751",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:29:44.680Z"
+  },
+  {
+    "id": "dom_b9e1c7c5",
+    "userId": "use_14564ddf",
+    "domain": "testdomain787207.com",
+    "serviceId": "ser_2949f2f8",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:29:49.184Z"
+  },
+  {
+    "id": "dom_86106a45",
+    "userId": "use_a2f709be",
+    "domain": "testdomain063571.com",
+    "serviceId": "ser_87b2dd91",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:34:25.934Z"
+  },
+  {
+    "id": "dom_d46c821e",
+    "userId": "use_abf46e6c",
+    "domain": "tenantdomain608666.com",
+    "serviceId": "ser_443acbff",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:43:29.360Z"
+  },
+  {
+    "id": "dom_0a77142c",
+    "userId": "use_2e5b0ce9",
+    "domain": "testdomain615105.com",
+    "serviceId": "ser_ef1f69a1",
+    "status": "active",
+    "documentRoot": "/public_html",
+    "createdAt": "2026-09-17T18:43:37.132Z"
+  }
+]

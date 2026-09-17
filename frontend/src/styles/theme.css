@@ -1,0 +1,464 @@
+/* ==========================================================================
+   cPanel / Jupiter Theme Centralized Design Tokens & Global CSS Variables
+   ========================================================================== */
+
+:root {
+  /* --- 1. Global Gradient Color System matching user image --- */
+  --theme-purple-deep: #130424;
+  --theme-purple-mid: #250938;
+  --theme-purple-light: #3d1257;
+  --theme-emerald-deep: #0e2218;
+  --theme-emerald-mid: #173827;
+  --theme-emerald-accent: #10b981;
+
+  --sidebar-bg: linear-gradient(180deg, #160528 0%, #240939 60%, #0d1e16 100%);
+  --sidebar-bg-hover: rgba(168, 85, 247, 0.16);
+  --sidebar-bg-active: linear-gradient(90deg, rgba(168, 85, 247, 0.3) 0%, rgba(16, 185, 129, 0.2) 100%);
+  --sidebar-text: #ffffff;
+  --sidebar-text-muted: #c4b5fd;
+  --sidebar-border: rgba(168, 85, 247, 0.22);
+
+  --page-bg: #10061e;
+  --card-bg: rgba(26, 12, 43, 0.82);
+  --card-header-bg: rgba(36, 17, 59, 0.9);
+  --border-color: rgba(168, 85, 247, 0.22);
+  --border-color-subtle: rgba(255, 255, 255, 0.08);
+
+  --text-primary: #f8fafc;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+  --link-color: #c084fc;
+  --link-hover: #e9d5ff;
+
+  --primary-color: #9333ea;
+  --primary-hover: #7e22ce;
+  --primary-light: rgba(147, 51, 234, 0.2);
+
+  --accent-orange: #ff6c2c;
+  --accent-orange-hover: #ea580c;
+  --accent-emerald: #10b981;
+  --accent-purple: #a855f7;
+
+  --success-color: #10b981;
+  --success-bg: rgba(16, 185, 129, 0.15);
+  --success-border: rgba(16, 185, 129, 0.35);
+
+  --warning-color: #f59e0b;
+  --warning-bg: rgba(245, 158, 11, 0.15);
+  --warning-border: rgba(245, 158, 11, 0.35);
+
+  --danger-color: #ef4444;
+  --danger-bg: rgba(239, 68, 68, 0.15);
+  --danger-border: rgba(239, 68, 68, 0.35);
+
+  --info-color: #38bdf8;
+  --info-bg: rgba(56, 189, 248, 0.15);
+  --info-border: rgba(56, 189, 248, 0.35);
+
+  --input-bg: rgba(24, 10, 40, 0.8);
+  --input-border: rgba(168, 85, 247, 0.3);
+  --input-focus-border: #a855f7;
+  --input-focus-ring: rgba(168, 85, 247, 0.25);
+
+  --hover-bg: rgba(168, 85, 247, 0.12);
+  --active-bg: rgba(168, 85, 247, 0.2);
+
+  /* --- 2. Global Typography System --- */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 13px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 22px;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.45;
+  --line-height-relaxed: 1.6;
+
+  /* --- 3. Spacing System --- */
+  --space-2xs: 2px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 20px;
+  --space-2xl: 24px;
+  --space-3xl: 32px;
+
+  /* --- 4. Borders & Radius System --- */
+  --border-width: 1px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* --- 5. Shadows --- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+
+  /* --- 6. Dimensions --- */
+  --sidebar-width: 230px;
+  --top-nav-height: 52px;
+  --right-sidebar-width: 320px;
+  --max-content-width: 1400px;
+}
+
+/* ==========================================================================
+   Global Base Styles
+   ========================================================================== */
+html, body {
+  background-color: var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   cPanel Reusable Component Classes
+   ========================================================================== */
+
+/* Button System */
+.cp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  padding: 5px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.cp-btn-primary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-color: var(--primary-color);
+}
+.cp-btn-primary:hover {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+  color: #ffffff;
+}
+
+.cp-btn-secondary {
+  background-color: #ffffff;
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+.cp-btn-secondary:hover {
+  background-color: var(--hover-bg);
+  border-color: var(--text-muted);
+}
+
+.cp-btn-orange {
+  background-color: var(--accent-orange);
+  color: #ffffff;
+  border-color: var(--accent-orange);
+}
+.cp-btn-orange:hover {
+  background-color: var(--accent-orange-hover);
+  border-color: var(--accent-orange-hover);
+}
+
+.cp-btn-sm {
+  font-size: var(--font-size-xs);
+  padding: 3px 8px;
+}
+
+.cp-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Card System */
+.cp-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-xs);
+}
+
+.cp-card-header {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--card-header-bg);
+}
+
+.cp-card-body {
+  padding: 16px;
+}
+
+/* Form Elements */
+.cp-input {
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  padding: 6px 10px;
+  border: 1px solid var(--input-border);
+  border-radius: var(--radius-sm);
+  background-color: var(--input-bg);
+  color: var(--text-primary);
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.cp-input:focus {
+  border-color: var(--input-focus-border);
+  box-shadow: 0 0 0 3px var(--input-focus-ring);
+}
+
+/* Progress bar */
+.cp-progress-track {
+  width: 100%;
+  height: 6px;
+  background-color: #e9ecef;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+.cp-progress-bar {
+  height: 100%;
+  background-color: #0b69a3;
+  transition: width 0.3s ease;
+}
+.cp-progress-bar-warning {
+  background-color: #f59e0b;
+}
+.cp-progress-bar-danger {
+  background-color: #ef4444;
+}
+
+/* ==========================================================================
+   Global Theme Overrides for cPanel Tools & Views
+   Guarantees zero stark white backgrounds across all subpages, tables, and modals
+   ========================================================================== */
+
+main .bg-white,
+.cpanel-theme-surface {
+  background-color: rgba(28, 8, 48, 0.92) !important;
+  color: #f8fafc !important;
+  border-color: rgba(147, 51, 234, 0.3) !important;
+  backdrop-filter: blur(16px);
+}
+
+main .bg-slate-50,
+main .bg-gray-50 {
+  background-color: rgba(22, 6, 38, 0.85) !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(147, 51, 234, 0.25) !important;
+}
+
+main .bg-slate-100,
+main .bg-gray-100 {
+  background-color: rgba(36, 12, 62, 0.8) !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(147, 51, 234, 0.25) !important;
+}
+
+main .bg-slate-200,
+main .bg-gray-200 {
+  background-color: rgba(48, 16, 80, 0.7) !important;
+  color: #ffffff !important;
+}
+
+main .border-slate-100,
+main .border-slate-200,
+main .border-slate-300,
+main .border-gray-100,
+main .border-gray-200,
+main .border-gray-300 {
+  border-color: rgba(147, 51, 234, 0.3) !important;
+}
+
+main .divide-slate-100 > * + *,
+main .divide-slate-200 > * + *,
+main .divide-gray-100 > * + *,
+main .divide-gray-200 > * + * {
+  border-color: rgba(147, 51, 234, 0.2) !important;
+}
+
+main .text-slate-900,
+main .text-gray-900,
+main .text-slate-800,
+main .text-gray-800 {
+  color: #ffffff !important;
+}
+
+main .text-slate-700,
+main .text-gray-700,
+main .text-slate-600,
+main .text-gray-600 {
+  color: #e9d5ff !important;
+}
+
+main .text-slate-500,
+main .text-gray-500,
+main .text-slate-400,
+main .text-gray-400 {
+  color: rgba(216, 180, 254, 0.75) !important;
+}
+
+main table thead,
+main thead.bg-slate-50,
+main thead.bg-gray-50 {
+  background-color: #1f0933 !important;
+  color: #e9d5ff !important;
+  border-bottom: 1px solid rgba(147, 51, 234, 0.3) !important;
+}
+
+main table thead th {
+  color: #e9d5ff !important;
+}
+
+main table tbody tr:hover,
+main tr.hover\:bg-slate-50:hover,
+main tr.hover\:bg-gray-50:hover {
+  background-color: rgba(147, 51, 234, 0.18) !important;
+}
+
+main input:not([type="checkbox"]):not([type="radio"]),
+main select,
+main textarea {
+  background-color: rgba(37, 12, 61, 0.9) !important;
+  border-color: rgba(147, 51, 234, 0.4) !important;
+  color: #ffffff !important;
+}
+
+main input::placeholder,
+main textarea::placeholder {
+  color: rgba(216, 180, 254, 0.4) !important;
+}
+
+/* Prevent Chrome / Safari Autofill from turning input backgrounds white */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #250c3d inset !important;
+  box-shadow: 0 0 0 1000px #250c3d inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+main .bg-emerald-50 {
+  background-color: rgba(6, 78, 59, 0.4) !important;
+  color: #6ee7b7 !important;
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+main .bg-amber-50 {
+  background-color: rgba(120, 53, 15, 0.4) !important;
+  color: #fcd34d !important;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+}
+
+main .bg-red-50 {
+  background-color: rgba(127, 29, 29, 0.4) !important;
+  color: #fca5a5 !important;
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+
+main .bg-blue-50 {
+  background-color: rgba(30, 58, 138, 0.4) !important;
+  color: #93c5fd !important;
+  border-color: rgba(59, 130, 246, 0.4) !important;
+}
+
+main .bg-purple-50 {
+  background-color: rgba(88, 28, 135, 0.4) !important;
+  color: #d8b4fe !important;
+  border-color: rgba(168, 85, 247, 0.4) !important;
+}
+
+/* Modals & Dialog overlays */
+.fixed .bg-white {
+  background-color: #1c0830 !important;
+  color: #ffffff !important;
+  border-color: rgba(147, 51, 234, 0.45) !important;
+}
+
+.fixed .bg-slate-50,
+.fixed .bg-gray-50 {
+  background-color: #160527 !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(147, 51, 234, 0.3) !important;
+}
+
+.fixed .bg-slate-100,
+.fixed .bg-gray-100 {
+  background-color: rgba(37, 12, 61, 0.9) !important;
+  color: #e2e8f0 !important;
+}
+
+.fixed .text-slate-900,
+.fixed .text-slate-800,
+.fixed .text-gray-900,
+.fixed .text-gray-800 {
+  color: #ffffff !important;
+}
+
+.fixed .text-slate-700,
+.fixed .text-slate-600,
+.fixed .text-gray-700,
+.fixed .text-gray-600 {
+  color: #d8b4fe !important;
+}
+
+.fixed .text-slate-500,
+.fixed .text-slate-400,
+.fixed .text-gray-500,
+.fixed .text-gray-400 {
+  color: rgba(216, 180, 254, 0.7) !important;
+}
+
+.fixed .border-slate-100,
+.fixed .border-slate-200,
+.fixed .border-slate-300,
+.fixed .border-gray-100,
+.fixed .border-gray-200,
+.fixed .border-gray-300 {
+  border-color: rgba(147, 51, 234, 0.3) !important;
+}
+
+.fixed input:not([type="checkbox"]):not([type="radio"]),
+.fixed select,
+.fixed textarea {
+  background-color: rgba(37, 12, 61, 0.95) !important;
+  border-color: rgba(147, 51, 234, 0.45) !important;
+  color: #ffffff !important;
+}
+

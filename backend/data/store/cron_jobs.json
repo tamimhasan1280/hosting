@@ -1,0 +1,106 @@
+[
+  {
+    "id": "cron_ssl_renew",
+    "userId": "usr_tamim",
+    "serviceId": "srv_tamimhasan1281",
+    "schedule": "0 0 * * *",
+    "minute": "0",
+    "hour": "0",
+    "day": "*",
+    "month": "*",
+    "weekday": "*",
+    "command": "/usr/local/bin/autossl --check",
+    "status": "active",
+    "createdAt": "2026-09-17T16:43:43.301Z"
+  },
+  {
+    "id": "cro_5a352660",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:06.396Z"
+  },
+  {
+    "id": "cro_38b9d5a4",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:24.658Z"
+  },
+  {
+    "id": "cro_07bd94a7",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:57.383Z"
+  },
+  {
+    "id": "cro_798181b0",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:48:56.312Z"
+  },
+  {
+    "id": "cro_4e0c4767",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:49:39.658Z"
+  },
+  {
+    "id": "cro_61f43748",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T16:53:55.702Z"
+  },
+  {
+    "id": "cro_d487c6c7",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T17:09:33.094Z"
+  },
+  {
+    "id": "cro_4ba51a75",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T17:16:03.007Z"
+  },
+  {
+    "id": "cro_107a48f4",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T17:32:36.906Z"
+  },
+  {
+    "id": "cro_eee85cc8",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "schedule": "*/15 * * * *",
+    "command": "/usr/local/bin/php /home/testph2/cron.php",
+    "status": "active",
+    "createdAt": "2026-09-17T18:18:42.414Z"
+  }
+]

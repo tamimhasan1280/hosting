@@ -1,0 +1,13 @@
+{
+  "accounts": {
+    "cpanel_user": {
+      "contactEmail": "admin@example.com",
+      "secondaryEmail": "",
+      "notifyDiskQuota": true,
+      "notifyBandwidth": true,
+      "notifySslExpiry": true,
+      "timezone": "UTC",
+      "language": "en"
+    }
+  }
+}

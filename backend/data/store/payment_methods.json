@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pay_bkash",
+    "name": "bKash / Nagad / Rocket (Mobile Banking)",
+    "type": "mobile",
+    "instructions": "Send money to Personal/Merchant Number: 01700000000. Enter Transaction ID (TrxID) below.",
+    "accountNumber": "01700000000",
+    "feePercent": 0,
+    "isActive": true,
+    "sortOrder": 1,
+    "active": true,
+    "updatedAt": "2026-09-17T17:09:40.223Z"
+  },
+  {
+    "id": "pay_bank",
+    "name": "Bank Wire Transfer",
+    "type": "bank",
+    "instructions": "Bank: City Bank / Islami Bank. Account: 123456789. Routing: 987654321.",
+    "accountNumber": "123456789",
+    "feePercent": 0,
+    "isActive": true,
+    "sortOrder": 2
+  },
+  {
+    "id": "pay_manual",
+    "name": "Manual / Cash Payment",
+    "type": "manual",
+    "instructions": "Submit your order and notify admin for physical cash or direct transfer verification.",
+    "accountNumber": "",
+    "feePercent": 0,
+    "isActive": true,
+    "sortOrder": 3
+  },
+  {
+    "id": "pay_card",
+    "name": "Credit / Debit Card (Online Gateway)",
+    "type": "gateway",
+    "instructions": "Instant automatic payment processing via Visa, Mastercard, AMEX.",
+    "accountNumber": "",
+    "feePercent": 2.5,
+    "isActive": false,
+    "sortOrder": 4
+  }
+]

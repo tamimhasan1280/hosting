@@ -1,0 +1,136 @@
+[
+  {
+    "id": "eml_admin_example",
+    "userId": "usr_tamim",
+    "serviceId": "srv_tamimhasan1281",
+    "email": "admin@example.com",
+    "username": "admin",
+    "domain": "example.com",
+    "quotaMb": 1024,
+    "usedMb": 14.2,
+    "status": "active",
+    "createdAt": "2026-09-17T16:43:43.297Z"
+  },
+  {
+    "id": "eml_support_example",
+    "userId": "usr_tamim",
+    "serviceId": "srv_tamimhasan1281",
+    "email": "support@example.com",
+    "username": "support",
+    "domain": "example.com",
+    "quotaMb": 2048,
+    "usedMb": 2.5,
+    "status": "active",
+    "createdAt": "2026-09-17T16:43:43.297Z"
+  },
+  {
+    "id": "ema_d1654670",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:06.390Z"
+  },
+  {
+    "id": "ema_05e3c90c",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:24.653Z"
+  },
+  {
+    "id": "ema_5c83e03a",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:46:57.375Z"
+  },
+  {
+    "id": "ema_4d1db81b",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:48:56.306Z"
+  },
+  {
+    "id": "ema_bc9e05c1",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:49:39.651Z"
+  },
+  {
+    "id": "ema_1bab91f4",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T16:53:55.696Z"
+  },
+  {
+    "id": "ema_647a44d2",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T17:09:33.087Z"
+  },
+  {
+    "id": "ema_9c2e0441",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T17:16:03.001Z"
+  },
+  {
+    "id": "ema_172bb690",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T17:32:36.902Z"
+  },
+  {
+    "id": "ema_ced79c89",
+    "userId": "usr_test_ph2",
+    "serviceId": "srv_test_ph2",
+    "email": "info@testph2.com",
+    "username": "info",
+    "domain": "testph2.com",
+    "quotaMb": 2048,
+    "status": "active",
+    "createdAt": "2026-09-17T18:18:42.409Z"
+  }
+]

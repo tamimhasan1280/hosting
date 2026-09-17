@@ -1,0 +1,92 @@
+{
+  "enabled": true,
+  "providers": {
+    "facebook": {
+      "id": "facebook",
+      "name": "Facebook Pages",
+      "icon": "Facebook",
+      "enabled": true,
+      "charLimit": 63206,
+      "supportedMedia": [
+        "image",
+        "video",
+        "link"
+      ],
+      "supportsScheduling": true,
+      "authUrl": "https://www.facebook.com/v19.0/dialog/oauth",
+      "clientId": "fb_app_cpanel_default"
+    },
+    "instagram": {
+      "id": "instagram",
+      "name": "Instagram Business",
+      "icon": "Instagram",
+      "enabled": true,
+      "charLimit": 2200,
+      "supportedMedia": [
+        "image",
+        "video"
+      ],
+      "supportsScheduling": true,
+      "authUrl": "https://api.instagram.com/oauth/authorize",
+      "clientId": "ig_app_cpanel_default"
+    },
+    "x_twitter": {
+      "id": "x_twitter",
+      "name": "X (formerly Twitter)",
+      "icon": "Twitter",
+      "enabled": true,
+      "charLimit": 280,
+      "supportedMedia": [
+        "image",
+        "video",
+        "link"
+      ],
+      "supportsScheduling": true,
+      "authUrl": "https://twitter.com/i/oauth2/authorize",
+      "clientId": "x_app_cpanel_default"
+    },
+    "linkedin": {
+      "id": "linkedin",
+      "name": "LinkedIn Organization",
+      "icon": "Linkedin",
+      "enabled": true,
+      "charLimit": 3000,
+      "supportedMedia": [
+        "image",
+        "video",
+        "link",
+        "article"
+      ],
+      "supportsScheduling": true,
+      "authUrl": "https://www.linkedin.com/oauth/v2/authorization",
+      "clientId": "li_app_cpanel_default"
+    },
+    "youtube": {
+      "id": "youtube",
+      "name": "YouTube Channel",
+      "icon": "Youtube",
+      "enabled": true,
+      "charLimit": 5000,
+      "supportedMedia": [
+        "video"
+      ],
+      "supportsScheduling": true,
+      "authUrl": "https://accounts.google.com/o/oauth2/v2/auth",
+      "clientId": "yt_app_cpanel_default"
+    },
+    "pinterest": {
+      "id": "pinterest",
+      "name": "Pinterest Business",
+      "icon": "Image",
+      "enabled": true,
+      "charLimit": 500,
+      "supportedMedia": [
+        "image",
+        "link"
+      ],
+      "supportsScheduling": false,
+      "authUrl": "https://www.pinterest.com/oauth/",
+      "clientId": "pin_app_cpanel_default"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+Thu Sep 17 09:15:00 2026 1 192.168.1.50 1048576 /public_html/assets/banner.png b _ i r cpanel_user@example.com ftp 0 * c
+Thu Sep 17 07:00:00 2026 0 192.168.1.50 204800 /public_html/index.html a _ i r cpanel_user@example.com ftp 0 * c
+Thu Sep 17 08:30:00 2026 0 192.168.1.51 4096000 /public_html/data.zip b _ o r cpanel_user@example.com ftp 0 * c
+Thu Sep 17 10:15:00 2026 0 192.168.1.52 1024000 /public_html/video.mp4 b _ o r cpanel_user@example.com ftp 0 * c
+Thu Sep 17 11:00:00 2026 0 192.168.1.50 512000 /public_html/assets/logo.svg a _ i r cpanel_user@example.com ftp 0 * c
+Thu Sep 17 12:00:00 2026 0 192.168.1.53 8192000 /public_html/broken.iso b _ i r cpanel_user@example.com ftp 0 * i

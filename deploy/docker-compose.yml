@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  cpanel-backend:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    container_name: cpanel_backend
+    restart: always
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../backend/data:/app/data
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+
+  cpanel-frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: cpanel_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - cpanel-backend

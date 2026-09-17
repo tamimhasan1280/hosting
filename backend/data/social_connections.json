@@ -1,0 +1,27 @@
+{
+  "accounts": {
+    "cpanel_user": {
+      "connections": [
+        {
+          "id": "soc_linkedin_1def0858",
+          "platform": "linkedin",
+          "platformName": "LinkedIn Organization",
+          "profileName": "cPanel Company Page",
+          "handle": "cpanel-hosting",
+          "avatarUrl": null,
+          "tokenHash": "5b152bf7bc306114745acddb4063ca306fc820f642657a1f0ef28415183690e3",
+          "status": "CONNECTED",
+          "connectedAt": "2026-09-16T20:12:48.708Z",
+          "lastSync": "2026-09-16T20:12:48.708Z",
+          "tokenExpiresAt": "2026-11-15T20:12:48.708Z"
+        }
+      ]
+    },
+    "other_user": {
+      "connections": []
+    },
+    "whm3536": {
+      "connections": []
+    }
+  }
+}

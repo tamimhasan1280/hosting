@@ -1,0 +1,8 @@
+{
+  "globalStatus": "On",
+  "domainSettings": {
+    "example.com": "On"
+  },
+  "customRules": [],
+  "auditLogRetentionDays": 30
+}

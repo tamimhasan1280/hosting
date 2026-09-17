@@ -1,0 +1,524 @@
+{
+  "accounts": {
+    "cpanel_user": {
+      "posts": [
+        {
+          "id": "post_e258b22ff30d",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_ea29931e"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T20:12:48.848Z",
+          "publishedAt": "2026-09-16T20:12:48.848Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_d6177100174a",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_df2f1bad"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T20:12:48.718Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T20:12:48.717Z"
+        },
+        {
+          "id": "post_2389c610989d",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_df2f1bad",
+            "soc_linkedin_1def0858"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T20:12:48.715Z",
+          "publishedAt": "2026-09-16T20:12:48.715Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_cb29d6094398",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_7057de20"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T19:47:36.212Z",
+          "publishedAt": "2026-09-16T19:47:36.212Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_7974de51661b",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_3946bcdb"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T19:47:36.084Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T19:47:36.082Z"
+        },
+        {
+          "id": "post_80be07f17e9e",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_3946bcdb",
+            "soc_linkedin_d06641eb"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T19:47:36.081Z",
+          "publishedAt": "2026-09-16T19:47:36.081Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_d60e2c5f2bbd",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_999c9c38"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T18:57:10.288Z",
+          "publishedAt": "2026-09-16T18:57:10.288Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_65cfcab17df3",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_8dd5c7b1"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T18:57:10.131Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T18:57:10.129Z"
+        },
+        {
+          "id": "post_2ec0a262a812",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_8dd5c7b1",
+            "soc_linkedin_89fd98c1"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T18:57:10.126Z",
+          "publishedAt": "2026-09-16T18:57:10.126Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_e2cb6ab5c0ff",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_b1fe93bd"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T18:13:27.432Z",
+          "publishedAt": "2026-09-16T18:13:27.432Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_45b4dfccb1cc",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_1de64d94"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T18:13:27.337Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T18:13:27.336Z"
+        },
+        {
+          "id": "post_c849cdb2fb88",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_1de64d94",
+            "soc_linkedin_e18300e3"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T18:13:27.335Z",
+          "publishedAt": "2026-09-16T18:13:27.335Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_ddaf67e6303c",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_244416a4"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T17:28:23.182Z",
+          "publishedAt": "2026-09-16T17:28:23.182Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_3386e0b7ae10",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_77f7aad5"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T17:28:23.021Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T17:28:23.020Z"
+        },
+        {
+          "id": "post_3f9613e59a2b",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_77f7aad5",
+            "soc_linkedin_0568f1fe"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T17:28:23.018Z",
+          "publishedAt": "2026-09-16T17:28:23.018Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_a28f11eb56e4",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_3156d28c"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:57:00.864Z",
+          "publishedAt": "2026-09-16T16:57:00.864Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_33a389b23337",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_546e0605"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T16:57:00.756Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T16:57:00.755Z"
+        },
+        {
+          "id": "post_422fcfee15da",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_546e0605",
+            "soc_linkedin_90c5b130"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:57:00.753Z",
+          "publishedAt": "2026-09-16T16:57:00.753Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_c35bfc040aa1",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_c96636ce"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:51:02.427Z",
+          "publishedAt": "2026-09-16T16:51:02.427Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_98a3bbdd0ec4",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_af5a07f1"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T16:51:02.299Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T16:51:02.298Z"
+        },
+        {
+          "id": "post_212b1f9ed9b9",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_af5a07f1",
+            "soc_linkedin_e86d2230"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:51:02.297Z",
+          "publishedAt": "2026-09-16T16:51:02.297Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_ea80b7a13250",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_5b1bbdf3"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:32:00.067Z",
+          "publishedAt": "2026-09-16T16:32:00.067Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_5b0ab505cf81",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_2c21562a"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T16:31:59.947Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T16:31:59.946Z"
+        },
+        {
+          "id": "post_bc5531eb1117",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_2c21562a",
+            "soc_linkedin_871b03b7"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:31:59.944Z",
+          "publishedAt": "2026-09-16T16:31:59.944Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_52d010b20e3d",
+          "content": "Testing social media posting via REST API",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_facebook_91e0ffa3"
+          ],
+          "channelNames": [
+            "Facebook Pages"
+          ],
+          "channelHandles": [
+            "@cpanel_fb"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:30:43.214Z",
+          "publishedAt": "2026-09-16T16:30:43.214Z",
+          "scheduledFor": null
+        },
+        {
+          "id": "post_c67d7abd17c0",
+          "content": "Scheduled update: check out our weekend maintenance window.",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_4eccdae7"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)"
+          ],
+          "channelHandles": [
+            "@cpanel_official"
+          ],
+          "status": "CANCELLED",
+          "createdAt": "2026-09-16T16:30:43.085Z",
+          "publishedAt": null,
+          "scheduledFor": "2026-09-17T16:30:43.083Z"
+        },
+        {
+          "id": "post_d21cdbf8f17a",
+          "content": "Exciting announcement: our hosting control panel now supports real Social Media Management!",
+          "mediaUrl": null,
+          "channelIds": [
+            "soc_x_twitter_4eccdae7",
+            "soc_linkedin_7a027b84"
+          ],
+          "channelNames": [
+            "X (formerly Twitter)",
+            "LinkedIn Organization"
+          ],
+          "channelHandles": [
+            "@cpanel_official",
+            "cpanel-hosting"
+          ],
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-16T16:30:43.081Z",
+          "publishedAt": "2026-09-16T16:30:43.081Z",
+          "scheduledFor": null
+        }
+      ]
+    },
+    "whm3536": {
+      "posts": []
+    }
+  }
+}

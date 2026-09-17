@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Test Project</title>
+  <meta name="generator" content="Sitejet Builder cPanel Integration">
+  <style>
+    :root {
+      --primary: #ff6c2c;
+      --primary-dark: #e05819;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; }
+    header { border-bottom: 1px solid rgba(255,255,255,0.08); padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; }
+    .brand { font-size: 20px; font-weight: 700; color: #fff; display: flex; align-items: center; gap: 8px; }
+    .badge { background: var(--primary); color: #fff; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 12px; text-transform: uppercase; }
+    main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 60px 20px; text-align: center; }
+    .hero { max-width: 720px; background: var(--card-bg); padding: 50px 40px; border-radius: 24px; box-shadow: 0 20px 40px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.05); }
+    h1 { font-size: 38px; font-weight: 800; margin-bottom: 16px; line-height: 1.2; background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    p { font-size: 16px; color: var(--text-muted); line-height: 1.6; margin-bottom: 30px; }
+    .cta-btn { display: inline-block; background: var(--primary); color: white; padding: 14px 32px; border-radius: 12px; font-size: 15px; font-weight: 600; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(255,108,44,0.3); }
+    .cta-btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-top: 40px; text-align: left; }
+    .feat-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); padding: 20px; border-radius: 16px; }
+    .feat-title { font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #fff; }
+    .feat-desc { font-size: 12px; color: var(--text-muted); }
+    footer { border-top: 1px solid rgba(255,255,255,0.05); padding: 24px 40px; text-align: center; font-size: 13px; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span>example.com</span>
+      <span class="badge">Sitejet Built</span>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <span class="badge" style="margin-bottom: 16px;">Live & Published</span>
+      <h1>Welcome to example.com</h1>
+      <p>This website was designed and published using the integrated <strong>Sitejet Builder</strong> on cPanel. Template: <em>Artisan Bistro</em>.</p>
+      <a href="/#contact" class="cta-btn">Get in Touch</a>
+
+      <div class="features">
+        <div class="feat-card">
+          <div class="feat-title">⚡ Ultra-Fast Performance</div>
+          <div class="feat-desc">Optimized static delivery with zero database latency.</div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-title">🔒 SSL Protected</div>
+          <div class="feat-desc">Secure end-to-end TLS encryption enabled.</div>
+        </div>
+        <div class="feat-card">
+          <div class="feat-title">📱 Fully Responsive</div>
+          <div class="feat-desc">Flawless design on desktop, tablet, and mobile screens.</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 example.com. Built with Sitejet Builder on cPanel.</p>
+  </footer>
+</body>
+</html>

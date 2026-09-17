@@ -1,0 +1,13 @@
+[
+  {
+    "id": "evt-modsec-101",
+    "timestamp": "2026-09-16T21:46:44.252Z",
+    "clientIp": "198.51.100.45",
+    "domain": "example.com",
+    "uri": "/admin.php?id=1%27%20OR%201=1",
+    "ruleId": "942100",
+    "ruleMessage": "SQL Injection Attack: SQL Operator Detected",
+    "action": "403 Forbidden (SecFilter)",
+    "severity": "CRITICAL"
+  }
+]

@@ -1,0 +1,1541 @@
+{
+  "users": {
+    "cpanel_user": {
+      "accounts": [
+        {
+          "email": "billing@example.com",
+          "user": "billing",
+          "domain": "example.com",
+          "quota": "2048 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:02:02.196Z"
+        },
+        {
+          "email": "admin@client1shop.com",
+          "user": "admin",
+          "domain": "client1shop.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:10:05.664Z"
+        },
+        {
+          "email": "admin@mywhmcstore.com",
+          "user": "admin",
+          "domain": "mywhmcstore.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:10:30.727Z"
+        },
+        {
+          "email": "user3161@example.com",
+          "user": "user3161",
+          "domain": "example.com",
+          "quota": "2048 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:10:43.162Z"
+        },
+        {
+          "email": "user3513@example.com",
+          "user": "user3513",
+          "domain": "example.com",
+          "quota": "2048 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:10:53.514Z"
+        },
+        {
+          "email": "admin@store3536.com",
+          "user": "admin",
+          "domain": "store3536.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:10:53.538Z"
+        },
+        {
+          "email": "office_1910@example.com",
+          "user": "office_1910",
+          "domain": "example.com",
+          "quota": "512 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:15:41.911Z"
+        },
+        {
+          "email": "admin@client-1977.net",
+          "user": "admin",
+          "domain": "client-1977.net",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:15:41.980Z"
+        },
+        {
+          "email": "office_6549@example.com",
+          "user": "office_6549",
+          "domain": "example.com",
+          "quota": "512 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:17:26.551Z"
+        },
+        {
+          "email": "admin@client-6588.net",
+          "user": "admin",
+          "domain": "client-6588.net",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:17:26.591Z"
+        },
+        {
+          "email": "office_2840@example.com",
+          "user": "office_2840",
+          "domain": "example.com",
+          "quota": "512 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:29:02.841Z"
+        },
+        {
+          "email": "admin@client-2877.net",
+          "user": "admin",
+          "domain": "client-2877.net",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:29:02.880Z"
+        },
+        {
+          "email": "admin@alpha_3516-hosting.com",
+          "user": "admin",
+          "domain": "alpha_3516-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:36:53.576Z"
+        },
+        {
+          "email": "admin@beta_3516-portal.org",
+          "user": "admin",
+          "domain": "beta_3516-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:36:53.635Z"
+        },
+        {
+          "email": "office_6346@example.com",
+          "user": "office_6346",
+          "domain": "example.com",
+          "quota": "512 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:37:06.348Z"
+        },
+        {
+          "email": "admin@client-6387.net",
+          "user": "admin",
+          "domain": "client-6387.net",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:37:06.393Z"
+        },
+        {
+          "email": "admin@alpha_3335-hosting.com",
+          "user": "admin",
+          "domain": "alpha_3335-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:42:53.385Z"
+        },
+        {
+          "email": "admin@beta_3335-portal.org",
+          "user": "admin",
+          "domain": "beta_3335-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:42:53.441Z"
+        },
+        {
+          "email": "admin@alpha_5640-hosting.com",
+          "user": "admin",
+          "domain": "alpha_5640-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:46:55.693Z"
+        },
+        {
+          "email": "admin@beta_5640-portal.org",
+          "user": "admin",
+          "domain": "beta_5640-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:46:55.733Z"
+        },
+        {
+          "email": "admin@alpha_4291-hosting.com",
+          "user": "admin",
+          "domain": "alpha_4291-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T04:54:04.342Z"
+        },
+        {
+          "email": "admin@alpha_5154-hosting.com",
+          "user": "admin",
+          "domain": "alpha_5154-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:00:55.211Z"
+        },
+        {
+          "email": "admin@beta_5155-portal.org",
+          "user": "admin",
+          "domain": "beta_5155-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:00:55.270Z"
+        },
+        {
+          "email": "admin@alpha_0590-hosting.com",
+          "user": "admin",
+          "domain": "alpha_0590-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:08:30.644Z"
+        },
+        {
+          "email": "admin@beta_0590-portal.org",
+          "user": "admin",
+          "domain": "beta_0590-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:08:30.683Z"
+        },
+        {
+          "email": "admin@alpha_2652-hosting.com",
+          "user": "admin",
+          "domain": "alpha_2652-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:18:32.706Z"
+        },
+        {
+          "email": "admin@beta_2652-portal.org",
+          "user": "admin",
+          "domain": "beta_2652-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:18:32.745Z"
+        },
+        {
+          "email": "admin@alpha_9267-hosting.com",
+          "user": "admin",
+          "domain": "alpha_9267-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:25:09.318Z"
+        },
+        {
+          "email": "admin@beta_9267-portal.org",
+          "user": "admin",
+          "domain": "beta_9267-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:25:09.369Z"
+        },
+        {
+          "email": "admin@alpha_8699-hosting.com",
+          "user": "admin",
+          "domain": "alpha_8699-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:39:08.755Z"
+        },
+        {
+          "email": "admin@beta_8699-portal.org",
+          "user": "admin",
+          "domain": "beta_8699-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T05:39:08.814Z"
+        },
+        {
+          "email": "admin@alpha_3521-hosting.com",
+          "user": "admin",
+          "domain": "alpha_3521-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T13:48:13.572Z"
+        },
+        {
+          "email": "admin@beta_3521-portal.org",
+          "user": "admin",
+          "domain": "beta_3521-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T13:48:13.626Z"
+        },
+        {
+          "email": "admin@alpha_7110-hosting.com",
+          "user": "admin",
+          "domain": "alpha_7110-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T14:35:07.182Z"
+        },
+        {
+          "email": "admin@beta_7110-portal.org",
+          "user": "admin",
+          "domain": "beta_7110-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T14:35:07.230Z"
+        },
+        {
+          "email": "admin@alpha_0795-hosting.com",
+          "user": "admin",
+          "domain": "alpha_0795-hosting.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T14:54:40.864Z"
+        },
+        {
+          "email": "admin@beta_0795-portal.org",
+          "user": "admin",
+          "domain": "beta_0795-portal.org",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T14:54:40.904Z"
+        },
+        {
+          "email": "admin@hostingclient1.com",
+          "user": "admin",
+          "domain": "hostingclient1.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T23:12:34.916Z"
+        },
+        {
+          "email": "admin@whm_test_0570.com",
+          "user": "admin",
+          "domain": "whm_test_0570.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T23:16:30.586Z"
+        },
+        {
+          "email": "admin@whm_test_8165.com",
+          "user": "admin",
+          "domain": "whm_test_8165.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-16T23:16:48.171Z"
+        },
+        {
+          "email": "salestest@example.com",
+          "user": "salestest",
+          "domain": "example.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-17T16:16:44.000Z"
+        },
+        {
+          "email": "quicksupport@example.com",
+          "user": "quicksupport",
+          "domain": "example.com",
+          "quota": "1024 MB",
+          "usage": "0.00 MB",
+          "created": "2026-09-17T17:09:52.751Z"
+        }
+      ],
+      "forwarders": [
+        {
+          "source": "info@example.com",
+          "destination": "admin@example.com",
+          "created": "2026-09-16T03:56:45.019Z"
+        },
+        {
+          "source": "invoices@example.com",
+          "destination": "billing@example.com",
+          "created": "2026-09-16T04:02:02.198Z"
+        },
+        {
+          "source": "invoices_user3161@example.com",
+          "destination": "user3161@example.com",
+          "created": "2026-09-16T04:10:43.164Z"
+        },
+        {
+          "source": "invoices_user3513@example.com",
+          "destination": "user3513@example.com",
+          "created": "2026-09-16T04:10:53.516Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@example.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket",
+          "body": "Thank you for reaching out. We will get back to you within 24 hours.",
+          "created": "2026-09-16T03:56:45.019Z"
+        },
+        {
+          "email": "office_1910@example.com",
+          "from": "Audit Office",
+          "subject": "System Audit",
+          "body": "Auto response verified",
+          "created": "2026-09-16T04:15:41.913Z"
+        },
+        {
+          "email": "office_6549@example.com",
+          "from": "Audit Office",
+          "subject": "System Audit",
+          "body": "Auto response verified",
+          "created": "2026-09-16T04:17:26.553Z"
+        },
+        {
+          "email": "office_2840@example.com",
+          "from": "Audit Office",
+          "subject": "System Audit",
+          "body": "Auto response verified",
+          "created": "2026-09-16T04:29:02.842Z"
+        },
+        {
+          "email": "office_6346@example.com",
+          "from": "Audit Office",
+          "subject": "System Audit",
+          "body": "Auto response verified",
+          "created": "2026-09-16T04:37:06.350Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "example.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {
+        "admin@alpha_3335-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_3335-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 10:42:53",
+              "read": false,
+              "body": "Mailbox admin@alpha_3335-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_3335-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_3335-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 10:42:53",
+              "read": false,
+              "body": "Mailbox admin@beta_3335-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_5640-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_5640-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 10:46:55",
+              "read": false,
+              "body": "Mailbox admin@alpha_5640-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_5640-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_5640-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 10:46:55",
+              "read": false,
+              "body": "Mailbox admin@beta_5640-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_4291-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_4291-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 10:54:04",
+              "read": false,
+              "body": "Mailbox admin@alpha_4291-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_5154-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_5154-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:00:55",
+              "read": false,
+              "body": "Mailbox admin@alpha_5154-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_5155-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_5155-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:00:55",
+              "read": false,
+              "body": "Mailbox admin@beta_5155-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_0590-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_0590-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:08:30",
+              "read": false,
+              "body": "Mailbox admin@alpha_0590-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_0590-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_0590-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:08:30",
+              "read": false,
+              "body": "Mailbox admin@beta_0590-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_2652-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_2652-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:18:32",
+              "read": false,
+              "body": "Mailbox admin@alpha_2652-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_2652-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_2652-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:18:32",
+              "read": false,
+              "body": "Mailbox admin@beta_2652-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_9267-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_9267-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:25:09",
+              "read": false,
+              "body": "Mailbox admin@alpha_9267-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_9267-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_9267-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:25:09",
+              "read": false,
+              "body": "Mailbox admin@beta_9267-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_8699-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_8699-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:39:08",
+              "read": false,
+              "body": "Mailbox admin@alpha_8699-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_8699-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_8699-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 11:39:08",
+              "read": false,
+              "body": "Mailbox admin@beta_8699-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_3521-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_3521-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 19:48:13",
+              "read": false,
+              "body": "Mailbox admin@alpha_3521-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_3521-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_3521-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 19:48:13",
+              "read": false,
+              "body": "Mailbox admin@beta_3521-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_7110-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_7110-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 20:35:07",
+              "read": false,
+              "body": "Mailbox admin@alpha_7110-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_7110-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_7110-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 20:35:07",
+              "read": false,
+              "body": "Mailbox admin@beta_7110-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@alpha_0795-hosting.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@alpha_0795-hosting.com",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 20:54:40",
+              "read": false,
+              "body": "Mailbox admin@alpha_0795-hosting.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@beta_0795-portal.org": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@beta_0795-portal.org",
+              "subject": "Account Created Successfully",
+              "date": "16/09/2026, 20:54:40",
+              "read": false,
+              "body": "Mailbox admin@beta_0795-portal.org is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "billing@example.com": {
+          "inbox": [
+            {
+              "id": "msg_mu5sbu8fbsvp",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 23:09:52",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5rrz716y8b",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:54:26",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5rm7qa6hm5",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:49:57",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5rir4fbtkz",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:47:15",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5r6nnemyzm",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:37:51",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5qsfbeo731",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:26:47",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5qfpkzzyqi",
+              "from": "sales@example.com",
+              "to": "billing@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:16:54",
+              "read": false,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5qfht6slec",
+              "from": "salestest@example.com",
+              "to": "billing@example.com",
+              "subject": "Invoice #1001",
+              "date": "17/09/2026, 22:16:44",
+              "read": false,
+              "body": "Hello World"
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_mu5qdef94dd9",
+              "from": "billing@example.com",
+              "to": "sales@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:15:06",
+              "read": true,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            },
+            {
+              "id": "msg_mu5qadmpxni0",
+              "from": "billing@example.com",
+              "to": "sales@example.com",
+              "subject": "Welcome New Customer Invoice",
+              "date": "17/09/2026, 22:12:45",
+              "read": true,
+              "body": "Thank you for ordering our cPanel hosting plan."
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@hostingclient1.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@hostingclient1.com",
+              "subject": "Account Created Successfully",
+              "date": "17/09/2026, 05:12:34",
+              "read": false,
+              "body": "Mailbox admin@hostingclient1.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@whm_test_0570.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@whm_test_0570.com",
+              "subject": "Account Created Successfully",
+              "date": "17/09/2026, 05:16:30",
+              "read": false,
+              "body": "Mailbox admin@whm_test_0570.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "admin@whm_test_8165.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "admin@whm_test_8165.com",
+              "subject": "Account Created Successfully",
+              "date": "17/09/2026, 05:16:48",
+              "read": false,
+              "body": "Mailbox admin@whm_test_8165.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "salestest@example.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "salestest@example.com",
+              "subject": "Account Created Successfully",
+              "date": "17/09/2026, 22:16:44",
+              "read": false,
+              "body": "Mailbox salestest@example.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_mu5qfht6slec",
+              "from": "salestest@example.com",
+              "to": "billing@example.com",
+              "subject": "Invoice #1001",
+              "date": "17/09/2026, 22:16:44",
+              "read": true,
+              "body": "Hello World"
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "quicksupport@example.com": {
+          "inbox": [
+            {
+              "id": "msg_init",
+              "from": "System Mailer <mailer-daemon@server>",
+              "to": "quicksupport@example.com",
+              "subject": "Account Created Successfully",
+              "date": "17/09/2026, 23:09:52",
+              "read": false,
+              "body": "Mailbox quicksupport@example.com is now active and ready to send and receive messages."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        }
+      }
+    },
+    "user_5gb": {
+      "accounts": [
+        {
+          "email": "admin@user_5gb.com",
+          "user": "admin",
+          "domain": "user_5gb.com",
+          "quota": "1024 MB",
+          "usage": "14.2 MB",
+          "created": "2026-09-16T04:42:44.370Z"
+        },
+        {
+          "email": "support@user_5gb.com",
+          "user": "support",
+          "domain": "user_5gb.com",
+          "quota": "2048 MB",
+          "usage": "2.5 MB",
+          "created": "2026-09-16T04:42:44.370Z"
+        }
+      ],
+      "forwarders": [
+        {
+          "source": "info@user_5gb.com",
+          "destination": "admin@user_5gb.com",
+          "created": "2026-09-16T04:42:44.370Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@user_5gb.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket - user_5gb.com",
+          "body": "Thank you for contacting user_5gb.com support. Our team will get back to you shortly.",
+          "created": "2026-09-16T04:42:44.370Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "user_5gb.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {
+        "admin@user_5gb.com": {
+          "inbox": [
+            {
+              "id": "msg_1",
+              "from": "cPanel System <system@cpanel.net>",
+              "to": "admin@user_5gb.com",
+              "subject": "Welcome to your cPanel Webmail & Mailbox",
+              "date": "16/09/2026, 09:42:44",
+              "read": false,
+              "body": "Hello,\n\nYour mailbox for user_5gb.com is successfully configured on this server.\n\nEmail: admin@user_5gb.com\nIncoming/Outgoing Server: mail.user_5gb.com\nIMAP Port: 993 (SSL)\nSMTP Port: 465 (SSL)\n\nYou can access Webmail directly via Single Sign-On (SSO) at any time from your cPanel control panel.\n\nBest regards,\ncPanel Team"
+            },
+            {
+              "id": "msg_2",
+              "from": "SSL Certificate Authority <certs@autossl.cpanel.net>",
+              "to": "admin@user_5gb.com",
+              "subject": "[AutoSSL] Let's Encrypt Certificate Installed for user_5gb.com",
+              "date": "15/09/2026, 10:42:44",
+              "read": true,
+              "body": "The SSL certificate for domain \"user_5gb.com\" and subdomains has been automatically renewed and installed successfully."
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_mu4a9uf7750e",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:56:40",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu49ijioz1q5",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:35:26",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu48unmiozro",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:16:52",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3o7jw81ama",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:39:01",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3npl9mbt4s",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:25:03",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3nh396n5oe",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:18:27",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3n48ta1r29",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:08:27",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3muhikwjh4",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:00:52",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3mlnvtq97e",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:54:01",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3mcgulu9zw",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:46:51",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3m75u71k7n",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:42:44",
+              "read": true,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_sent_1",
+              "from": "admin@user_5gb.com",
+              "to": "client@example.org",
+              "subject": "Hosting Setup Verification",
+              "date": "16/09/2026, 08:42:44",
+              "read": true,
+              "body": "Your hosting account has been verified and DNS records are propagating properly."
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        },
+        "support@user_5gb.com": {
+          "inbox": [
+            {
+              "id": "msg_mu4a9uf7750e",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:56:40",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu49ijioz1q5",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:35:26",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu48unmiozro",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 21:16:52",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3o7jw81ama",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:39:01",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3npl9mbt4s",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:25:03",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3nh396n5oe",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:18:27",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3n48ta1r29",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:08:27",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3muhikwjh4",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 11:00:52",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3mlnvtq97e",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:54:01",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3mcgulu9zw",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:46:51",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            },
+            {
+              "id": "msg_mu3m75u71k7n",
+              "from": "admin@user_5gb.com",
+              "to": "support@user_5gb.com",
+              "subject": "SSO Automated Test Message",
+              "date": "16/09/2026, 10:42:44",
+              "read": false,
+              "body": "Testing direct jumping and delivery in cPanel."
+            }
+          ],
+          "sent": [],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        }
+      }
+    },
+    "tenant_user_b": {
+      "accounts": [
+        {
+          "email": "admin@tenant_user_b.com",
+          "user": "admin",
+          "domain": "tenant_user_b.com",
+          "quota": "1024 MB",
+          "usage": "14.2 MB",
+          "created": "2026-09-16T14:19:51.920Z"
+        },
+        {
+          "email": "support@tenant_user_b.com",
+          "user": "support",
+          "domain": "tenant_user_b.com",
+          "quota": "2048 MB",
+          "usage": "2.5 MB",
+          "created": "2026-09-16T14:19:51.920Z"
+        }
+      ],
+      "forwarders": [
+        {
+          "source": "info@tenant_user_b.com",
+          "destination": "admin@tenant_user_b.com",
+          "created": "2026-09-16T14:19:51.920Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@tenant_user_b.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket - tenant_user_b.com",
+          "body": "Thank you for contacting tenant_user_b.com support. Our team will get back to you shortly.",
+          "created": "2026-09-16T14:19:51.920Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "tenant_user_b.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {
+        "admin@tenant_user_b.com": {
+          "inbox": [
+            {
+              "id": "msg_1",
+              "from": "cPanel System <system@cpanel.net>",
+              "to": "admin@tenant_user_b.com",
+              "subject": "Welcome to your cPanel Webmail & Mailbox",
+              "date": "16/09/2026, 19:19:51",
+              "read": false,
+              "body": "Hello,\n\nYour mailbox for tenant_user_b.com is successfully configured on this server.\n\nEmail: admin@tenant_user_b.com\nIncoming/Outgoing Server: mail.tenant_user_b.com\nIMAP Port: 993 (SSL)\nSMTP Port: 465 (SSL)\n\nYou can access Webmail directly via Single Sign-On (SSO) at any time from your cPanel control panel.\n\nBest regards,\ncPanel Team"
+            },
+            {
+              "id": "msg_2",
+              "from": "SSL Certificate Authority <certs@autossl.cpanel.net>",
+              "to": "admin@tenant_user_b.com",
+              "subject": "[AutoSSL] Let's Encrypt Certificate Installed for tenant_user_b.com",
+              "date": "15/09/2026, 20:19:51",
+              "read": true,
+              "body": "The SSL certificate for domain \"tenant_user_b.com\" and subdomains has been automatically renewed and installed successfully."
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_sent_1",
+              "from": "admin@tenant_user_b.com",
+              "to": "client@example.org",
+              "subject": "Hosting Setup Verification",
+              "date": "16/09/2026, 18:19:51",
+              "read": true,
+              "body": "Your hosting account has been verified and DNS records are propagating properly."
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        }
+      }
+    },
+    "restore_audit_user": {
+      "accounts": [
+        {
+          "email": "admin@restore_audit_user.com",
+          "user": "admin",
+          "domain": "restore_audit_user.com",
+          "quota": "1024 MB",
+          "usage": "14.2 MB",
+          "created": "2026-09-16T14:53:56.602Z"
+        },
+        {
+          "email": "support@restore_audit_user.com",
+          "user": "support",
+          "domain": "restore_audit_user.com",
+          "quota": "2048 MB",
+          "usage": "2.5 MB",
+          "created": "2026-09-16T14:53:56.602Z"
+        }
+      ],
+      "forwarders": [
+        {
+          "source": "info@restore_audit_user.com",
+          "destination": "admin@restore_audit_user.com",
+          "created": "2026-09-16T14:53:56.602Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@restore_audit_user.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket - restore_audit_user.com",
+          "body": "Thank you for contacting restore_audit_user.com support. Our team will get back to you shortly.",
+          "created": "2026-09-16T14:53:56.602Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "restore_audit_user.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {
+        "admin@restore_audit_user.com": {
+          "inbox": [
+            {
+              "id": "msg_1",
+              "from": "cPanel System <system@cpanel.net>",
+              "to": "admin@restore_audit_user.com",
+              "subject": "Welcome to your cPanel Webmail & Mailbox",
+              "date": "16/09/2026, 19:53:56",
+              "read": false,
+              "body": "Hello,\n\nYour mailbox for restore_audit_user.com is successfully configured on this server.\n\nEmail: admin@restore_audit_user.com\nIncoming/Outgoing Server: mail.restore_audit_user.com\nIMAP Port: 993 (SSL)\nSMTP Port: 465 (SSL)\n\nYou can access Webmail directly via Single Sign-On (SSO) at any time from your cPanel control panel.\n\nBest regards,\ncPanel Team"
+            },
+            {
+              "id": "msg_2",
+              "from": "SSL Certificate Authority <certs@autossl.cpanel.net>",
+              "to": "admin@restore_audit_user.com",
+              "subject": "[AutoSSL] Let's Encrypt Certificate Installed for restore_audit_user.com",
+              "date": "15/09/2026, 20:53:56",
+              "read": true,
+              "body": "The SSL certificate for domain \"restore_audit_user.com\" and subdomains has been automatically renewed and installed successfully."
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_sent_1",
+              "from": "admin@restore_audit_user.com",
+              "to": "client@example.org",
+              "subject": "Hosting Setup Verification",
+              "date": "16/09/2026, 18:53:56",
+              "read": true,
+              "body": "Your hosting account has been verified and DNS records are propagating properly."
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        }
+      }
+    },
+    "whm3536": {
+      "accounts": [
+        {
+          "email": "admin@store3536.com",
+          "user": "admin",
+          "domain": "store3536.com",
+          "quota": "1024 MB",
+          "usage": "14.2 MB",
+          "created": "2026-09-16T20:51:48.699Z"
+        },
+        {
+          "email": "support@store3536.com",
+          "user": "support",
+          "domain": "store3536.com",
+          "quota": "2048 MB",
+          "usage": "2.5 MB",
+          "created": "2026-09-16T20:51:48.699Z"
+        }
+      ],
+      "forwarders": [
+        {
+          "source": "info@store3536.com",
+          "destination": "admin@store3536.com",
+          "created": "2026-09-16T20:51:48.699Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@store3536.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket - store3536.com",
+          "body": "Thank you for contacting store3536.com support. Our team will get back to you shortly.",
+          "created": "2026-09-16T20:51:48.699Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "store3536.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {
+        "admin@store3536.com": {
+          "inbox": [
+            {
+              "id": "msg_1",
+              "from": "cPanel System <system@cpanel.net>",
+              "to": "admin@store3536.com",
+              "subject": "Welcome to your cPanel Webmail & Mailbox",
+              "date": "17/09/2026, 01:51:48",
+              "read": true,
+              "body": "Hello,\n\nYour mailbox for store3536.com is successfully configured on this server.\n\nEmail: admin@store3536.com\nIncoming/Outgoing Server: mail.store3536.com\nIMAP Port: 993 (SSL)\nSMTP Port: 465 (SSL)\n\nYou can access Webmail directly via Single Sign-On (SSO) at any time from your cPanel control panel.\n\nBest regards,\ncPanel Team"
+            },
+            {
+              "id": "msg_2",
+              "from": "SSL Certificate Authority <certs@autossl.cpanel.net>",
+              "to": "admin@store3536.com",
+              "subject": "[AutoSSL] Let's Encrypt Certificate Installed for store3536.com",
+              "date": "16/09/2026, 02:51:48",
+              "read": true,
+              "body": "The SSL certificate for domain \"store3536.com\" and subdomains has been automatically renewed and installed successfully."
+            }
+          ],
+          "sent": [
+            {
+              "id": "msg_mu4owjbuou01",
+              "from": "admin@store3536.com",
+              "to": "tamimhasan1281@gmail.com",
+              "subject": "Hi",
+              "date": "17/09/2026, 04:46:13",
+              "read": true,
+              "body": "Hi"
+            },
+            {
+              "id": "msg_sent_1",
+              "from": "admin@store3536.com",
+              "to": "client@example.org",
+              "subject": "Hosting Setup Verification",
+              "date": "17/09/2026, 00:51:48",
+              "read": true,
+              "body": "Your hosting account has been verified and DNS records are propagating properly."
+            }
+          ],
+          "drafts": [],
+          "junk": [],
+          "trash": []
+        }
+      }
+    },
+    "tamimhasan1281": {
+      "accounts": [],
+      "forwarders": [
+        {
+          "source": "info@example.com",
+          "destination": "admin@example.com",
+          "created": "2026-09-16T23:11:34.079Z"
+        }
+      ],
+      "autoresponders": [
+        {
+          "email": "support@example.com",
+          "from": "Support Desk",
+          "subject": "We have received your ticket - example.com",
+          "body": "Thank you for contacting example.com support. Our team will get back to you shortly.",
+          "created": "2026-09-16T23:11:34.079Z"
+        }
+      ],
+      "deliverability": [
+        {
+          "domain": "example.com",
+          "spf": "VALID",
+          "dkim": "VALID",
+          "dmarc": "VALID",
+          "status": "Problems Exist (0)"
+        }
+      ],
+      "mailboxes": {}
+    }
+  }
+}

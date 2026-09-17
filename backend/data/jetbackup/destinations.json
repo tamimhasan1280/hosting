@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dest_local_default",
+    "name": "Local Default Storage",
+    "type": "local",
+    "path": "C:\\Users\\TAMIM 1280\\.gemini\\antigravity\\scratch\\cpanel-control-panel\\backend\\data\\backups",
+    "status": "active",
+    "isDefault": true,
+    "readOnly": false,
+    "retentionLimit": 14,
+    "maxStorageGb": 100,
+    "createdAt": "2026-09-16T15:14:00.201Z"
+  },
+  {
+    "id": "dest_local_secondary",
+    "name": "Secondary Backup Volume (Mounted)",
+    "type": "local",
+    "path": "C:\\Users\\TAMIM 1280\\.gemini\\antigravity\\scratch\\cpanel-control-panel\\backend\\data\\backup_secondary",
+    "status": "active",
+    "isDefault": false,
+    "readOnly": false,
+    "retentionLimit": 30,
+    "maxStorageGb": 500,
+    "createdAt": "2026-09-16T15:14:00.202Z"
+  },
+  {
+    "id": "dest_remote_ftp",
+    "name": "Offsite Remote FTP Vault",
+    "type": "ftp",
+    "host": "127.0.0.1",
+    "port": 21,
+    "user": "backup_vault",
+    "remotePath": "/backups/cpanel",
+    "status": "active",
+    "isDefault": false,
+    "ssl": false,
+    "retentionLimit": 60,
+    "maxStorageGb": 1000,
+    "createdAt": "2026-09-16T15:14:00.202Z"
+  }
+]

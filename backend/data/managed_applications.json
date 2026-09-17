@@ -1,0 +1,37 @@
+{
+  "nodeApps": [
+    {
+      "id": "app-node-1",
+      "name": "Demo Express App",
+      "runtime": "Node.js",
+      "version": "v24.18.1",
+      "domain": "example.com",
+      "path": "public_html/nodeapp",
+      "startupFile": "app.js",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3001"
+      },
+      "status": "Stopped",
+      "pid": null,
+      "created": "2026-09-16T22:46:44.295Z"
+    }
+  ],
+  "pythonApps": [
+    {
+      "id": "app-py-1",
+      "name": "Demo Flask API",
+      "runtime": "Python",
+      "version": "3.11",
+      "domain": "example.com",
+      "path": "public_html/flaskapp",
+      "startupFile": "passenger_wsgi.py",
+      "env": {
+        "FLASK_ENV": "production"
+      },
+      "status": "Stopped",
+      "pid": null,
+      "created": "2026-09-16T22:46:44.295Z"
+    }
+  ]
+}

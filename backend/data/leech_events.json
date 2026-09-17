@@ -1,0 +1,92 @@
+[
+  {
+    "id": "evt_1789598351958_3kme6",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.99",
+    "authUser": "testuser",
+    "timestamp": "2026-09-16T22:39:11.958Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598385511_g7eg0",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.99",
+    "authUser": "testuser",
+    "timestamp": "2026-09-16T22:39:45.511Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (5 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598396813_0rrm6",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.117",
+    "authUser": "testuser",
+    "timestamp": "2026-09-16T22:39:56.813Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598399622_91bp2",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.73",
+    "authUser": "testuser",
+    "timestamp": "2026-09-16T22:39:59.622Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598416875_7h5zi",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.13",
+    "authUser": "testuser",
+    "timestamp": "2026-09-16T22:40:16.875Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (1 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598439526_7yuco",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.107",
+    "authUser": "testuser_50295",
+    "timestamp": "2026-09-16T22:40:39.526Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598457392_rhm4s",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.91",
+    "authUser": "testuser_86502",
+    "timestamp": "2026-09-16T22:40:57.392Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789598475087_kkpwg",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.64",
+    "authUser": "testuser_37646",
+    "timestamp": "2026-09-16T22:41:15.087Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  },
+  {
+    "id": "evt_1789599057388_5l7ak",
+    "username": "cpanel_user",
+    "directory": "public_html/leech-test-dir",
+    "ip": "198.51.100.129",
+    "authUser": "testuser_76794",
+    "timestamp": "2026-09-16T22:50:57.388Z",
+    "actionTaken": "redirect",
+    "details": "Leech threshold exceeded (4 logins in 60m)"
+  }
+]

@@ -1,0 +1,1014 @@
+{
+  "cpsess_48579d6805d25f6c0a5d3a9a2345e7cf1ff29b06358a308f": {
+    "token": "cpsess_48579d6805d25f6c0a5d3a9a2345e7cf1ff29b06358a308f",
+    "user": "client17",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789612538232,
+    "expiresAt": 1789698938232,
+    "extra": {
+      "email": "client1789612537640@example.com",
+      "username": "client1789612537640@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_52674ea487af7007a1a5f541743c8cacc9cd09b8e1bb683d": {
+    "token": "cpsess_52674ea487af7007a1a5f541743c8cacc9cd09b8e1bb683d",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "createdAt": 1789612604593,
+    "expiresAt": 1789699004593,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_f2c1471bb9fcf5df0c87bb1caf254b711d01a9e0e2851e9a": {
+    "token": "cpsess_f2c1471bb9fcf5df0c87bb1caf254b711d01a9e0e2851e9a",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "createdAt": 1789612891136,
+    "expiresAt": 1789699291136,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_afc4be58e261576d1e91bd07548f7056ca768fb2404b17ed": {
+    "token": "cpsess_afc4be58e261576d1e91bd07548f7056ca768fb2404b17ed",
+    "user": "portalcl",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789612970630,
+    "expiresAt": 1789699370630,
+    "extra": {
+      "email": "portalclient1789612970018@example.com",
+      "username": "portalclient1789612970018@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_fccb8dd27dee843222ae2f690ea0880efefe5d4812f6e8dd": {
+    "token": "cpsess_fccb8dd27dee843222ae2f690ea0880efefe5d4812f6e8dd",
+    "user": "princeta",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "createdAt": 1789660921530,
+    "expiresAt": 1789747321530,
+    "extra": {
+      "email": "prince.tamim1281@gmail.com",
+      "username": "prince.tamim1281@gmail.com",
+      "role": "client"
+    }
+  },
+  "pmasess_cd3870d7628cb6ab875dc77fa308301a07306cfa7081976d": {
+    "token": "pmasess_cd3870d7628cb6ab875dc77fa308301a07306cfa7081976d",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789661565405,
+    "expiresAt": 1789747965405,
+    "extra": {
+      "db": ""
+    }
+  },
+  "pmasess_91ff760da326d0927ea38cf419bd0c93c875486c18404023": {
+    "token": "pmasess_91ff760da326d0927ea38cf419bd0c93c875486c18404023",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789661706432,
+    "expiresAt": 1789748106432,
+    "extra": {
+      "db": ""
+    }
+  },
+  "pmasess_cd725985fa7aabca8e0253ce8d7f1b7a15ca9774dd896576": {
+    "token": "pmasess_cd725985fa7aabca8e0253ce8d7f1b7a15ca9774dd896576",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789661726213,
+    "expiresAt": 1789748126213,
+    "extra": {
+      "db": ""
+    }
+  },
+  "pmasess_abffc95e733044bb1ea68fbf9b55f9bda8498e48e238f849": {
+    "token": "pmasess_abffc95e733044bb1ea68fbf9b55f9bda8498e48e238f849",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789661753145,
+    "expiresAt": 1789748153145,
+    "extra": {
+      "db": "cpanel_user_shop3069"
+    }
+  },
+  "pmasess_dbf832b9a43c23e4a25f0bf935bde0c70b6fc9ea6ab7cb71": {
+    "token": "pmasess_dbf832b9a43c23e4a25f0bf935bde0c70b6fc9ea6ab7cb71",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789661814193,
+    "expiresAt": 1789748214193,
+    "extra": {
+      "db": "cpanel_user_shop4146"
+    }
+  },
+  "pmasess_00b6984ac4c8e3771896f1f37693c0bfbe5132908c6f23eb": {
+    "token": "pmasess_00b6984ac4c8e3771896f1f37693c0bfbe5132908c6f23eb",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789662407438,
+    "expiresAt": 1789748807438,
+    "extra": {
+      "db": "cpanel_user_shop7364"
+    }
+  },
+  "cpsess_3cf6c3a0191bf00b93a918414f06116a4e52dfb98d1e24d3": {
+    "token": "cpsess_3cf6c3a0191bf00b93a918414f06116a4e52dfb98d1e24d3",
+    "user": "usera178",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789662980624,
+    "expiresAt": 1789749380624,
+    "extra": {
+      "email": "usera_1789662980023@example.com",
+      "username": "usera_1789662980023@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_e9017f0a201480ab0d22dee43952401d59e8f20304c067b6": {
+    "token": "cpsess_e9017f0a201480ab0d22dee43952401d59e8f20304c067b6",
+    "user": "userb178",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789662981229,
+    "expiresAt": 1789749381229,
+    "extra": {
+      "email": "userb_1789662980627@example.com",
+      "username": "userb_1789662980627@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_1e2d9884bef5a4518fe854c6b9eee1e82128711d76d7efd5": {
+    "token": "cpsess_1e2d9884bef5a4518fe854c6b9eee1e82128711d76d7efd5",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663018505,
+    "expiresAt": 1789749418505,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_a7ff7531a071af3b90258a41970a005049a37b8380eb0f32": {
+    "token": "cpsess_a7ff7531a071af3b90258a41970a005049a37b8380eb0f32",
+    "user": "usera178",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663019119,
+    "expiresAt": 1789749419119,
+    "extra": {
+      "email": "usera_1789663018510@example.com",
+      "username": "usera_1789663018510@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_4955d8cba9a3b04cc9996500e50f930ae6bc8c90ab420f0c": {
+    "token": "cpsess_4955d8cba9a3b04cc9996500e50f930ae6bc8c90ab420f0c",
+    "user": "userb178",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663019719,
+    "expiresAt": 1789749419719,
+    "extra": {
+      "email": "userb_1789663019121@example.com",
+      "username": "userb_1789663019121@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ff5e8e7a0482dc7ccaae28a4a274fdae63d629e569a4c64d": {
+    "token": "cpsess_ff5e8e7a0482dc7ccaae28a4a274fdae63d629e569a4c64d",
+    "user": "usera178",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663021379,
+    "expiresAt": 1789749421379,
+    "extra": {
+      "email": "usera_1789663018510@example.com",
+      "username": "usera_1789663018510@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_77bf7a5a6a46f76d3e78dafdab1414b5b22db1f5d13c84c3": {
+    "token": "cpsess_77bf7a5a6a46f76d3e78dafdab1414b5b22db1f5d13c84c3",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663056806,
+    "expiresAt": 1789749456806,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_f61001da8b0a7eae8a9cd76c88dc37d9ea1f6ebb426cf167": {
+    "token": "cpsess_f61001da8b0a7eae8a9cd76c88dc37d9ea1f6ebb426cf167",
+    "user": "usera1",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663057414,
+    "expiresAt": 1789749457414,
+    "extra": {
+      "email": "usera_1789663056813@example.com",
+      "username": "usera_1789663056813@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_79be24d5e4af186d5f954f3d8dc786ed90bb5be95c355a4c": {
+    "token": "cpsess_79be24d5e4af186d5f954f3d8dc786ed90bb5be95c355a4c",
+    "user": "userb1",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663058012,
+    "expiresAt": 1789749458012,
+    "extra": {
+      "email": "userb_1789663057417@example.com",
+      "username": "userb_1789663057417@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_b21532c5e69db7ae4bb5535d2f6eb138417b9c59bde641fb": {
+    "token": "cpsess_b21532c5e69db7ae4bb5535d2f6eb138417b9c59bde641fb",
+    "user": "usera1",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663059690,
+    "expiresAt": 1789749459690,
+    "extra": {
+      "email": "usera_1789663056813@example.com",
+      "username": "usera_1789663056813@example.com",
+      "role": "client"
+    }
+  },
+  "pmasess_39b7bbd04f343547d39e2eb28f032e9ad10c8aa40bab4431": {
+    "token": "pmasess_39b7bbd04f343547d39e2eb28f032e9ad10c8aa40bab4431",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789663071408,
+    "expiresAt": 1789749471408,
+    "extra": {
+      "db": "cpanel_user_shop1349"
+    }
+  },
+  "cpsess_94b1d3aefe5691f2d283155ea90e46d9509ee19825973e06": {
+    "token": "cpsess_94b1d3aefe5691f2d283155ea90e46d9509ee19825973e06",
+    "user": "usera2",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663588853,
+    "expiresAt": 1789749988853,
+    "extra": {
+      "email": "usera_1789663588261@example.com",
+      "username": "usera_1789663588261@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_083deef844ad20fb339ed567086cdfd7a6d247869332b9fc": {
+    "token": "cpsess_083deef844ad20fb339ed567086cdfd7a6d247869332b9fc",
+    "user": "userb2",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663589445,
+    "expiresAt": 1789749989445,
+    "extra": {
+      "email": "userb_1789663588857@example.com",
+      "username": "userb_1789663588857@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_dae73d2cc984c9ccaebc50962da40d37ce08ef2ffdac122b": {
+    "token": "cpsess_dae73d2cc984c9ccaebc50962da40d37ce08ef2ffdac122b",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663621547,
+    "expiresAt": 1789750021547,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_d283f6f9edaaefe5ded4075737f7a95ae795343c75a2c000": {
+    "token": "cpsess_d283f6f9edaaefe5ded4075737f7a95ae795343c75a2c000",
+    "user": "usera3",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663622156,
+    "expiresAt": 1789750022156,
+    "extra": {
+      "email": "usera_1789663621554@example.com",
+      "username": "usera_1789663621554@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_fb8bdf9242b7256bd3bd5de67fa799370feeadfde9c92a2a": {
+    "token": "cpsess_fb8bdf9242b7256bd3bd5de67fa799370feeadfde9c92a2a",
+    "user": "userb3",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663622751,
+    "expiresAt": 1789750022751,
+    "extra": {
+      "email": "userb_1789663622160@example.com",
+      "username": "userb_1789663622160@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_227b6adf81d9ae4d9760e820788d7e2fc61e0d973c7e4ff2": {
+    "token": "cpsess_227b6adf81d9ae4d9760e820788d7e2fc61e0d973c7e4ff2",
+    "user": "usera3",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663624430,
+    "expiresAt": 1789750024430,
+    "extra": {
+      "email": "usera_1789663621554@example.com",
+      "username": "usera_1789663621554@example.com",
+      "role": "client"
+    }
+  },
+  "pmasess_52f235aecedf7cf25d4337e2c3605ba9bcb7ce910e8ddd1d": {
+    "token": "pmasess_52f235aecedf7cf25d4337e2c3605ba9bcb7ce910e8ddd1d",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789663635770,
+    "expiresAt": 1789750035770,
+    "extra": {
+      "db": "cpanel_user_shop5713"
+    }
+  },
+  "cpsess_3953a5d56d84c94d96be3c4f11f5becc54dc5d28169c0a50": {
+    "token": "cpsess_3953a5d56d84c94d96be3c4f11f5becc54dc5d28169c0a50",
+    "user": "usera4",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663741251,
+    "expiresAt": 1789750141251,
+    "extra": {
+      "email": "usera_1789663740646@example.com",
+      "username": "usera_1789663740646@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_de36e7c59ea1d03fec6b8789402a33f6268ca4944d1f14f7": {
+    "token": "cpsess_de36e7c59ea1d03fec6b8789402a33f6268ca4944d1f14f7",
+    "user": "userb4",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663741848,
+    "expiresAt": 1789750141848,
+    "extra": {
+      "email": "userb_1789663741254@example.com",
+      "username": "userb_1789663741254@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_4489c0a3ec38dcb1d3b06b2effe671be56ab13499342e8b4": {
+    "token": "cpsess_4489c0a3ec38dcb1d3b06b2effe671be56ab13499342e8b4",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663783187,
+    "expiresAt": 1789750183187,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_a1bfee98cd433f7b0e4f73d89ae6fd8e5449c4a867056a64": {
+    "token": "cpsess_a1bfee98cd433f7b0e4f73d89ae6fd8e5449c4a867056a64",
+    "user": "usera5",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663783789,
+    "expiresAt": 1789750183789,
+    "extra": {
+      "email": "usera_1789663783195@example.com",
+      "username": "usera_1789663783195@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_55b161bf822f145c5f6de895efcc5040291d0b728cd055b0": {
+    "token": "cpsess_55b161bf822f145c5f6de895efcc5040291d0b728cd055b0",
+    "user": "userb5",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663784388,
+    "expiresAt": 1789750184388,
+    "extra": {
+      "email": "userb_1789663783793@example.com",
+      "username": "userb_1789663783793@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_64aa2380c3954424654f6dcbe10f1a943261aa1161803866": {
+    "token": "cpsess_64aa2380c3954424654f6dcbe10f1a943261aa1161803866",
+    "user": "usera5",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789663786121,
+    "expiresAt": 1789750186121,
+    "extra": {
+      "email": "usera_1789663783195@example.com",
+      "username": "usera_1789663783195@example.com",
+      "role": "client"
+    }
+  },
+  "pmasess_079605934f3b71c8d01f801b75577642d6857246573664aa": {
+    "token": "pmasess_079605934f3b71c8d01f801b75577642d6857246573664aa",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789663797292,
+    "expiresAt": 1789750197292,
+    "extra": {
+      "db": "cpanel_user_shop7216"
+    }
+  },
+  "cpsess_c57847fd5b7df355f51317937ce45a6309fde3f611123c22": {
+    "token": "cpsess_c57847fd5b7df355f51317937ce45a6309fde3f611123c22",
+    "user": "authtest",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789664032355,
+    "expiresAt": 1789750432355,
+    "extra": {
+      "email": "auth_test_1789664030620@example.com",
+      "username": "auth_test_1789664030620@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ef39649511b6bb8327dfb0b90fea2c0a293adcad8f6872d3": {
+    "token": "cpsess_ef39649511b6bb8327dfb0b90fea2c0a293adcad8f6872d3",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664040089,
+    "expiresAt": 1789750440089,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_9eb1551d3c63b95504b1962362d55453271a5d545b0c441d": {
+    "token": "cpsess_9eb1551d3c63b95504b1962362d55453271a5d545b0c441d",
+    "user": "usera6",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664040690,
+    "expiresAt": 1789750440690,
+    "extra": {
+      "email": "usera_1789664040097@example.com",
+      "username": "usera_1789664040097@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_00f5babcb36e4249684d3acfe8b7b7744240aaca39cacc17": {
+    "token": "cpsess_00f5babcb36e4249684d3acfe8b7b7744240aaca39cacc17",
+    "user": "userb6",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664041292,
+    "expiresAt": 1789750441292,
+    "extra": {
+      "email": "userb_1789664040695@example.com",
+      "username": "userb_1789664040695@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_d9bdeb7616271516e24d950cc0d66dd9735bbfb53040ba5f": {
+    "token": "cpsess_d9bdeb7616271516e24d950cc0d66dd9735bbfb53040ba5f",
+    "user": "usera6",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664043021,
+    "expiresAt": 1789750443021,
+    "extra": {
+      "email": "usera_1789664040097@example.com",
+      "username": "usera_1789664040097@example.com",
+      "role": "client"
+    }
+  },
+  "pmasess_97246196e54a87d7f8a91cd8867d98adaeca4dd4ef901c59": {
+    "token": "pmasess_97246196e54a87d7f8a91cd8867d98adaeca4dd4ef901c59",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789664066167,
+    "expiresAt": 1789750466167,
+    "extra": {
+      "db": "cpanel_user_shop6094"
+    }
+  },
+  "cpsess_bd8584d6a5017b855d4c0e1dec174c15014068f650658a81": {
+    "token": "cpsess_bd8584d6a5017b855d4c0e1dec174c15014068f650658a81",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "node",
+    "createdAt": 1789664093064,
+    "expiresAt": 1789750493064,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_9f15ec4615d97993eb19c842f12fff2ba985347e3a725662": {
+    "token": "cpsess_9f15ec4615d97993eb19c842f12fff2ba985347e3a725662",
+    "user": "clientre",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "node",
+    "createdAt": 1789664098878,
+    "expiresAt": 1789750498878,
+    "extra": {
+      "email": "client_reg_1789664098231@example.com",
+      "username": "client_reg_1789664098231@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_3bd0b5712108e33454d9d3bd1659d8332c61e6b92f2b1836": {
+    "token": "cpsess_3bd0b5712108e33454d9d3bd1659d8332c61e6b92f2b1836",
+    "user": "alpha178",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789664958629,
+    "expiresAt": 1789751358629,
+    "extra": {
+      "email": "alpha_1789664958001@example.com",
+      "username": "alpha_1789664958001@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_d37772bc08b1d4b66b4a83b296389e44ba97d87530dcd851": {
+    "token": "cpsess_d37772bc08b1d4b66b4a83b296389e44ba97d87530dcd851",
+    "user": "beta1789",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789664959229,
+    "expiresAt": 1789751359229,
+    "extra": {
+      "email": "beta_1789664958001@example.com",
+      "username": "beta_1789664958001@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_2751ccd9749e19432e609db12da945df52455374cfe63567": {
+    "token": "cpsess_2751ccd9749e19432e609db12da945df52455374cfe63567",
+    "user": "autht1",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789664968875,
+    "expiresAt": 1789751368875,
+    "extra": {
+      "email": "auth_test_1789664967131@example.com",
+      "username": "auth_test_1789664967131@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_6f284ab2b4b8f388bec65e65e60e1b5f30c9cc7dd2d33c39": {
+    "token": "cpsess_6f284ab2b4b8f388bec65e65e60e1b5f30c9cc7dd2d33c39",
+    "user": "tamimhasan1281",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664977310,
+    "expiresAt": 1789751377310,
+    "extra": {
+      "email": "tamimhasan1281@gmail.com",
+      "username": "tamimhasan1281@gmail.com",
+      "role": "admin"
+    }
+  },
+  "cpsess_c92441004541dbfb6ac98c6a750d4e74dde45f845fd8631d": {
+    "token": "cpsess_c92441004541dbfb6ac98c6a750d4e74dde45f845fd8631d",
+    "user": "usera7",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664977910,
+    "expiresAt": 1789751377910,
+    "extra": {
+      "email": "usera_1789664977317@example.com",
+      "username": "usera_1789664977317@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_44b91aa85032046e5025360aa848ee3a7216fbc88bc896b9": {
+    "token": "cpsess_44b91aa85032046e5025360aa848ee3a7216fbc88bc896b9",
+    "user": "userb7",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664978505,
+    "expiresAt": 1789751378505,
+    "extra": {
+      "email": "userb_1789664977914@example.com",
+      "username": "userb_1789664977914@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_e2ae0644e6e12d8168ad06c91b9a5ff952ef46f174f2da87": {
+    "token": "cpsess_e2ae0644e6e12d8168ad06c91b9a5ff952ef46f174f2da87",
+    "user": "usera7",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789664980189,
+    "expiresAt": 1789751380189,
+    "extra": {
+      "email": "usera_1789664977317@example.com",
+      "username": "usera_1789664977317@example.com",
+      "role": "client"
+    }
+  },
+  "pmasess_977d631c38184571b8ccc23b2456df559fd7259c822f4f4b": {
+    "token": "pmasess_977d631c38184571b8ccc23b2456df559fd7259c822f4f4b",
+    "user": "cpanel_user",
+    "service": "phpmyadmin",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789664992859,
+    "expiresAt": 1789751392859,
+    "extra": {
+      "db": "cpanel_user_shop2785"
+    }
+  },
+  "cpsess_59ec704cccf4001a3c1239f80d2efc9f06267e6179c82994": {
+    "token": "cpsess_59ec704cccf4001a3c1239f80d2efc9f06267e6179c82994",
+    "user": "alpha1",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789665349125,
+    "expiresAt": 1789751749125,
+    "extra": {
+      "email": "alpha_1789665348512@example.com",
+      "username": "alpha_1789665348512@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_17f8a685ca63bc54f222c7d4de990d0621050e259e5164a9": {
+    "token": "cpsess_17f8a685ca63bc54f222c7d4de990d0621050e259e5164a9",
+    "user": "beta11",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789665349721,
+    "expiresAt": 1789751749721,
+    "extra": {
+      "email": "beta_1789665348512@example.com",
+      "username": "beta_1789665348512@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ab4ed48c34336abac40c00184f3c0cf1c73f57228a03cc70": {
+    "token": "cpsess_ab4ed48c34336abac40c00184f3c0cf1c73f57228a03cc70",
+    "user": "autht2",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789665358784,
+    "expiresAt": 1789751758784,
+    "extra": {
+      "email": "auth_test_1789665357072@example.com",
+      "username": "auth_test_1789665357072@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_fb4694f2b64439f455622c1bb15b6470686f7ffbbab83126": {
+    "token": "cpsess_fb4694f2b64439f455622c1bb15b6470686f7ffbbab83126",
+    "user": "user1789",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789666104389,
+    "expiresAt": 1789752504389,
+    "extra": {
+      "email": "user_1789666103759@example.com",
+      "username": "user_1789666103759@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_84c8675dd6fed4c23d77512d8c93709709f04e1b24a5d8fc": {
+    "token": "cpsess_84c8675dd6fed4c23d77512d8c93709709f04e1b24a5d8fc",
+    "user": "user11",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789666213446,
+    "expiresAt": 1789752613446,
+    "extra": {
+      "email": "user_1789666212834@example.com",
+      "username": "user_1789666212834@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_6cfd198d913427b296b736fc842a6eab11bed98e8975a880": {
+    "token": "cpsess_6cfd198d913427b296b736fc842a6eab11bed98e8975a880",
+    "user": "user12",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789666263628,
+    "expiresAt": 1789752663628,
+    "extra": {
+      "email": "user_1789666263023@example.com",
+      "username": "user_1789666263023@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_2df9b7726b1496f609d71387848a944124e5476f92349520": {
+    "token": "cpsess_2df9b7726b1496f609d71387848a944124e5476f92349520",
+    "user": "user13",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789666332924,
+    "expiresAt": 1789752732924,
+    "extra": {
+      "email": "user_1789666332293@example.com",
+      "username": "user_1789666332293@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_f9fc6b3a79cece18c9c88a1a1eab36998b95eca117a56b09": {
+    "token": "cpsess_f9fc6b3a79cece18c9c88a1a1eab36998b95eca117a56b09",
+    "user": "alpha2",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789666344373,
+    "expiresAt": 1789752744373,
+    "extra": {
+      "email": "alpha_1789666343732@example.com",
+      "username": "alpha_1789666343732@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_45db711a2f7dfb9596ea65fd452d95a19d763872bbee9d91": {
+    "token": "cpsess_45db711a2f7dfb9596ea65fd452d95a19d763872bbee9d91",
+    "user": "beta12",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789666345035,
+    "expiresAt": 1789752745035,
+    "extra": {
+      "email": "beta_1789666343732@example.com",
+      "username": "beta_1789666343732@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ba2b48884b77d0e27261901ea3e7d66e1e89027176821385": {
+    "token": "cpsess_ba2b48884b77d0e27261901ea3e7d66e1e89027176821385",
+    "user": "autht3",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789666354328,
+    "expiresAt": 1789752754328,
+    "extra": {
+      "email": "auth_test_1789666352559@example.com",
+      "username": "auth_test_1789666352559@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_081fc1efb4cb290a82e8b72ec779d925dc5c7092aeb20981": {
+    "token": "cpsess_081fc1efb4cb290a82e8b72ec779d925dc5c7092aeb20981",
+    "user": "tenant17",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789669069748,
+    "expiresAt": 1789755469748,
+    "extra": {
+      "email": "tenant_1789669069100@example.com",
+      "username": "tenant_1789669069100@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_6193f2117bfb87545e7dbd1381083a2b04ca3241d432c99f": {
+    "token": "cpsess_6193f2117bfb87545e7dbd1381083a2b04ca3241d432c99f",
+    "user": "tenan1",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789669091955,
+    "expiresAt": 1789755491955,
+    "extra": {
+      "email": "tenant_1789669091319@example.com",
+      "username": "tenant_1789669091319@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_7d54f9bcb3d58ee25d8adfa326554fe927d1632eede3b351": {
+    "token": "cpsess_7d54f9bcb3d58ee25d8adfa326554fe927d1632eede3b351",
+    "user": "user14",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789669098201,
+    "expiresAt": 1789755498201,
+    "extra": {
+      "email": "user_1789669097573@example.com",
+      "username": "user_1789669097573@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_108d7dc502a27f2aa14ff8d5774d9d184ba5e9cad6171329": {
+    "token": "cpsess_108d7dc502a27f2aa14ff8d5774d9d184ba5e9cad6171329",
+    "user": "alpha3",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789669108177,
+    "expiresAt": 1789755508177,
+    "extra": {
+      "email": "alpha_1789669107539@example.com",
+      "username": "alpha_1789669107539@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ce67a9e11efa32ca39f8544046759cb513d05885caa006df": {
+    "token": "cpsess_ce67a9e11efa32ca39f8544046759cb513d05885caa006df",
+    "user": "beta13",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789669108807,
+    "expiresAt": 1789755508807,
+    "extra": {
+      "email": "beta_1789669107539@example.com",
+      "username": "beta_1789669107539@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_1dd536311ccd77e13fa5f3dab8d2d345862bbb601e7e3fdf": {
+    "token": "cpsess_1dd536311ccd77e13fa5f3dab8d2d345862bbb601e7e3fdf",
+    "user": "autht4",
+    "service": "cpaneld",
+    "ip": "test-runner-ip",
+    "userAgent": "",
+    "createdAt": 1789669119316,
+    "expiresAt": 1789755519316,
+    "extra": {
+      "email": "auth_test_1789669117567@example.com",
+      "username": "auth_test_1789669117567@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_ed44e5490cf8aa3b8822de592862abc3733abb98a7f65958": {
+    "token": "cpsess_ed44e5490cf8aa3b8822de592862abc3733abb98a7f65958",
+    "user": "tenan2",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789669784647,
+    "expiresAt": 1789756184647,
+    "extra": {
+      "email": "tenant_1789669784034@example.com",
+      "username": "tenant_1789669784034@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_8794361bc89392a06ecf27638a5af7385b7491e30d1444f6": {
+    "token": "cpsess_8794361bc89392a06ecf27638a5af7385b7491e30d1444f6",
+    "user": "user15",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789669787804,
+    "expiresAt": 1789756187804,
+    "extra": {
+      "email": "user_1789669787207@example.com",
+      "username": "user_1789669787207@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_9dfb1ce7f32f7ffd83a8129930495ea51e3138c74b55b844": {
+    "token": "cpsess_9dfb1ce7f32f7ffd83a8129930495ea51e3138c74b55b844",
+    "user": "user16",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789670064181,
+    "expiresAt": 1789756464181,
+    "extra": {
+      "email": "user_1789670063571@example.com",
+      "username": "user_1789670063571@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_f7d80b23488b821b7e8a4013e2ad745da83761bc2f7918f5": {
+    "token": "cpsess_f7d80b23488b821b7e8a4013e2ad745da83761bc2f7918f5",
+    "user": "tenan3",
+    "service": "cpaneld",
+    "ip": "::1",
+    "userAgent": "",
+    "createdAt": 1789670609321,
+    "expiresAt": 1789757009321,
+    "extra": {
+      "email": "tenant_1789670608666@example.com",
+      "username": "tenant_1789670608666@example.com",
+      "role": "client"
+    }
+  },
+  "cpsess_b8fa8033021c7b202202ffdc0cce483743551cf898f3517d": {
+    "token": "cpsess_b8fa8033021c7b202202ffdc0cce483743551cf898f3517d",
+    "user": "user17",
+    "service": "cpaneld",
+    "ip": "::ffff:127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789670615728,
+    "expiresAt": 1789757015728,
+    "extra": {
+      "email": "user_1789670615105@example.com",
+      "username": "user_1789670615105@example.com",
+      "role": "client"
+    }
+  },
+  "wmsess_0bf65e43166424275a7fdf17779401e49383e7695566a835": {
+    "token": "wmsess_0bf65e43166424275a7fdf17779401e49383e7695566a835",
+    "user": "tamimhasan1281",
+    "service": "webmail",
+    "ip": "127.0.0.1",
+    "userAgent": "",
+    "createdAt": 1789670749835,
+    "expiresAt": 1789757149835,
+    "extra": {
+      "email": "tamimhasan1281@example.com"
+    }
+  }
+}

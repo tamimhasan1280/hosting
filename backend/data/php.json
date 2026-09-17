@@ -1,0 +1,35 @@
+{
+  "defaultVersion": "ea-php82",
+  "availableVersions": [
+    {
+      "id": "ea-php81",
+      "name": "PHP 8.1 (Supported)"
+    },
+    {
+      "id": "ea-php82",
+      "name": "PHP 8.2 (Recommended)",
+      "current": true
+    },
+    {
+      "id": "ea-php83",
+      "name": "PHP 8.3 (Stable)"
+    },
+    {
+      "id": "ea-php84",
+      "name": "PHP 8.4 (Latest Release)"
+    }
+  ],
+  "iniDirectives": {
+    "display_errors": "Off",
+    "max_execution_time": "300",
+    "max_input_time": "60",
+    "memory_limit": "1024M",
+    "post_max_size": "256M",
+    "upload_max_filesize": "256M",
+    "zlib.output_compression": "Off",
+    "allow_url_fopen": "On"
+  },
+  "domainVersions": {
+    "example.com": "ea-php83"
+  }
+}

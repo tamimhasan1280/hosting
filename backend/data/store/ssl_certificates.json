@@ -1,0 +1,103 @@
+[
+  {
+    "id": "ssl_example_cert",
+    "userId": "usr_tamim",
+    "domain": "example.com",
+    "issuer": "Let's Encrypt / cPanel AutoSSL",
+    "validFrom": "2026-01-01T00:00:00.000Z",
+    "validTo": "2026-12-31T23:59:59.000Z",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:43:43.304Z"
+  },
+  {
+    "id": "ssl_114d2a79",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:46:06.399Z"
+  },
+  {
+    "id": "ssl_efb30c45",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:46:24.661Z"
+  },
+  {
+    "id": "ssl_14a8c845",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:46:57.386Z"
+  },
+  {
+    "id": "ssl_69a9110f",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:48:56.317Z"
+  },
+  {
+    "id": "ssl_9ce845af",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:49:39.662Z"
+  },
+  {
+    "id": "ssl_64f52ea8",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T16:53:55.705Z"
+  },
+  {
+    "id": "ssl_e29a6e49",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T17:09:33.097Z"
+  },
+  {
+    "id": "ssl_11e88ea5",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T17:16:03.010Z"
+  },
+  {
+    "id": "ssl_7171239f",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T17:32:36.908Z"
+  },
+  {
+    "id": "ssl_080d898d",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "issuer": "Let's Encrypt",
+    "status": "active",
+    "autoRenew": true,
+    "createdAt": "2026-09-17T18:18:42.417Z"
+  }
+]

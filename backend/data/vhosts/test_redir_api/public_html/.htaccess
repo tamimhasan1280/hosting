@@ -1,0 +1,5 @@
+# BEGIN MANAGED REDIRECTS
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?test_redir_api\.com$ [NC]
+RewriteRule ^old-page/?$ https://test_redir_api.com/new-page [R=301,L]
+# END MANAGED REDIRECTS

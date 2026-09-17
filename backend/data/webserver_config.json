@@ -1,0 +1,32 @@
+{
+  "optimization": {
+    "mode": "all",
+    "mimeTypes": "text/html text/plain text/xml text/css text/javascript application/javascript application/json"
+  },
+  "indexes": {},
+  "errorPages": {},
+  "handlers": [
+    {
+      "extension": "cgi",
+      "handler": "cgi-script"
+    },
+    {
+      "extension": "pl",
+      "handler": "cgi-script"
+    }
+  ],
+  "mimeTypes": [
+    {
+      "extension": "json",
+      "mimeType": "application/json"
+    },
+    {
+      "extension": "svg",
+      "mimeType": "image/svg+xml"
+    },
+    {
+      "extension": "webp",
+      "mimeType": "image/webp"
+    }
+  ]
+}

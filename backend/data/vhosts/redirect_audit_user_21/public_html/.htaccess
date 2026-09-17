@@ -1,0 +1,4 @@
+# BEGIN MANAGED REDIRECTS
+RewriteEngine On
+RewriteRule ^temp/?$ https://example.com/tmp [R=302,L]
+# END MANAGED REDIRECTS

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "dns_a_root",
+    "userId": "usr_tamim",
+    "domain": "example.com",
+    "name": "example.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "192.0.2.1",
+    "priority": null,
+    "createdAt": "2026-09-17T16:43:43.302Z"
+  },
+  {
+    "id": "dns_cname_www",
+    "userId": "usr_tamim",
+    "domain": "example.com",
+    "name": "www.example.com.",
+    "type": "CNAME",
+    "ttl": 14400,
+    "record": "example.com.",
+    "priority": null,
+    "createdAt": "2026-09-17T16:43:43.302Z"
+  },
+  {
+    "id": "dns_mx_mail",
+    "userId": "usr_tamim",
+    "domain": "example.com",
+    "name": "example.com.",
+    "type": "MX",
+    "ttl": 14400,
+    "record": "mail.example.com.",
+    "priority": 10,
+    "createdAt": "2026-09-17T16:43:43.302Z"
+  },
+  {
+    "id": "dns_63510cea",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:46:06.397Z"
+  },
+  {
+    "id": "dns_edb0d971",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:46:24.660Z"
+  },
+  {
+    "id": "dns_d554bdfe",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:46:57.385Z"
+  },
+  {
+    "id": "dns_9b9dba54",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:48:56.314Z"
+  },
+  {
+    "id": "dns_9222c30c",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:49:39.660Z"
+  },
+  {
+    "id": "dns_09c38660",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T16:53:55.704Z"
+  },
+  {
+    "id": "dns_a7ed5fe8",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T17:09:33.096Z"
+  },
+  {
+    "id": "dns_ad12c563",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T17:16:03.009Z"
+  },
+  {
+    "id": "dns_98a3c16f",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T17:32:36.907Z"
+  },
+  {
+    "id": "dns_e8e3a851",
+    "userId": "usr_test_ph2",
+    "domain": "testph2.com",
+    "name": "testph2.com.",
+    "type": "A",
+    "ttl": 14400,
+    "record": "127.0.0.1",
+    "createdAt": "2026-09-17T18:18:42.416Z"
+  }
+]
