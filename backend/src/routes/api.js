@@ -1529,7 +1529,7 @@ router.get('/databases', async (req, res) => {
   }
 });
 
-router.get('/databases/server-status', async (req, res) => {
+router.get(['/databases/server-status', '/databases/status'], async (req, res) => {
   try {
     const status = await databaseService.getServerStatus();
     res.json(status);
