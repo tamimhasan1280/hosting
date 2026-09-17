@@ -317,6 +317,7 @@ export default function App() {
     <AppLayout
       currentView={currentView}
       activeHostingContext={activeHostingContext}
+      userRole={userRole}
       onNavigate={handleNavigate}
       searchQuery={searchQuery}
       setSearchQuery={setSearchQuery}
@@ -473,6 +474,7 @@ export default function App() {
             stats={stats}
             onOpenServerInfo={() => setServerInfoOpen(true)}
             onLogout={handleLogout}
+            activeHostingContext={activeHostingContext}
           />
         )}
         {currentView === 'files' && (

@@ -104,9 +104,17 @@ export default function Dashboard({
   searchQuery = '',
   stats,
   onOpenServerInfo,
-  onLogout
+  onLogout,
+  activeHostingContext = null
 }) {
   const query = searchQuery.trim().toLowerCase();
+
+  // Active hosting context for isolated single-domain cPanel experience
+  const ctx = activeHostingContext || (() => {
+    try {
+      return JSON.parse(localStorage.getItem('cpanel_active_hosting_context') || '{}');
+    } catch { return {}; }
+  })();
 
   // Quick Create Email Modal State
   const [quickEmailModal, setQuickEmailModal] = useState(false);
@@ -131,13 +139,13 @@ export default function Dashboard({
   const [passLoading, setPassLoading] = useState(false);
   const [passMsg, setPassMsg] = useState({ type: '', text: '' });
 
-  // General server info values
+  // General server info values scoped to active context
   const general = stats?.generalInfo || {};
   const hosting = stats?.hostingInfo || general.hostingInfo || {};
-  const primaryDomain = hosting.domain || general.primaryDomain || 'example.com';
-  const currentUser = general.currentUser || localStorage.getItem('cpanel_active_user') || 'tamimhasan1281';
-  const sharedIp = hosting.hostingIp || general.sharedIp || '192.0.2.1';
-  const packagePlan = hosting.package || general.plan || 'Standard Shared Hosting';
+  const primaryDomain = ctx.domain || localStorage.getItem('cpanel_active_domain') || hosting.domain || general.primaryDomain || 'example.com';
+  const currentUser = ctx.user || localStorage.getItem('cpanel_active_user') || general.currentUser || 'cpanel_user';
+  const sharedIp = hosting.hostingIp || general.sharedIp || '208.72.218.129';
+  const packagePlan = ctx.package || ctx.packageName || hosting.package || general.plan || 'Standard Shared Hosting';
   const phpVersion = hosting.phpVersion || general.phpVersion || 'PHP 8.2';
   const nameserver = Array.isArray(hosting.nameservers) ? hosting.nameservers.join(', ') : (hosting.nameservers || 'ns1.tamimhosting.com, ns2.tamimhosting.com');
   const documentRoot = hosting.documentRoot || `/home/${currentUser}/public_html`;
@@ -306,17 +314,27 @@ export default function Dashboard({
         - Expiry Date
       */}
       <div className="bg-gradient-to-r from-[#1c0830]/90 via-[#260c3e]/85 to-[#0f2219]/90 backdrop-blur-md border border-purple-800/40 rounded-2xl p-5 shadow-[0_4px_24px_rgba(0,0,0,0.35)] text-left">
-        <div className="flex items-center justify-between border-b border-purple-900/40 pb-3 mb-4">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-purple-900/40 pb-3 mb-4">
           <div className="flex items-center space-x-2.5">
             <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shadow-[0_0_10px_rgba(52,211,153,0.8)]" />
             <span className="text-[13px] font-extrabold text-white tracking-wider uppercase">
-              cPanel Hosting Information
+              cPanel Hosting Management ({primaryDomain})
             </span>
           </div>
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-950/70 text-emerald-300 border border-emerald-700/50 shadow-sm">
-            <CheckCircle2 className="w-3.5 h-3.5" />
-            Active Service
-          </span>
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-950/70 text-emerald-300 border border-emerald-700/50 shadow-sm">
+              <CheckCircle2 className="w-3.5 h-3.5" />
+              Active Service
+            </span>
+            <button
+              type="button"
+              onClick={() => onOpenTool && onOpenTool('client_dashboard')}
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-purple-900/60 hover:bg-purple-800 text-purple-200 hover:text-white border border-purple-700/50 cursor-pointer transition shadow-sm"
+              title="Return to Client Portal to manage other domains"
+            >
+              <span>← Return to Client Portal</span>
+            </button>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 text-[12px]">
@@ -488,6 +506,7 @@ export default function Dashboard({
           <GeneralInfoPanel 
             stats={stats}
             onOpenServerInfo={onOpenServerInfo}
+            activeHostingContext={ctx}
           />
           <StatisticsPanel 
             stats={stats}

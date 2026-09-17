@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Search, Bell, ChevronDown, Check, Home, LogOut } from 'lucide-react';
+import { Search, Bell, ChevronDown, Check, Home, LogOut, Globe, ArrowLeft, Layers, Shield } from 'lucide-react';
 import { api } from '../services/api';
 
 /**
  * Modernized cPanel Top Navigation Bar
  * Features glassmorphic purple backdrop, responsive search (/ shortcut),
- * alerts notification drawer, and seamless user switcher.
+ * alerts notification drawer, and secure isolated tenant profile menu.
  */
 export default function TopNav({
   searchQuery = '',
@@ -14,54 +14,23 @@ export default function TopNav({
   currentView = 'dashboard',
   onUserChange,
   onLogout,
+  userRole = 'client',
+  activeHostingContext = null,
   className = ''
 }) {
-  const [activeUser, setActiveUser] = useState(() => {
-    const params = new URLSearchParams(window.location.search);
-    return params.get('user') || localStorage.getItem('cpanel_active_user') || 'tamimhasan1281';
-  });
+  const ctx = activeHostingContext || (() => {
+    try {
+      return JSON.parse(localStorage.getItem('cpanel_active_hosting_context') || '{}');
+    } catch { return {}; }
+  })();
 
-  const [accounts, setAccounts] = useState([]);
+  const activeUser = ctx.user || localStorage.getItem('cpanel_active_user') || 'tamimsho';
+  const activeDomain = ctx.domain || localStorage.getItem('cpanel_active_domain') || '';
+  const activePackage = ctx.package || localStorage.getItem('cpanel_active_package') || '';
+
   const [accountMenuOpen, setAccountMenuOpen] = useState(false);
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const searchInputRef = useRef(null);
-
-  useEffect(() => {
-    api.getAccounts()
-      .then(res => {
-        const list = res.data?.acct || [];
-        setAccounts(list);
-      })
-      .catch(() => {});
-  }, []);
-
-  // Global '/' keyboard shortcut to focus search
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (e.key === '/' && document.activeElement !== searchInputRef.current) {
-        const tag = document.activeElement?.tagName?.toLowerCase();
-        if (tag !== 'input' && tag !== 'textarea') {
-          e.preventDefault();
-          if (searchInputRef.current) {
-            searchInputRef.current.focus();
-          }
-        }
-      }
-    };
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
-
-  const handleSwitchAccount = (user) => {
-    setActiveUser(user);
-    localStorage.setItem('cpanel_active_user', user);
-    setAccountMenuOpen(false);
-    if (onUserChange) {
-      onUserChange(user);
-    } else {
-      window.location.reload();
-    }
-  };
 
   return (
     <header 
@@ -152,44 +121,98 @@ export default function TopNav({
             <ChevronDown className="w-3.5 h-3.5 text-purple-300/70" />
           </button>
 
-          {/* Account Switcher Dropdown */}
+          {/* Isolated Tenant Profile Menu */}
           {accountMenuOpen && (
-            <div className="absolute right-0 mt-2 w-64 bg-[#1c0830] border border-purple-800/50 rounded-xl shadow-2xl py-2 text-left z-50 backdrop-blur-xl animate-in fade-in duration-150">
-              <div className="px-3 py-2 border-b border-purple-900/40 mb-1">
-                <div className="text-[10px] uppercase font-bold text-purple-300/60 tracking-wider">Active Account</div>
-                <div className="text-[13px] font-bold text-white mt-0.5">{activeUser}</div>
+            <div className="absolute right-0 mt-2 w-72 bg-[#1c0830] border border-purple-800/50 rounded-2xl shadow-2xl py-3 px-3 text-left z-50 backdrop-blur-xl animate-in fade-in duration-150 space-y-3">
+              {/* Account Identity Header */}
+              <div className="pb-2.5 border-b border-purple-900/40">
+                <div className="flex items-center justify-between">
+                  <span className="text-[10px] uppercase font-bold text-purple-300/60 tracking-wider">Logged In User</span>
+                  <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border ${
+                    userRole === 'admin' 
+                      ? 'bg-purple-900/60 border-purple-500/50 text-purple-200' 
+                      : 'bg-emerald-950/60 border-emerald-500/40 text-emerald-300'
+                  }`}>
+                    {userRole === 'admin' ? 'Main Admin' : 'Client Account'}
+                  </span>
+                </div>
+                <div className="text-[14px] font-black text-white mt-1 flex items-center gap-2">
+                  <span>{activeUser}</span>
+                </div>
               </div>
 
-              <div className="px-3 py-1 text-[10px] uppercase font-bold text-purple-300/60 tracking-wider">
-                Switch Hosting Account
-              </div>
-
-              <div className="max-h-48 overflow-y-auto divide-y divide-purple-900/20">
-                {accounts.map((acct) => (
-                  <button
-                    key={acct.user}
-                    type="button"
-                    onClick={() => handleSwitchAccount(acct.user)}
-                    className={`w-full px-3 py-2 text-left text-[12px] flex items-center justify-between transition cursor-pointer hover:bg-purple-900/30 ${
-                      activeUser === acct.user ? 'bg-purple-900/40 font-semibold text-emerald-300' : 'text-purple-200'
-                    }`}
-                  >
-                    <div className="truncate">
-                      <div className="text-white">{acct.user}</div>
-                      <div className="text-[10px] text-purple-300/60 truncate">{acct.domain}</div>
+              {/* Active cPanel Domain Scope (If in cPanel tool or active context present) */}
+              {activeDomain ? (
+                <div className="bg-purple-950/50 border border-purple-700/40 rounded-xl p-2.5 space-y-1.5">
+                  <div className="text-[10px] uppercase font-bold text-emerald-400/90 tracking-wider flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    <span>Active cPanel Scope</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <div className="font-bold text-white text-[12.5px] truncate max-w-[170px]" title={activeDomain}>
+                      {activeDomain}
                     </div>
-                    {activeUser === acct.user && <Check className="w-3.5 h-3.5 text-emerald-400 shrink-0" />}
+                    {activePackage && (
+                      <span className="text-[9.5px] text-purple-300/80 bg-purple-900/40 px-1.5 py-0.5 rounded border border-purple-800/30 truncate max-w-[80px]">
+                        {activePackage}
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-[10px] text-purple-300/60 pt-0.5">
+                    Isolated to this domain's files, databases &amp; emails
+                  </div>
+                </div>
+              ) : null}
+
+              {/* Tenant Navigation Actions */}
+              <div className="space-y-1 text-[12px]">
+                <button
+                  type="button"
+                  onClick={() => { setAccountMenuOpen(false); onNavigate && onNavigate('client_dashboard'); }}
+                  className="w-full text-left px-2.5 py-2 text-purple-200 hover:text-white hover:bg-purple-900/40 rounded-xl font-semibold cursor-pointer flex items-center gap-2.5 transition"
+                >
+                  <ArrowLeft className="w-4 h-4 text-emerald-400" />
+                  <span>Return to Client Portal</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => { setAccountMenuOpen(false); onNavigate && onNavigate('my_services'); }}
+                  className="w-full text-left px-2.5 py-2 text-purple-200 hover:text-white hover:bg-purple-900/40 rounded-xl font-semibold cursor-pointer flex items-center gap-2.5 transition"
+                >
+                  <Globe className="w-4 h-4 text-purple-400" />
+                  <span>My Domains &amp; Services</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => { setAccountMenuOpen(false); onNavigate && onNavigate('invoices'); }}
+                  className="w-full text-left px-2.5 py-2 text-purple-200 hover:text-white hover:bg-purple-900/40 rounded-xl font-medium cursor-pointer flex items-center gap-2.5 transition"
+                >
+                  <Layers className="w-4 h-4 text-purple-400" />
+                  <span>Billing &amp; Invoices</span>
+                </button>
+
+                {userRole === 'admin' && (
+                  <button
+                    type="button"
+                    onClick={() => { setAccountMenuOpen(false); onNavigate && onNavigate('admin_dashboard'); }}
+                    className="w-full text-left px-2.5 py-2 text-purple-300 hover:text-white hover:bg-purple-900/50 rounded-xl font-bold cursor-pointer flex items-center gap-2.5 transition border border-purple-700/30"
+                  >
+                    <Shield className="w-4 h-4 text-purple-400" />
+                    <span>WHM Administration</span>
                   </button>
-                ))}
+                )}
               </div>
 
-              <div className="border-t border-purple-900/40 mt-1 pt-1 px-2">
+              {/* Logout Action */}
+              <div className="border-t border-purple-900/40 pt-2">
                 <button
                   type="button"
                   onClick={() => { setAccountMenuOpen(false); onLogout && onLogout(); }}
-                  className="w-full text-left px-2 py-1.5 text-[11.5px] text-rose-400 hover:bg-rose-950/40 rounded-lg font-medium cursor-pointer flex items-center gap-2 transition"
+                  className="w-full text-left px-2.5 py-2 text-[12px] text-rose-400 hover:bg-rose-950/40 rounded-xl font-bold cursor-pointer flex items-center gap-2.5 transition"
                 >
-                  <LogOut className="w-3.5 h-3.5 text-rose-400" />
+                  <LogOut className="w-4 h-4 text-rose-400" />
                   <span>Log Out ({activeUser})</span>
                 </button>
               </div>

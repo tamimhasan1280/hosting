@@ -19,7 +19,8 @@ export default function AppLayout({
   version = '136.0.40',
   sidebarOpenMobile,
   setSidebarOpenMobile,
-  activeHostingContext = null
+  activeHostingContext = null,
+  userRole = 'client'
 }) {
   const [mobileMenu, setMobileMenu] = useState(false);
 
@@ -68,6 +69,8 @@ export default function AppLayout({
             currentView={currentView}
             onUserChange={onUserChange}
             onLogout={onLogout}
+            userRole={userRole}
+            activeHostingContext={activeHostingContext}
           />
 
           {/* Page Content Container */}

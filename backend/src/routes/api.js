@@ -343,13 +343,14 @@ const orderService = require('../services/orderService');
 
 function getClientUser(req) {
   const token = req.headers['x-cpanel-session'] || req.query.session;
-  let userIdentifier = req.cpanelUser || req.headers['x-cpanel-user'] || 'cpanel_user';
+  let userIdentifier = req.cpanelUser || req.headers['x-cpanel-user'];
   if (token) {
     const sess = sessionService.validateSession(token);
     if (sess.valid && sess.user) {
       userIdentifier = sess.user;
     }
   }
+  if (!userIdentifier) return null;
   const allUsers = db.getAll('users') || [];
   const found = allUsers.find(u => 
     u.id === userIdentifier || 
@@ -357,7 +358,7 @@ function getClientUser(req) {
     (u.email && u.email.toLowerCase() === userIdentifier.toLowerCase()) ||
     (u.username && u.username.toLowerCase() === userIdentifier.toLowerCase())
   );
-  return found || allUsers[0];
+  return found || null;
 }
 
 // Client Dashboard Aggregate Data
@@ -1021,10 +1022,21 @@ router.post('/admin/upload-limit', requireAdmin, (req, res) => {
   }
 });
 
-// Accounts list endpoint for account switcher
+// Accounts list endpoint (Restricted: only Admin sees all, client sees only own)
 router.get('/whm/accounts', (req, res) => {
   try {
-    res.json(whmService.listAccounts());
+    const user = getClientUser(req);
+    if (!user) {
+      return res.status(401).json({ error: 'Unauthorized' });
+    }
+    const all = whmService.listAccounts();
+    if (user.role === 'admin') {
+      return res.json(all);
+    }
+    const userAccounts = (all.acct || []).filter(a => 
+      a.user === user.cpanelUser || a.user === user.username || a.user === user.id
+    );
+    res.json({ status: 1, statusmsg: 'Ok', acct: userAccounts });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }

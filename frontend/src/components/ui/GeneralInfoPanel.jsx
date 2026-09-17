@@ -8,13 +8,20 @@ import { CheckCircle2, ExternalLink, ChevronRight, Server, ShieldCheck } from 'l
 export default function GeneralInfoPanel({
   stats,
   onOpenServerInfo,
-  className = ''
+  className = '',
+  activeHostingContext = null
 }) {
+  const ctx = activeHostingContext || (() => {
+    try {
+      return JSON.parse(localStorage.getItem('cpanel_active_hosting_context') || '{}');
+    } catch { return {}; }
+  })();
+
   const general = stats?.generalInfo || {};
-  const primaryDomain = general.primaryDomain || 'example.com';
-  const currentUser = general.currentUser || localStorage.getItem('cpanel_active_user') || 'tamimhasan1281';
-  const sharedIp = general.sharedIp || '192.0.2.1';
-  const homeDir = general.homeDir || `/home/${currentUser}`;
+  const currentUser = ctx.user || localStorage.getItem('cpanel_active_user') || general.currentUser || 'cpanel_user';
+  const primaryDomain = ctx.domain || localStorage.getItem('cpanel_active_domain') || general.primaryDomain || 'example.com';
+  const sharedIp = general.sharedIp || '208.72.218.129';
+  const homeDir = `/home/${currentUser}`;
   const lastLoginIp = general.lastLoginIp || '127.0.0.1';
 
   return (

@@ -12,35 +12,19 @@ export default function TopNav({ searchQuery, setSearchQuery, onNavigate, curren
       return paramUser;
     }
     return localStorage.getItem('cpanel_active_user') || 'cpanel_user';
-  });
-
-  const [accounts, setAccounts] = useState([]);
+  const ctx = (() => {
+    try {
+      return JSON.parse(localStorage.getItem('cpanel_active_hosting_context') || '{}');
+    } catch { return {}; }
+  })();
+  const activeUser = ctx.user || localStorage.getItem('cpanel_active_user') || 'tamimsho';
+  const activeDomain = ctx.domain || localStorage.getItem('cpanel_active_domain') || 'example.com';
   const [accountMenuOpen, setAccountMenuOpen] = useState(false);
 
-  useEffect(() => {
-    api.getAccounts()
-      .then(res => {
-        const list = res.data?.acct || [];
-        setAccounts(list);
-      })
-      .catch(() => {});
-  }, []);
-
-  const handleSwitchAccount = (user) => {
-    setActiveUser(user);
-    localStorage.setItem('cpanel_active_user', user);
-    setAccountMenuOpen(false);
-    if (onUserChange) {
-      onUserChange(user);
-    } else {
-      window.location.reload();
-    }
-  };
-
-  const currentAcct = accounts.find(a => a.user === activeUser) || {
+  const currentAcct = {
     user: activeUser,
-    domain: activeUser === 'cpanel_user' ? 'example.com' : `${activeUser}.com`,
-    plan: 'Standard Shared'
+    domain: activeDomain,
+    plan: ctx.package || 'Standard cPanel Hosting'
   };
 
   return (
@@ -158,53 +142,22 @@ export default function TopNav({ searchQuery, setSearchQuery, onNavigate, curren
                 </span>
               </div>
 
-              <div className="max-h-60 overflow-y-auto py-1 divide-y divide-slate-800/50">
-                {/* Default cpanel_user option if not in accounts list */}
-                {!accounts.find(a => a.user === 'cpanel_user') && (
-                  <button
-                    onClick={() => handleSwitchAccount('cpanel_user')}
-                    className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-800 transition cursor-pointer ${
-                      activeUser === 'cpanel_user' ? 'bg-slate-800/70 text-[#ff6c2c] font-semibold' : 'text-slate-300'
-                    }`}
-                  >
-                    <div>
-                      <div className="font-bold">cpanel_user</div>
-                      <div className="text-[10px] text-slate-400 font-mono">example.com • 10 GB</div>
-                    </div>
-                    {activeUser === 'cpanel_user' && <Check className="w-4 h-4 text-[#ff6c2c]" />}
-                  </button>
-                )}
-
-                {accounts.map(acct => (
-                  <button
-                    key={acct.user}
-                    onClick={() => handleSwitchAccount(acct.user)}
-                    className={`w-full text-left px-3 py-2 text-xs flex items-center justify-between hover:bg-slate-800 transition cursor-pointer ${
-                      activeUser === acct.user ? 'bg-slate-800/70 text-[#ff6c2c] font-semibold' : 'text-slate-300'
-                    }`}
-                  >
-                    <div>
-                      <div className="font-bold flex items-center gap-1.5">
-                        {acct.user}
-                        {acct.suspended ? (
-                          <span className="text-[9px] bg-red-900/50 text-red-300 px-1 rounded">Suspended</span>
-                        ) : null}
-                      </div>
-                      <div className="text-[10px] text-slate-400 font-mono truncate max-w-[180px]">
-                        {acct.domain} • {acct.disklimit || '10240M'}
-                      </div>
-                    </div>
-                    {activeUser === acct.user && <Check className="w-4 h-4 text-[#ff6c2c]" />}
-                  </button>
-                ))}
-              </div>
-
-              <div className="px-3 pt-2 border-t border-slate-800">
+              <div className="p-3 text-xs space-y-2">
+                <div className="bg-slate-800/80 p-2.5 rounded-lg border border-slate-700/50">
+                  <div className="text-[10px] text-slate-400 uppercase font-bold tracking-wider">Active Domain</div>
+                  <div className="text-white font-bold text-[13px]">{activeDomain}</div>
+                </div>
                 <button
-                  onClick={() => { setAccountMenuOpen(false); onNavigate('whmcs'); }}
-                  className="w-full text-center text-[11px] text-[#ff6c2c] hover:underline font-semibold py-1 cursor-pointer"
+                  onClick={() => { setAccountMenuOpen(false); onNavigate('client_dashboard'); }}
+                  className="w-full text-left px-2.5 py-1.5 text-xs text-slate-200 hover:text-white hover:bg-slate-800 rounded font-medium cursor-pointer"
                 >
-                  + Add New Hosting Account (WHMCS)
+                  ← Return to Client Portal
+                </button>
+                <button
+                  onClick={() => { setAccountMenuOpen(false); onNavigate('my_services'); }}
+                  className="w-full text-left px-2.5 py-1.5 text-xs text-slate-200 hover:text-white hover:bg-slate-800 rounded font-medium cursor-pointer"
+                >
+                  🌐 My Domains &amp; Services
                 </button>
               </div>
             </div>
