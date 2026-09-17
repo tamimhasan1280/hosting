@@ -170,7 +170,7 @@ class DatabaseService {
     };
   }
 
-  async _getLiveConnection(dbName = null) {
+  async _getLiveConnection(dbName = null, options = {}) {
     const config = this.getConfig();
     return mysql.createConnection({
       host: config.host || '127.0.0.1',
@@ -178,7 +178,9 @@ class DatabaseService {
       user: config.user || 'root',
       password: config.password || '',
       database: dbName || undefined,
-      connectTimeout: 2000
+      multipleStatements: true,
+      connectTimeout: 5000,
+      ...options
     });
   }
 

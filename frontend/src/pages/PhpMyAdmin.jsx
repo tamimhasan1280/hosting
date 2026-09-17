@@ -50,6 +50,12 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
   const [exportStructure, setExportStructure] = useState(true);
   const [exportData, setExportData] = useState(true);
   const fileInputRef = useRef(null);
+  const quickUploadRef = useRef(null);
+
+  // Create Table State
+  const [newTableName, setNewTableName] = useState('');
+  const [newTableCols, setNewTableCols] = useState(4);
+  const [creatingTable, setCreatingTable] = useState(false);
 
   // Create Database Modal State
   const [createDbModal, setCreateDbModal] = useState(false);
@@ -100,16 +106,19 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
         const match = dbs.find(d => d.name === jumpDb);
         if (match?.tables?.length > 0) {
           setSelectedTable(match.tables[0].name);
-          setActiveTab('browse');
         } else {
-          setActiveTab('structure');
+          setSelectedTable('');
         }
+        setActiveTab('structure');
       } else if (dbs.length > 0) {
         setSelectedDb(dbs[0].name);
         setImportTargetDb(dbs[0].name);
         if (dbs[0].tables?.length > 0) {
           setSelectedTable(dbs[0].tables[0].name);
+        } else {
+          setSelectedTable('');
         }
+        setActiveTab('structure');
       }
 
       // Create SSO Session token
@@ -253,6 +262,93 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
     }
   };
 
+  // Handle Direct SQL File Upload and Execution
+  const handleDirectSqlFileSelect = async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const targetDb = selectedDb || importTargetDb || (databases[0]?.name);
+    if (!targetDb) {
+      showNotification('Please select or create a database first', true);
+      return;
+    }
+    setUploadedFileName(file.name);
+    setUploadedFileSize(file.size);
+    setImporting(true);
+    showNotification(`Reading "${file.name}" (${(file.size / 1024).toFixed(1)} KB) and importing into MariaDB database \`${targetDb}\`...`);
+
+    const reader = new FileReader();
+    reader.onload = async (evt) => {
+      try {
+        const sqlText = evt.target.result;
+        setImportSqlText(sqlText);
+        const res = await api.importPhpMyAdminSql({
+          database: targetDb,
+          sql: sqlText,
+          cpanelUser
+        });
+        setImportResult(res);
+        showNotification(res.message || `Successfully imported "${file.name}" into database \`${targetDb}\`!`);
+        // Refresh databases & tables
+        const dbsRes = await api.getPhpMyAdminDatabases(cpanelUser);
+        setDatabases(dbsRes.databases || []);
+        setSelectedDb(targetDb);
+        setActiveTab('structure');
+      } catch (err) {
+        showNotification('Import failed: ' + err.message, true);
+        setImportResult({ error: err.message });
+      } finally {
+        setImporting(false);
+        if (quickUploadRef.current) quickUploadRef.current.value = '';
+      }
+    };
+    reader.onerror = () => {
+      showNotification('Error reading file: ' + file.name, true);
+      setImporting(false);
+    };
+    reader.readAsText(file);
+  };
+
+  // Handle Create Table in Active Database
+  const handleCreateNewTable = async (e) => {
+    e.preventDefault();
+    const tName = newTableName.trim().replace(/[^a-zA-Z0-9_]/g, '');
+    if (!tName) {
+      showNotification('Please enter a valid table name', true);
+      return;
+    }
+    const targetDb = selectedDb || databases[0]?.name;
+    if (!targetDb) {
+      showNotification('Please select a database first', true);
+      return;
+    }
+    setCreatingTable(true);
+    try {
+      const createSql = `CREATE TABLE \`${tName}\` (
+  \`id\` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  \`title\` VARCHAR(255) DEFAULT NULL,
+  \`content\` TEXT DEFAULT NULL,
+  \`created_at\` DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (\`id\`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;`;
+
+      const res = await api.executePhpMyAdminQuery({
+        database: targetDb,
+        query: createSql,
+        cpanelUser
+      });
+      showNotification(res.message || `Table \`${tName}\` created successfully in \`${targetDb}\`!`);
+      setNewTableName('');
+      const dbsRes = await api.getPhpMyAdminDatabases(cpanelUser);
+      setDatabases(dbsRes.databases || []);
+      setSelectedTable(tName);
+      setActiveTab('structure');
+    } catch (err) {
+      showNotification('Failed to create table: ' + err.message, true);
+    } finally {
+      setCreatingTable(false);
+    }
+  };
+
   // Handle Create Database
   const handleCreateDatabase = async (e) => {
     e.preventDefault();
@@ -368,20 +464,40 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
 
         {/* Server Status & Controls */}
         <div className="flex flex-wrap items-center gap-2">
+          {/* Native Hidden Quick File Picker */}
+          <input
+            ref={quickUploadRef}
+            type="file"
+            accept=".sql,.txt,.gz"
+            onChange={handleDirectSqlFileSelect}
+            className="hidden"
+            id="quick-direct-sql-file"
+          />
+
+          <button
+            onClick={() => quickUploadRef.current?.click()}
+            disabled={importing}
+            className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-500 hover:from-emerald-500 hover:to-teal-400 text-white font-extrabold text-xs shadow-lg transition cursor-pointer flex items-center gap-2 border border-emerald-400/40"
+            title="Choose a .sql dump file from your computer and import immediately into MariaDB"
+          >
+            <FileUp className="w-4 h-4 text-white" />
+            <span>{importing ? 'Importing .SQL...' : '📤 Upload & Import .SQL'}</span>
+          </button>
+
           <button
             onClick={() => setCreateDbModal(true)}
-            className="px-3.5 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs shadow-lg transition cursor-pointer flex items-center gap-1.5"
+            className="px-3.5 py-2 rounded-xl bg-purple-900/70 hover:bg-purple-800 border border-purple-700/50 text-purple-200 hover:text-white font-bold text-xs shadow transition cursor-pointer flex items-center gap-1.5"
           >
-            <Plus className="w-3.5 h-3.5" />
+            <Plus className="w-3.5 h-3.5 text-emerald-400" />
             <span>New Database</span>
           </button>
 
           <button
             onClick={() => { setActiveTab('import'); }}
-            className="px-3 py-2 rounded-xl bg-purple-900/60 hover:bg-purple-800 border border-purple-700/50 text-purple-200 hover:text-white font-bold text-xs transition cursor-pointer flex items-center gap-1.5"
+            className="px-3 py-2 rounded-xl bg-purple-950/80 hover:bg-purple-900 border border-purple-800/60 text-purple-300 hover:text-white font-semibold text-xs transition cursor-pointer flex items-center gap-1.5"
           >
-            <FileUp className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Upload &amp; Import .SQL</span>
+            <UploadCloud className="w-3.5 h-3.5 text-purple-300" />
+            <span>Import Tab</span>
           </button>
         </div>
       </div>
@@ -452,19 +568,14 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
 
                 return (
                   <div key={db.name} className="space-y-0.5">
-                    <button
+                    <div
                       onClick={() => {
                         setSelectedDb(db.name);
                         setImportTargetDb(db.name);
-                        if (db.tables?.length > 0) {
-                          setSelectedTable(db.tables[0].name);
-                          setActiveTab('browse');
-                        } else {
-                          setSelectedTable('');
-                          setActiveTab('structure');
-                        }
+                        setSelectedTable('');
+                        setActiveTab('structure');
                       }}
-                      className={`w-full text-left px-2.5 py-1.5 rounded-xl transition-all cursor-pointer flex items-center justify-between ${
+                      className={`w-full text-left px-2.5 py-1.5 rounded-xl transition-all cursor-pointer flex items-center justify-between group ${
                         isSelected 
                           ? 'bg-purple-900/60 border border-purple-600/40 text-emerald-300 font-bold shadow-sm' 
                           : 'text-purple-200 hover:bg-purple-900/30'
@@ -474,10 +585,26 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
                         <Database className={`w-3.5 h-3.5 shrink-0 ${isSelected ? 'text-emerald-400' : 'text-purple-400'}`} />
                         <span className="truncate font-mono text-[12px]">{db.name}</span>
                       </div>
-                      <span className="text-[10px] px-1.5 py-0.2 rounded bg-purple-950/80 text-purple-300 font-mono font-semibold border border-purple-800/40">
-                        {db.tablesCount || 0}
-                      </span>
-                    </button>
+                      
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button
+                          type="button"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setSelectedDb(db.name);
+                            setImportTargetDb(db.name);
+                            quickUploadRef.current?.click();
+                          }}
+                          className="p-1 rounded text-purple-400 hover:text-emerald-300 hover:bg-purple-800/80 cursor-pointer transition opacity-70 group-hover:opacity-100"
+                          title={`Upload .SQL dump directly into ${db.name}`}
+                        >
+                          <UploadCloud className="w-3.5 h-3.5" />
+                        </button>
+                        <span className="text-[10px] px-1.5 py-0.2 rounded bg-purple-950/80 text-purple-300 font-mono font-semibold border border-purple-800/40">
+                          {db.tablesCount || 0}
+                        </span>
+                      </div>
+                    </div>
 
                     {/* Table sub-tree */}
                     {isSelected && db.tables && db.tables.length > 0 && (
@@ -523,30 +650,6 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
           {/* Workspace Tab Bar */}
           <div className="flex border-b border-purple-900/40 bg-purple-950/50 px-3 pt-2 overflow-x-auto gap-1">
             <button
-              onClick={() => setActiveTab('databases')}
-              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
-                activeTab === 'databases'
-                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/60 rounded-t-lg'
-                  : 'border-transparent text-purple-300/70 hover:text-white'
-              }`}
-            >
-              <Database className="w-3.5 h-3.5" />
-              <span>Databases</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('browse')}
-              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
-                activeTab === 'browse'
-                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/60 rounded-t-lg'
-                  : 'border-transparent text-purple-300/70 hover:text-white'
-              }`}
-            >
-              <Eye className="w-3.5 h-3.5" />
-              <span>Browse</span>
-            </button>
-
-            <button
               onClick={() => setActiveTab('structure')}
               className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
                 activeTab === 'structure'
@@ -556,6 +659,21 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
             >
               <Sliders className="w-3.5 h-3.5" />
               <span>Structure</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('import')}
+              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-2 whitespace-nowrap ${
+                activeTab === 'import'
+                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/80 rounded-t-lg'
+                  : 'border-transparent text-emerald-400/90 hover:text-white'
+              }`}
+            >
+              <UploadCloud className="w-3.5 h-3.5 text-emerald-400" />
+              <span>Import (.SQL)</span>
+              <span className="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 text-[10px] font-extrabold uppercase">
+                Upload
+              </span>
             </button>
 
             <button
@@ -571,18 +689,6 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
             </button>
 
             <button
-              onClick={() => setActiveTab('import')}
-              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
-                activeTab === 'import'
-                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/60 rounded-t-lg'
-                  : 'border-transparent text-purple-300/70 hover:text-white'
-              }`}
-            >
-              <UploadCloud className="w-3.5 h-3.5" />
-              <span>Import (.SQL)</span>
-            </button>
-
-            <button
               onClick={() => setActiveTab('export')}
               className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
                 activeTab === 'export'
@@ -592,6 +698,30 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
             >
               <DownloadCloud className="w-3.5 h-3.5" />
               <span>Export</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('browse')}
+              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
+                activeTab === 'browse'
+                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/60 rounded-t-lg'
+                  : 'border-transparent text-purple-300/70 hover:text-white'
+              }`}
+            >
+              <Eye className="w-3.5 h-3.5" />
+              <span>Browse</span>
+            </button>
+
+            <button
+              onClick={() => setActiveTab('databases')}
+              className={`px-3.5 py-2 text-[12px] font-bold border-b-2 transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap ${
+                activeTab === 'databases'
+                  ? 'border-emerald-400 text-emerald-300 bg-[#250c3d]/60 rounded-t-lg'
+                  : 'border-transparent text-purple-300/70 hover:text-white'
+              }`}
+            >
+              <Database className="w-3.5 h-3.5" />
+              <span>Databases</span>
             </button>
           </div>
 
@@ -742,17 +872,29 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
                     Fetching live MariaDB table data...
                   </div>
                 ) : !selectedTable ? (
-                  <div className="p-12 text-center text-purple-300/60 text-[13px] space-y-3">
-                    <Table className="w-8 h-8 text-purple-400/50 mx-auto" />
-                    <p>Select a table from the left sidebar to browse its rows.</p>
-                    {selectedDb && (
+                  <div className="p-8 text-center space-y-3 bg-[#240c3c]/40 rounded-2xl border border-purple-800/30">
+                    <Table className="w-10 h-10 text-purple-400/50 mx-auto" />
+                    <div>
+                      <h4 className="text-[14px] font-bold text-white">No table selected to browse</h4>
+                      <p className="text-[12px] text-purple-300/70 mt-1">
+                        Select a table from the left sidebar to browse rows, or upload a .SQL database dump file.
+                      </p>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-center gap-2.5 pt-2">
+                      <button
+                        onClick={() => quickUploadRef.current?.click()}
+                        className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs shadow cursor-pointer flex items-center gap-1.5"
+                      >
+                        <FileUp className="w-3.5 h-3.5" />
+                        <span>Upload .SQL Dump</span>
+                      </button>
                       <button
                         onClick={() => setActiveTab('structure')}
-                        className="px-4 py-2 rounded-xl bg-purple-900/60 hover:bg-purple-800 text-purple-200 font-bold text-xs border border-purple-700/40"
+                        className="px-4 py-2 rounded-xl bg-purple-900/60 hover:bg-purple-800 text-purple-200 font-semibold text-xs border border-purple-700/40 cursor-pointer"
                       >
                         View Database Tables Schema
                       </button>
-                    )}
+                    </div>
                   </div>
                 ) : !browseData || !browseData.rows ? (
                   <div className="p-8 text-center text-purple-300/60 text-[13px]">
@@ -870,81 +1012,175 @@ export default function PhpMyAdmin({ initialJumpDb, onNavigate }) {
                     </div>
 
                     {(!databases.find(d => d.name === selectedDb)?.tables || databases.find(d => d.name === selectedDb)?.tables.length === 0) ? (
-                      <div className="p-10 text-center space-y-3 bg-[#240c3c]/40 rounded-2xl border border-purple-800/30">
-                        <Table className="w-8 h-8 text-purple-400/50 mx-auto" />
-                        <p className="text-[12.5px] text-purple-300">No tables found in database <strong>{selectedDb}</strong>.</p>
-                        <div className="flex items-center justify-center gap-2 pt-2">
-                          <button
-                            onClick={() => setActiveTab('import')}
-                            className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs shadow transition cursor-pointer"
-                          >
-                            Upload .SQL Dump
-                          </button>
-                          <button
-                            onClick={() => {
-                              setSqlQuery(`CREATE TABLE \`users\` (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(50), created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);`);
-                              setActiveTab('sql');
-                            }}
-                            className="px-4 py-2 rounded-xl bg-purple-900/60 hover:bg-purple-800 text-purple-200 text-xs font-semibold border border-purple-700/40 cursor-pointer"
-                          >
-                            Create Table with SQL
-                          </button>
+                      <div className="space-y-4">
+                        {/* DIRECT SQL IMPORT PROMINENT CARD */}
+                        <div className="p-7 rounded-2xl bg-gradient-to-br from-[#270c44]/95 via-[#1c0830]/90 to-[#0e2419]/90 border-2 border-dashed border-emerald-500/50 text-center space-y-4 shadow-2xl">
+                          <div className="w-16 h-16 rounded-2xl bg-emerald-950/80 border border-emerald-500/50 flex items-center justify-center text-emerald-400 mx-auto shadow-lg shadow-emerald-950/50">
+                            <UploadCloud className="w-8 h-8 animate-pulse" />
+                          </div>
+                          
+                          <div>
+                            <h4 className="text-[16px] font-black text-white tracking-tight">
+                              Database <code className="text-emerald-300 font-mono bg-purple-950/90 px-2.5 py-0.5 rounded-lg border border-purple-800/60 font-bold">{selectedDb}</code> is ready
+                            </h4>
+                            <p className="text-[12.5px] text-purple-200/80 mt-1 max-w-md mx-auto">
+                              Upload a <code>.sql</code>, <code>.txt</code>, or <code>.gz</code> backup dump file to import your database tables and data automatically into MariaDB.
+                            </p>
+                          </div>
+
+                          <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
+                            <button
+                              type="button"
+                              onClick={() => quickUploadRef.current?.click()}
+                              disabled={importing}
+                              className="px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 via-teal-600 to-emerald-500 hover:from-emerald-500 hover:to-teal-400 text-white font-extrabold text-[13px] shadow-xl transition cursor-pointer flex items-center gap-2 border border-emerald-400/40 transform hover:scale-[1.02]"
+                            >
+                              <FileUp className="w-4 h-4 text-white" />
+                              <span>{importing ? 'Importing into MariaDB...' : '📤 Choose .SQL File from Computer'}</span>
+                            </button>
+
+                            <button
+                              type="button"
+                              onClick={() => setActiveTab('import')}
+                              className="px-4 py-3 rounded-xl bg-purple-900/60 hover:bg-purple-800 text-purple-200 font-bold text-xs border border-purple-700/40 transition cursor-pointer"
+                            >
+                              Open Advanced Import Tab
+                            </button>
+                          </div>
+
+                          {uploadedFileName && (
+                            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/80 text-emerald-300 border border-emerald-600/50 text-[11.5px] font-mono">
+                              <CheckCircle className="w-3.5 h-3.5" />
+                              <span>Loaded: {uploadedFileName} ({(uploadedFileSize / 1024).toFixed(1)} KB)</span>
+                            </div>
+                          )}
+                        </div>
+
+                        {/* CREATE TABLE INLINE FORM */}
+                        <div className="p-5 rounded-2xl bg-[#240c3c]/60 border border-purple-800/40 space-y-3">
+                          <h4 className="text-[13px] font-bold text-white flex items-center gap-2">
+                            <Plus className="w-4 h-4 text-emerald-400" />
+                            <span>Or Create a New Table in `{selectedDb}`:</span>
+                          </h4>
+                          <form onSubmit={handleCreateNewTable} className="flex flex-wrap items-center gap-3">
+                            <div className="flex-1 min-w-[220px]">
+                              <input
+                                type="text"
+                                required
+                                placeholder="Table name (e.g. users, products, wp_posts)"
+                                value={newTableName}
+                                onChange={(e) => setNewTableName(e.target.value)}
+                                className="w-full px-3.5 py-2.5 bg-[#1b082e] border border-purple-700/40 rounded-xl text-[12px] text-white font-mono focus:outline-none focus:border-purple-400"
+                              />
+                            </div>
+                            <div className="w-28">
+                              <input
+                                type="number"
+                                min="1"
+                                max="100"
+                                value={newTableCols}
+                                onChange={(e) => setNewTableCols(e.target.value)}
+                                className="w-full px-3 py-2.5 bg-[#1b082e] border border-purple-700/40 rounded-xl text-[12px] text-white font-mono text-center focus:outline-none focus:border-purple-400"
+                                title="Number of columns"
+                              />
+                            </div>
+                            <button
+                              type="submit"
+                              disabled={creatingTable || !newTableName.trim()}
+                              className="px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-xs rounded-xl shadow transition cursor-pointer disabled:opacity-50 flex items-center gap-1.5"
+                            >
+                              <Plus className="w-3.5 h-3.5" />
+                              <span>{creatingTable ? 'Creating...' : 'Create Table'}</span>
+                            </button>
+                          </form>
                         </div>
                       </div>
                     ) : (
-                      <div className="border border-purple-800/40 rounded-xl overflow-hidden">
-                        <table className="w-full text-left border-collapse text-[12px]">
-                          <thead className="bg-purple-950/70 border-b border-purple-900/40 text-[11px] font-bold text-purple-200 uppercase">
-                            <tr>
-                              <th className="p-3">Table Name</th>
-                              <th className="p-3">Action</th>
-                              <th className="p-3">Rows</th>
-                              <th className="p-3">Engine</th>
-                              <th className="p-3">Collation</th>
-                            </tr>
-                          </thead>
-                          <tbody className="divide-y divide-purple-900/20 text-white">
-                            {databases.find(d => d.name === selectedDb)?.tables.map(t => (
-                              <tr key={t.name} className="hover:bg-purple-900/20 transition">
-                                <td className="p-3 font-mono font-bold text-emerald-300">
-                                  <button
-                                    onClick={() => {
-                                      setSelectedTable(t.name);
-                                      setActiveTab('browse');
-                                    }}
-                                    className="hover:underline cursor-pointer flex items-center gap-1.5"
-                                  >
-                                    <Table className="w-3.5 h-3.5 text-purple-400" />
-                                    <span>{t.name}</span>
-                                  </button>
-                                </td>
-                                <td className="p-3 space-x-2">
-                                  <button
-                                    onClick={() => {
-                                      setSelectedTable(t.name);
-                                      setActiveTab('browse');
-                                    }}
-                                    className="px-2 py-0.5 rounded bg-purple-900/50 text-emerald-300 text-[11px] hover:bg-purple-800 font-semibold cursor-pointer"
-                                  >
-                                    Browse
-                                  </button>
-                                  <button
-                                    onClick={() => {
-                                      setSelectedTable(t.name);
-                                      setActiveTab('structure');
-                                    }}
-                                    className="px-2 py-0.5 rounded bg-purple-900/50 text-purple-200 text-[11px] hover:bg-purple-800 font-semibold cursor-pointer"
-                                  >
-                                    Structure
-                                  </button>
-                                </td>
-                                <td className="p-3 font-mono">{t.rows !== undefined ? t.rows : 0}</td>
-                                <td className="p-3 font-mono text-purple-300/80">InnoDB</td>
-                                <td className="p-3 font-mono text-purple-300/80">utf8mb4_unicode_ci</td>
+                      <div className="space-y-4">
+                        <div className="border border-purple-800/40 rounded-xl overflow-hidden">
+                          <table className="w-full text-left border-collapse text-[12px]">
+                            <thead className="bg-purple-950/70 border-b border-purple-900/40 text-[11px] font-bold text-purple-200 uppercase">
+                              <tr>
+                                <th className="p-3">Table Name</th>
+                                <th className="p-3">Action</th>
+                                <th className="p-3">Rows</th>
+                                <th className="p-3">Engine</th>
+                                <th className="p-3">Collation</th>
                               </tr>
-                            ))}
-                          </tbody>
-                        </table>
+                            </thead>
+                            <tbody className="divide-y divide-purple-900/20 text-white">
+                              {databases.find(d => d.name === selectedDb)?.tables.map(t => (
+                                <tr key={t.name} className="hover:bg-purple-900/20 transition">
+                                  <td className="p-3 font-mono font-bold text-emerald-300">
+                                    <button
+                                      onClick={() => {
+                                        setSelectedTable(t.name);
+                                        setActiveTab('browse');
+                                      }}
+                                      className="hover:underline cursor-pointer flex items-center gap-1.5"
+                                    >
+                                      <Table className="w-3.5 h-3.5 text-purple-400" />
+                                      <span>{t.name}</span>
+                                    </button>
+                                  </td>
+                                  <td className="p-3 space-x-2">
+                                    <button
+                                      onClick={() => {
+                                        setSelectedTable(t.name);
+                                        setActiveTab('browse');
+                                      }}
+                                      className="px-2 py-0.5 rounded bg-purple-900/50 text-emerald-300 text-[11px] hover:bg-purple-800 font-semibold cursor-pointer"
+                                    >
+                                      Browse
+                                    </button>
+                                    <button
+                                      onClick={() => {
+                                        setSelectedTable(t.name);
+                                        setActiveTab('structure');
+                                      }}
+                                      className="px-2 py-0.5 rounded bg-purple-900/50 text-purple-200 text-[11px] hover:bg-purple-800 font-semibold cursor-pointer"
+                                    >
+                                      Structure
+                                    </button>
+                                  </td>
+                                  <td className="p-3 font-mono">{t.rows !== undefined ? t.rows : 0}</td>
+                                  <td className="p-3 font-mono text-purple-300/80">InnoDB</td>
+                                  <td className="p-3 font-mono text-purple-300/80">utf8mb4_unicode_ci</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+
+                        {/* Bottom Create Table Bar */}
+                        <div className="p-4 rounded-xl bg-[#240c3c]/50 border border-purple-800/40 flex flex-wrap items-center justify-between gap-3">
+                          <form onSubmit={handleCreateNewTable} className="flex flex-wrap items-center gap-2 text-[12px]">
+                            <span className="font-semibold text-purple-200">Create table on database `{selectedDb}`:</span>
+                            <input
+                              type="text"
+                              required
+                              placeholder="Table name"
+                              value={newTableName}
+                              onChange={(e) => setNewTableName(e.target.value)}
+                              className="px-3 py-1.5 bg-[#1b082e] border border-purple-700/40 rounded-lg text-white font-mono text-[11.5px] focus:outline-none focus:border-purple-400"
+                            />
+                            <button
+                              type="submit"
+                              disabled={creatingTable || !newTableName.trim()}
+                              className="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs rounded-lg cursor-pointer disabled:opacity-50"
+                            >
+                              {creatingTable ? 'Creating...' : 'Create'}
+                            </button>
+                          </form>
+
+                          <button
+                            onClick={() => quickUploadRef.current?.click()}
+                            className="px-3.5 py-1.5 rounded-lg bg-purple-900/60 hover:bg-purple-800 border border-purple-700/40 text-purple-200 text-xs font-semibold flex items-center gap-1.5 cursor-pointer"
+                          >
+                            <FileUp className="w-3.5 h-3.5 text-emerald-400" />
+                            <span>Import More .SQL</span>
+                          </button>
+                        </div>
                       </div>
                     )}
                   </div>

@@ -292,33 +292,59 @@ class PhpMyAdminService {
 
     if (databaseService.isLive) {
       try {
-        const conn = await databaseService._getLiveConnection(dbName);
-        for (const stmt of statements) {
-          try {
-            await conn.query(stmt);
-            executedCount++;
-          } catch (err) {
-            errorsCount++;
-            errorLogs.push(err.message);
+        const conn = await databaseService._getLiveConnection(dbName, { multipleStatements: true });
+        
+        // Try executing as a batch first (handles multiline statements, functions, delimiters)
+        try {
+          const [res] = await conn.query(sqlContent);
+          executedCount = Array.isArray(res) ? res.length : 1;
+        } catch (batchErr) {
+          // If batch mode reports error, execute statement by statement to isolate and continue
+          const statements = sqlContent
+            .split(/;\s*[\r\n]+/)
+            .map(s => s.trim())
+            .filter(s => s.length > 0 && !s.startsWith('--') && !s.startsWith('/*'));
+
+          for (const stmt of statements) {
+            try {
+              await conn.query(stmt);
+              executedCount++;
+            } catch (err) {
+              errorsCount++;
+              errorLogs.push(err.message);
+            }
           }
         }
         await conn.end();
       } catch (err) {
-        throw new Error('Import connection failed: ' + err.message);
+        throw new Error('MariaDB connection failed: ' + err.message);
       }
     } else {
       // Sandbox execution
+      const statements = sqlContent
+        .split(/;\s*[\r\n]+/)
+        .map(s => s.trim())
+        .filter(s => s.length > 0 && !s.startsWith('--') && !s.startsWith('/*'));
       executedCount = statements.length;
     }
+
+    // Refresh tables count
+    let tablesNow = 0;
+    try {
+      const tbRes = await this.getTables(dbName, cpanelUser);
+      tablesNow = tbRes.tables ? tbRes.tables.length : 0;
+    } catch (e) {}
 
     return {
       success: true,
       database: dbName,
-      statementsTotal: statements.length,
       executedCount,
       errorsCount,
+      tablesCount: tablesNow,
       errors: errorLogs.slice(0, 10),
-      message: 'Import completed: ' + executedCount + ' queries executed successfully.' + (errorsCount > 0 ? ' (' + errorsCount + ' warnings/errors)' : '')
+      message: `Import finished: ${executedCount} queries executed successfully.` + 
+        (tablesNow > 0 ? ` Database now has ${tablesNow} table(s).` : '') +
+        (errorsCount > 0 ? ` (${errorsCount} warnings/errors)` : '')
     };
   }
 
