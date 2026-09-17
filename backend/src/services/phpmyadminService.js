@@ -85,11 +85,22 @@ class PhpMyAdminService {
    * List authorized databases for authenticated user
    */
   async getDatabases(cpanelUser = 'cpanel_user') {
-    const data = await databaseService.getDatabases(cpanelUser);
+    let data = await databaseService.getDatabases(cpanelUser);
+    
+    // Auto-provision initial primary database for tenant if none exists yet
+    if ((!data.databases || data.databases.length === 0) && cpanelUser && cpanelUser !== 'root' && cpanelUser !== 'admin') {
+      try {
+        await databaseService.createDatabase('main', { charset: 'utf8mb4', collation: 'utf8mb4_unicode_ci' }, cpanelUser);
+        data = await databaseService.getDatabases(cpanelUser);
+      } catch (err) {
+        console.error('Initial auto-provision of database failed:', err.message);
+      }
+    }
+
     const serverStatus = await databaseService.getServerStatus();
 
     const databases = [];
-    for (const d of data.databases) {
+    for (const d of (data.databases || [])) {
       let tables = [];
       try {
         tables = await databaseService.getTables(d.name);
